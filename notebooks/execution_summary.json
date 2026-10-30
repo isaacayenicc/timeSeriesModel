@@ -1,0 +1,10 @@
+{
+  "notebook": "notebooks/00_COMPLETE_PROJECT_WALKTHROUGH.ipynb",
+  "sha256": "b51e7f82c27b7bb35869101b57add436545e256ef4ea402bae2b679ccd5ccde7",
+  "cells": 69,
+  "code_cells": 31,
+  "executed_code_cells": 31,
+  "error_outputs": 0,
+  "execution_wall_seconds": 10.229354579999836,
+  "mode": "CPU checkpoint inference, fresh ridge fit, and numerical demonstrations"
+}

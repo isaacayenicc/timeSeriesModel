@@ -1,0 +1,10 @@
+{
+  "command": "python scripts/run_numerical_validation.py",
+  "best_run": "lpv_L256_s17_a1",
+  "burnin": 256,
+  "checkpoint_hash": "d6861c525e85d71084e91aab97a083971f380d4fade8c42f357643a98161dd7d",
+  "meaning": "unit-assumption and interpolation sensitivity; not verified fault evidence",
+  "pmi_envelope": "matlab_mean_restored_candidate; no live MATLAB parity",
+  "raw_scaling": "supplied x retained; xraw not used; no per-record standardization",
+  "residual_scaling": "x-yhat on same normalized scale and target indices"
+}

@@ -1,0 +1,16 @@
+{
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "torch": "2.15.0+cpu",
+  "cuda_available": false,
+  "torch_threads": 2,
+  "precision": "linear float64; neural float32",
+  "training_wall_s_sum": 276.4010805279995,
+  "superseded_control_training_wall_s": 33.496943697000006,
+  "all_attempts_training_wall_s_sum": 309.8980242249995,
+  "process_peak_rss_kib": 759844
+}

@@ -1,0 +1,10 @@
+{
+  "status": "verified rendering-only repair",
+  "old_source_sha256": "0423a5d68e9a74d33a38f77edf8acde33e2294f2c371c9489d9468dce8ebd38c",
+  "new_source_sha256": "cdf583d1ed7fdd734f47b7a6ddc385ec3f0cf4aa58db840bc781b1915736e2ea",
+  "non_rendering_ast_identical": true,
+  "computed_records_preserved": 200,
+  "old_fingerprint": "521e92ebfb12d94ff9b41b40630595bf4fb4de0231eea442c695fbd63d9bba3d",
+  "new_fingerprint": "52902570fab60bae955e6c753ebe5c6dc0e2e5bc99301a2f79b885a54ff20cbf",
+  "reason": "DataFrame.kurtosis resolved to pandas method instead of column; explicit column selection fixes plotting. Cached numerical computations and model states unchanged."
+}

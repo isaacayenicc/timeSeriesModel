@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "description": "Lossless MATLAB-struct partition of sigfault1.mat; complete records, no time-domain cutting",
+  "variable_name": "sigfault1",
+  "original_filename": "sigfault1.mat",
+  "original_file_bytes": 147709545,
+  "original_file_sha256": "abc20abd79660b502750b747815e2b96825c0fd6982c724d85001c88e02de01e",
+  "record_total": 200,
+  "part_total": 20,
+  "records_per_part": 10,
+  "fields": [
+    "t",
+    "fs",
+    "N",
+    "spd",
+    "spdnorm",
+    "x",
+    "spdmin",
+    "spdmax"
+  ],
+  "logical_data_sha256": "705731dbfe79605f9ef10de1146c99cc2db95e85ab9f3b03f1cf2a14f51bf701",
+  "parts": [
+    {
+      "filename": "sigfault1_part_001.mat",
+      "part_number": 1,
+      "record_start_1based": 1,
+      "record_end_1based_inclusive": 10,
+      "record_count": 10,
+      "bytes": 7347291,
+      "sha256": "a5554e18ff68f8fe50b48d6020ea818d279aa7ceed1f558cbd540526cceddede",
+      "logical_data_sha256": "e47d4df06378aac30e07cba15745f4fee734cc90647627ee6e3e98ce52661409"
+    },
+    {
+      "filename": "sigfault1_part_002.mat",
+      "part_number": 2,
+      "record_start_1based": 11,
+      "record_end_1based_inclusive": 20,
+      "record_count": 10,
+      "bytes": 7346281,
+      "sha256": "a1d96948943512734ad5779dd2acfa2d9e0cfdcfa8870212fa074b511274372c",
+      "logical_data_sha256": "78594b9a6542bc9865f69c4d6199ab9a661f104fe1809599fac9dcdbc9fff1f1"
+    },
+    {
+      "filename": "sigfault1_part_003.mat",
+      "part_number": 3,
+      "record_start_1based": 21,
+      "record_end_1based_inclusive": 30,
+      "record_count": 10,
+      "bytes": 7345482,
+      "sha256": "f1cccc900b8b0a0cd29e0deed493dee367ed963484ee0853b16b16c332314e14",
+      "logical_data_sha256": "c6ed6a21d7f2278aecfb5145eefef277a6c25081682de8c5fdb732ded4875488"
+    },
+    {
+      "filename": "sigfault1_part_004.mat",
+      "part_number": 4,
+      "record_start_1based": 31,
+      "record_end_1based_inclusive": 40,
+      "record_count": 10,
+      "bytes": 7346358,
+      "sha256": "b9f5d5763838dda8770e1dc4bcf250b2698fcd95e4ad549fb0a2e127c2ba576c",
+      "logical_data_sha256": "d1b3ddde6f64870ccf229ac0512742fba97697285fdfc03be0dc0f312512ff50"
+    },
+    {
+      "filename": "sigfault1_part_005.mat",
+      "part_number": 5,
+      "record_start_1based": 41,
+      "record_end_1based_inclusive": 50,
+      "record_count": 10,
+      "bytes": 7346786,
+      "sha256": "b133ebde2b89248dc1851bbfc484bc76d5a28a0370367545beeac85d9e26f920",
+      "logical_data_sha256": "27924f38535f780c3d84097d9fd980c5b0fdf22e4bab8e7b33e0dd2e45699d24"
+    },
+    {
+      "filename": "sigfault1_part_006.mat",
+      "part_number": 6,
+      "record_start_1based": 51,
+      "record_end_1based_inclusive": 60,
+      "record_count": 10,
+      "bytes": 7346063,
+      "sha256": "0e085b9c47ce187d561082550a3bb39bd1555eeaf3676a87282a90c509f757c0",
+      "logical_data_sha256": "b0bf8a28ab58d88d1cb48648d22fd17800e965ac2a5e478d9b9905cd9741c334"
+    },
+    {
+      "filename": "sigfault1_part_007.mat",
+      "part_number": 7,
+      "record_start_1based": 61,
+      "record_end_1based_inclusive": 70,
+      "record_count": 10,
+      "bytes": 7347286,
+      "sha256": "a0cf55f56547c1eb80525b138161f465dbaac2280a5e11bb19cde83a240b5c57",
+      "logical_data_sha256": "2c3f08d48d1a4c73dfa53037eabb6eb3098d44756fd0db2fe9a1b07775b20273"
+    },
+    {
+      "filename": "sigfault1_part_008.mat",
+      "part_number": 8,
+      "record_start_1based": 71,
+      "record_end_1based_inclusive": 80,
+      "record_count": 10,
+      "bytes": 7344960,
+      "sha256": "ec7bc802d52fec5513beafb5363ff4ded6324974ab1cb21ab61dc9b7f01e2197",
+      "logical_data_sha256": "d8d4787b34966d6fb92171ce8fc0041b5598b7c0d1a5fdd6a5ccfc3749ae4c30"
+    },
+    {
+      "filename": "sigfault1_part_009.mat",
+      "part_number": 9,
+      "record_start_1based": 81,
+      "record_end_1based_inclusive": 90,
+      "record_count": 10,
+      "bytes": 7345897,
+      "sha256": "8544d50c12df5bdabfbb99f5deac60c0bf540ec231e59b60612de18ff7dcb6ce",
+      "logical_data_sha256": "1dc2b2ce8e94e8a76e0eb10647159db90c60693832b814536fb36e126baf7ef5"
+    },
+    {
+      "filename": "sigfault1_part_010.mat",
+      "part_number": 10,
+      "record_start_1based": 91,
+      "record_end_1based_inclusive": 100,
+      "record_count": 10,
+      "bytes": 7347529,
+      "sha256": "2009abd91fc96912085f09fb73cf185a09782183247d9702708ee25d83399ad6",
+      "logical_data_sha256": "2f2b74946f1ca4e8761e1c3bef0eedf74a809f33a0243270e75f1861e966dc45"
+    },
+    {
+      "filename": "sigfault1_part_011.mat",
+      "part_number": 11,
+      "record_start_1based": 101,
+      "record_end_1based_inclusive": 110,
+      "record_count": 10,
+      "bytes": 7351041,
+      "sha256": "8abf0c38dc7ff2b82a3ab8e1ea8f1fcb22608d2916559d690c928aa2914d0343",
+      "logical_data_sha256": "4dc0530d17d10ace6eb01704e2f9ac23413c67bbb2d0088d170ed8103e512e4f"
+    },
+    {
+      "filename": "sigfault1_part_012.mat",
+      "part_number": 12,
+      "record_start_1based": 111,
+      "record_end_1based_inclusive": 120,
+      "record_count": 10,
+      "bytes": 7351047,
+      "sha256": "02af3194fb8dc85576369f738306750118ab8bfc7239aea40e734923e18467c1",
+      "logical_data_sha256": "98f4131481670528617e3bb18978fb2aad560024e47487d00cf5a232d7064775"
+    },
+    {
+      "filename": "sigfault1_part_013.mat",
+      "part_number": 13,
+      "record_start_1based": 121,
+      "record_end_1based_inclusive": 130,
+      "record_count": 10,
+      "bytes": 7351071,
+      "sha256": "9a89c40796ae5faae1a4df35942fcb25ac9ab8205398de06eeba003fed0ee8bd",
+      "logical_data_sha256": "764d0ba9256302c1a6ae3fa06573622992c3cfe26a0239602ccbb37cdd0a6e0e"
+    },
+    {
+      "filename": "sigfault1_part_014.mat",
+      "part_number": 14,
+      "record_start_1based": 131,
+      "record_end_1based_inclusive": 140,
+      "record_count": 10,
+      "bytes": 7350602,
+      "sha256": "da065e69f85b62cde24fc6010bb2eb6692b968badfda17e98c4d10077b2089a5",
+      "logical_data_sha256": "7c7ae2f87584e9d084b479c08c1b503916864da5c35221d7bb0a3390583c3088"
+    },
+    {
+      "filename": "sigfault1_part_015.mat",
+      "part_number": 15,
+      "record_start_1based": 141,
+      "record_end_1based_inclusive": 150,
+      "record_count": 10,
+      "bytes": 7350644,
+      "sha256": "da0f89d3d1af43916c69784fb384a31673903cd1daf8d103a44866261929d47b",
+      "logical_data_sha256": "c958f202677d9c7aef5a8b58a6d51aa393590efa0dc6d46bda814feed32a5c9d"
+    },
+    {
+      "filename": "sigfault1_part_016.mat",
+      "part_number": 16,
+      "record_start_1based": 151,
+      "record_end_1based_inclusive": 160,
+      "record_count": 10,
+      "bytes": 7349686,
+      "sha256": "0efcd466b0d55efaee8f530097886f9839cd50acccd23d912ec8722cbfa74491",
+      "logical_data_sha256": "8e21d5f099d9f4a36141dadd1ef6c921286d497a19f789c3813714c924bfc473"
+    },
+    {
+      "filename": "sigfault1_part_017.mat",
+      "part_number": 17,
+      "record_start_1based": 161,
+      "record_end_1based_inclusive": 170,
+      "record_count": 10,
+      "bytes": 7349848,
+      "sha256": "f99c39d7a7aa4c47166fdb49637d8d68be71562fc1b4d93f0ae4325b60aeb2bc",
+      "logical_data_sha256": "ff58ded9fe790a306b22af867f4c5c0c6f75b7a3d8f901a579cc4da9fa242040"
+    },
+    {
+      "filename": "sigfault1_part_018.mat",
+      "part_number": 18,
+      "record_start_1based": 171,
+      "record_end_1based_inclusive": 180,
+      "record_count": 10,
+      "bytes": 7349897,
+      "sha256": "cd33880813bb58f39a2e01d3b9063b869459db4623bd4311ad2ac68eaa997649",
+      "logical_data_sha256": "380471d3a76f92b36088ad77d54c05e08198eabfec763eb1761575ddeaafa9f2"
+    },
+    {
+      "filename": "sigfault1_part_019.mat",
+      "part_number": 19,
+      "record_start_1based": 181,
+      "record_end_1based_inclusive": 190,
+      "record_count": 10,
+      "bytes": 7350111,
+      "sha256": "e8ad2cb988993a5cb2d256d5b3def17c2d044a3cac7c7da0bfa8cbe3c4941e65",
+      "logical_data_sha256": "bf4d8138d87f7094c98336ad07556a1f35c5f7663dddf1de438ef2cb68d3ce64"
+    },
+    {
+      "filename": "sigfault1_part_020.mat",
+      "part_number": 20,
+      "record_start_1based": 191,
+      "record_end_1based_inclusive": 200,
+      "record_count": 10,
+      "bytes": 7350651,
+      "sha256": "b6012159aed886dbec90032bc5241a55d2faa1ba5cf909401e47ae315a9bb8d8",
+      "logical_data_sha256": "cf53720af2bfe47610eb49d634e8d075123ff32192c8bbdb6c4ddff437fe538c"
+    }
+  ]
+}

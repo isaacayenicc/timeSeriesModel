@@ -1,0 +1,188 @@
+[
+  {
+    "run_id": "ar_L128_s17_a1",
+    "artifact_bytes": 1462,
+    "artifact_sha256": "5637ae510368f4e22a1548784e8aa3864a42955041c0e97072b0ae540a0f678e",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "ar_L256_s17_a1",
+    "artifact_bytes": 2488,
+    "artifact_sha256": "0d8e4a7ef984d697ed1434c6d7e8b9552a186f23734b9ffcb98944ade218c4ca",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "ar_L32_s17_a1",
+    "artifact_bytes": 694,
+    "artifact_sha256": "1652234af94aab290c9401e1ed3faa99ae7fd5ad17eedc8ce04878c773f285db",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "ar_L64_s17_a1",
+    "artifact_bytes": 950,
+    "artifact_sha256": "37833690ceb6095d27dd8852c267a6a090dbe389f643f1ec1eb0256f0e8a5b83",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "arx_L128_s17_a1",
+    "artifact_bytes": 1478,
+    "artifact_sha256": "4bd0c852e872fdadcd4f96ef617795f67599b0b4cf5e4ca6e736ead673709e37",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "arx_L256_s17_a1",
+    "artifact_bytes": 2504,
+    "artifact_sha256": "3f244e6073df3f6ff2f6dcddcb07360c85632cba7c7f281dd0b06336ebcaac4f",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "arx_L32_s17_a1",
+    "artifact_bytes": 710,
+    "artifact_sha256": "9776a05d38752225006668a39f35f32bfadc8df88d28a0120878d40590398b3f",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "arx_L64_s17_a1",
+    "artifact_bytes": 966,
+    "artifact_sha256": "e7ed2cf0a6a3b7ee34824de2c4a9c562cce23532ec43d1c2880f66e05d6e483a",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "capacity_tcn_L64_s17",
+    "artifact_bytes": 18145,
+    "artifact_sha256": "cfcdc21b249141684d1c3da750ee333006401e968d36a7a302f02e6c8d249b75",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "gru_L64_s17",
+    "artifact_bytes": 6789,
+    "artifact_sha256": "503fee580461562653196aca5cfa7f066d727839d0b762b8bef7e3f534c6b6b4",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "late_tcn_L64_s17",
+    "artifact_bytes": 16105,
+    "artifact_sha256": "6aec2b805453fa317939b6973b019e7f42f93a3137cc7696cf3a7fdfd3f2f969",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "lpv_L128_s17_a1",
+    "artifact_bytes": 3512,
+    "artifact_sha256": "3df45a7af992092b469ec1efa3bb2ce2463c15834cace8a7ef4bb68717685442",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "lpv_L256_s17_a1",
+    "artifact_bytes": 6584,
+    "artifact_sha256": "d6861c525e85d71084e91aab97a083971f380d4fade8c42f357643a98161dd7d",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "lpv_L32_s17_a1",
+    "artifact_bytes": 1206,
+    "artifact_sha256": "b4dc68a64e244fc80e1baaabf28c510978e59c80eb48abf2aab23717800f44dd",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "lpv_L64_s17_a1",
+    "artifact_bytes": 1974,
+    "artifact_sha256": "cfeeac743ae8968d9c8359ff396a3ce3efec8a610412b699f1e0f38d5d28bab8",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "mean_L256_s17",
+    "artifact_bytes": 272,
+    "artifact_sha256": "a5ebb51372a25d10100a96241a7d4d14900449fd1f66dd7014f8288a966a0578",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "mlp_L64_s17",
+    "artifact_bytes": 11013,
+    "artifact_sha256": "664eecf87d4ee2679ea869a940df62abf0de907e15622198613e65914c9b0a60",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "ols_L256_s17",
+    "artifact_bytes": 4525,
+    "artifact_sha256": "5103e968eb11708277c2de7fa90a43384a193cdc0e237c14c850b247e3ccf84d",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "persistence_L256_s17",
+    "artifact_bytes": 272,
+    "artifact_sha256": "c5e7cf4e4d8e0cc28451fb1e93385858b641f366105ddb48d8260b461f91bfc8",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "shift_tcn_L64_s17",
+    "artifact_bytes": 19917,
+    "artifact_sha256": "613c837c34a21f694e669503add0da85964e3e553b25dfd938fa4bea6fe73549",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "speed_tcn_L128_s17",
+    "artifact_bytes": 23525,
+    "artifact_sha256": "ce4fe4c1c4c7638d7ae337804d89c1af5ae7c866fa39d82e7f0a2de63b05f020",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "speed_tcn_L32_s17",
+    "artifact_bytes": 16291,
+    "artifact_sha256": "c52683906e852fe16d73fe22fc76cbc558d322e9818bee39192ac5b6d4fb2305",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "speed_tcn_L64_s17",
+    "artifact_bytes": 19917,
+    "artifact_sha256": "06737fdaa74a0a3634a2bf7e5ada42a305c2e8d521ab5307d17ccf9280856fbe",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "speed_tcn_L64_s29",
+    "artifact_bytes": 19917,
+    "artifact_sha256": "26fbdb852a41fbacb0c591647cadfc5d7c0cadda071d91429aa79d05ca41fd38",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "speed_tcn_L64_s43",
+    "artifact_bytes": 19917,
+    "artifact_sha256": "5c2055584dd58e1d7af41eea2e05cd870b9ef4692d12b1b069a21afdffcd9629",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "tcn_L128_s17",
+    "artifact_bytes": 18745,
+    "artifact_sha256": "5e2e2c9a2f611479c2919ebc143a6f1eb08d35d4a65caeba21934895ac89096b",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "tcn_L32_s17",
+    "artifact_bytes": 13263,
+    "artifact_sha256": "78f60d01c9e2c8ade2bd1875102557714b1bfac07ff4dd8f21d4a5d45c2c61fe",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "tcn_L64_s17",
+    "artifact_bytes": 15955,
+    "artifact_sha256": "0f063ecedf95841f97439e14cf9803ec68393c715db6f3929a98d504f3e40c66",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "tcn_L64_s29",
+    "artifact_bytes": 15955,
+    "artifact_sha256": "cc37837afcfcaa22cfa7387de898c5908d8e56721a8d007dff1f0de0b0e57bd1",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "tcn_L64_s43",
+    "artifact_bytes": 15955,
+    "artifact_sha256": "4376f810d4cd25f75599d15bd2a7aaf1d1190156f301881f58f16464e7af994d",
+    "roundtrip_max_error": 0.0
+  },
+  {
+    "run_id": "zero_L256_s17",
+    "artifact_bytes": 272,
+    "artifact_sha256": "c5e7cf4e4d8e0cc28451fb1e93385858b641f366105ddb48d8260b461f91bfc8",
+    "roundtrip_max_error": 0.0
+  }
+]

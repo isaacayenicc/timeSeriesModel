@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "math_delimiter_and_notebook_link_issues": [],
+  "scope": "File links, heading anchors, code/math fences and notebook paths checked; Mermaid sources reviewed without automated browser rendering",
+  "figure_hashes_checked": 17,
+  "executed_notebook_sha256_checked": true
+}

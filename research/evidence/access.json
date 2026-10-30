@@ -1,0 +1,418 @@
+[
+  {
+    "key": "tcn_readme",
+    "url": "https://raw.githubusercontent.com/locuslab/TCN/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 2413,
+    "sha256": "346b345ff451b0e3069c17e6c59718cfd5195b48974c0bf518ae3b9fd1cc1f77",
+    "accessed_utc": "2026-10-30T07:47:59.789300+00:00"
+  },
+  {
+    "key": "gru_groundhog",
+    "url": "https://raw.githubusercontent.com/lisa-groundhog/GroundHog/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 1754,
+    "sha256": "026f4de0b9b18706f8d1804377275fbbf98a94098fea055fcc89063d508b227c",
+    "accessed_utc": "2026-10-30T07:48:00.058555+00:00"
+  },
+  {
+    "key": "gru_dl4mt",
+    "url": "https://raw.githubusercontent.com/nyu-dl/dl4mt-tutorial/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 17,
+    "sha256": "80f8bcad9841d14d0e9116c3b4d9d7883bb326320f70fcc993be457b1066084d",
+    "accessed_utc": "2026-10-30T07:47:59.955052+00:00"
+  },
+  {
+    "key": "scipy_kurtosis",
+    "url": "https://raw.githubusercontent.com/scipy/scipy/main/scipy/stats/_stats_py.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 446063,
+    "sha256": "98f44303bdfdb7ad09edc5c2f9ea6264cb49f22ad04ea31685ade069f77f813f",
+    "accessed_utc": "2026-10-30T07:48:00.057563+00:00"
+  },
+  {
+    "key": "scipy_hilbert",
+    "url": "https://raw.githubusercontent.com/scipy/scipy/main/scipy/signal/_signaltools.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 206414,
+    "sha256": "85be0fa304bd86261fadcec817ccfa36a89ef03090bbbcb681c79d4eaf1a5ab4",
+    "accessed_utc": "2026-10-30T07:48:00.165333+00:00"
+  },
+  {
+    "key": "scipy_spectral",
+    "url": "https://raw.githubusercontent.com/scipy/scipy/main/scipy/signal/_spectral_py.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 96307,
+    "sha256": "dc3d6cefbdc08902d135b85e016d28f21b5eebd608c34f13c8c35c253b8e0a55",
+    "accessed_utc": "2026-10-30T07:47:59.944373+00:00"
+  },
+  {
+    "key": "scipy_citation",
+    "url": "https://raw.githubusercontent.com/scipy/scipy/main/CITATION.bib",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 1277,
+    "sha256": "00dae00c94b68345b59086ccff7183d7133f9b64e3045b0cced61daca7f67af4",
+    "accessed_utc": "2026-10-30T07:48:00.154848+00:00"
+  },
+  {
+    "key": "numpy_citation",
+    "url": "https://raw.githubusercontent.com/numpy/numpy/main/CITATION.bib",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 896,
+    "sha256": "6b12115280759df0c423d639828d2b95bb3837373f65136fcc5086cc5560d528",
+    "accessed_utc": "2026-10-30T07:48:00.230722+00:00"
+  },
+  {
+    "key": "sklearn_ridge",
+    "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/sklearn/linear_model/_ridge.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 107399,
+    "sha256": "f61f65518b672fe931cbb981aa4ecc620fc12309bc782e23615892c54121fc95",
+    "accessed_utc": "2026-10-30T07:48:00.285538+00:00"
+  },
+  {
+    "key": "sklearn_timesplit",
+    "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/sklearn/model_selection/_split.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 111854,
+    "sha256": "c8906abec0bb3af831928d4c3689c904ff59ed49e5dc99c4038f72d91ec2d093",
+    "accessed_utc": "2026-10-30T07:48:00.316476+00:00"
+  },
+  {
+    "key": "sklearn_common_pitfalls",
+    "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/common_pitfalls.rst",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 25066,
+    "sha256": "6e2b42374fbb521c35f29eeab05bcbfa9744eed344b5f92e41013338ff60a2f5",
+    "accessed_utc": "2026-10-30T07:48:00.341677+00:00"
+  },
+  {
+    "key": "sklearn_about",
+    "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/about.rst",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 6613,
+    "sha256": "c792b39aa0074afe1c6eda11a1812d1df8bc03e33f04e11a24b076ca394bf769",
+    "accessed_utc": "2026-10-30T07:48:00.403431+00:00"
+  },
+  {
+    "key": "pytorch_randomness",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/notes/randomness.rst",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "pytorch_benchmark",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/main/torch/utils/benchmark/utils/timer.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 20798,
+    "sha256": "cc8507321d5247054e7de987b5c0463d58aa26d0f7d083e7f698923464204813",
+    "accessed_utc": "2026-10-30T07:48:00.487967+00:00"
+  },
+  {
+    "key": "wavenet",
+    "url": "https://raw.githubusercontent.com/ibab/tensorflow-wavenet/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 7215,
+    "sha256": "35d5570f555c3c873c6db96447a7d687cc6274f8b805d43f577d3ba278ad9d23",
+    "accessed_utc": "2026-10-30T07:48:00.528392+00:00"
+  },
+  {
+    "key": "film",
+    "url": "https://raw.githubusercontent.com/ethanjperez/film/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 5976,
+    "sha256": "8d00f85d0fa03364bdf3fb8ef1dc72c87cccc03930785b4a05db6fee1cfdedb6",
+    "accessed_utc": "2026-10-30T07:48:00.549822+00:00"
+  },
+  {
+    "key": "sklearn_ar_example",
+    "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/examples/applications/plot_time_series_lagged_features.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 16324,
+    "sha256": "49191414a48b76aa1ecea246d642ceb7e7a69dcda8197795ea0397c17707d04f",
+    "accessed_utc": "2026-10-30T07:48:00.561380+00:00"
+  },
+  {
+    "key": "tscv",
+    "url": "https://raw.githubusercontent.com/hudson-and-thames/mlfinlab/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 3705,
+    "sha256": "22bf05e1c98e4f0d518708c79d3316626e581a3c0dfb4e69ba1d4e3788ad36bb",
+    "accessed_utc": "2026-10-30T07:48:00.565435+00:00"
+  },
+  {
+    "key": "tcn_model",
+    "url": "https://raw.githubusercontent.com/locuslab/TCN/master/TCN/tcn.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 2468,
+    "sha256": "f93c67de970f4c9e1a96a7d2bed1df89c521faf6ca94e36455267605b1ad585f",
+    "accessed_utc": "2026-10-30T07:48:54.901617+00:00"
+  },
+  {
+    "key": "film_module",
+    "url": "https://raw.githubusercontent.com/ethanjperez/film/master/vr/models/filmed_net.py",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 12626,
+    "sha256": "943bfed724c377763d467327d54416f57ffdcb8fb34827cd9cd5f51f74846bc9",
+    "accessed_utc": "2026-10-30T07:48:55.251105+00:00"
+  },
+  {
+    "key": "pytorch_randomness_v251",
+    "url": "https://raw.githubusercontent.com/pytorch/pytorch/v2.5.1/docs/source/notes/randomness.rst",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 8155,
+    "sha256": "ed86e72eacbe7e6e8e667c0a32a30451936dd60eed3176747b87d14f4eb1291a",
+    "accessed_utc": "2026-10-30T07:48:55.613824+00:00"
+  },
+  {
+    "key": "sklearn_citation",
+    "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/CITATION.cff",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 1373,
+    "sha256": "3365069d76e8820628da2cc5de815bec16b44c0bd23ff7294111cd9c0ab2fb8a",
+    "accessed_utc": "2026-10-30T07:48:55.901052+00:00"
+  },
+  {
+    "key": "matlab_envelope",
+    "url": "https://www.mathworks.com/help/signal/ref/envelope.html",
+    "status": "failed",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "accessed_utc": "2026-10-30T07:48:55.906163+00:00"
+  },
+  {
+    "key": "matlab_kurtosis",
+    "url": "https://www.mathworks.com/help/stats/kurtosis.html",
+    "status": "failed",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "accessed_utc": "2026-10-30T07:48:55.910024+00:00"
+  },
+  {
+    "key": "anchor_crossref",
+    "url": "https://api.crossref.org/works/10.1016/j.ymssp.2024.112161",
+    "status": "failed",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "accessed_utc": "2026-10-30T07:48:55.913811+00:00"
+  },
+  {
+    "key": "tcn_arxiv",
+    "url": "https://arxiv.org/abs/1803.01271",
+    "status": "failed",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "accessed_utc": "2026-10-30T07:48:55.917526+00:00"
+  },
+  {
+    "key": "gru_acl",
+    "url": "https://aclanthology.org/D14-1179/",
+    "status": "failed",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "accessed_utc": "2026-10-30T07:48:55.921493+00:00"
+  },
+  {
+    "key": "acl_gru_xml",
+    "url": "https://raw.githubusercontent.com/acl-org/acl-anthology/master/data/xml/D14.xml",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 147966,
+    "sha256": "8e0776148cb82ba1052258d7644dc7b415fc7e2e3d1874de9ac63e9321818046",
+    "accessed_utc": "2026-10-30T07:49:14.853658+00:00"
+  },
+  {
+    "key": "adam_author",
+    "url": "https://raw.githubusercontent.com/dpkingma/adam/master/README.md",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "domain_UDTL",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/UDTL/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 5371,
+    "sha256": "a5858ca9eb57a1452ee5d9092f11c52366e84fdc9b77481576cf077ef00e2c48",
+    "accessed_utc": "2026-10-30T08:16:54.675805+00:00"
+  },
+  {
+    "key": "domain_Weighted_Multi-Scale_Dictionary_Learning",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/Weighted_Multi-Scale_Dictionary_Learning/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 3806,
+    "sha256": "d6c4af55d0d9f8af22d0ee749e914d7174b58134d3fade1400106a73720594ed",
+    "accessed_utc": "2026-10-30T08:16:54.667165+00:00"
+  },
+  {
+    "key": "domain_Limited-Data-Rolling-Bearing-Fault-Diagnosis-with-Few-shot-Learning",
+    "url": "https://raw.githubusercontent.com/SNBQT/Limited-Data-Rolling-Bearing-Fault-Diagnosis-with-Few-shot-Learning/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 5047,
+    "sha256": "66e52c1fc5dbec59e82cadda59e713fa12c7ac8b010c1a0054b56a4a70c79c46",
+    "accessed_utc": "2026-10-30T08:16:54.695570+00:00"
+  },
+  {
+    "key": "domain_Vibration-Based-Fault-Diagnosis-with-Low-Delay",
+    "url": "https://raw.githubusercontent.com/Western-OC2-Lab/Vibration-Based-Fault-Diagnosis-with-Low-Delay/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 6021,
+    "sha256": "b5936446d8508d6df39611e3baa128060e712449b76735511c3ac647abf62c19",
+    "accessed_utc": "2026-10-30T08:16:54.692235+00:00"
+  },
+  {
+    "key": "domain_A-New-Convolutional-Neural-Network-Based-Data-Driven-Fault-Diagnosis-Method",
+    "url": "https://raw.githubusercontent.com/zhaoyuzhi/A-New-Convolutional-Neural-Network-Based-Data-Driven-Fault-Diagnosis-Method/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 758,
+    "sha256": "6bef0c58b4a50535cfe0eedc3ddae0a6c8d11a5e994875a983994bfc87ef5e43",
+    "accessed_utc": "2026-10-30T08:16:54.967882+00:00"
+  },
+  {
+    "key": "domain_TFN",
+    "url": "https://raw.githubusercontent.com/ChenQian0618/TFN/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 5667,
+    "sha256": "33caee3a2d0c0c182c90f56ff1bf7bd8ebf7003f54a42072760c0e247178f84b",
+    "accessed_utc": "2026-10-30T08:16:54.970507+00:00"
+  },
+  {
+    "key": "domain_SQ-dataset-with-variable-speed-for-fault-diagnosis",
+    "url": "https://raw.githubusercontent.com/shenliuuu/SQ-dataset-with-variable-speed-for-fault-diagnosis/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 6399,
+    "sha256": "38ece8f6c20ddd196c941faae9459e2b8f2734ef1c378c4e00f617eb03572c5e",
+    "accessed_utc": "2026-10-30T08:16:55.000434+00:00"
+  },
+  {
+    "key": "domain_MCKD",
+    "url": "https://raw.githubusercontent.com/xwy111/MCKD/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 130,
+    "sha256": "2c0bd5d40180a7917de72bba91c52bde8b8ad593ea424885dc3246f937e5a0d9",
+    "accessed_utc": "2026-10-30T08:16:54.992862+00:00"
+  },
+  {
+    "key": "domain_MCKD",
+    "url": "https://raw.githubusercontent.com/teataeteatae/MCKD/main/README.md",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "domain_COT",
+    "url": "https://raw.githubusercontent.com/xyxxyx1999/COT/main/README.md",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "domain_rota-order",
+    "url": "https://raw.githubusercontent.com/ZhenxianLi/rota-order/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 23564,
+    "sha256": "b146ed2f0ce1c08e2f4cb0a578167454706e44a17fb62ec4f4abf0438aedccc8",
+    "accessed_utc": "2026-10-30T08:16:55.294672+00:00"
+  },
+  {
+    "key": "domain_Fast_SASD",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/Fast_SASD/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 3945,
+    "sha256": "6bf216c10608c50c9c38f5f793f0da4a87f74495315bb3a04ce1304ec9adb235",
+    "accessed_utc": "2026-10-30T08:18:14.348523+00:00"
+  },
+  {
+    "key": "domain_HHLP-for-weak-fault-feature-enhancement",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/HHLP-for-weak-fault-feature-enhancement/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 3027,
+    "sha256": "f7a22421d257796a78f391b794c14c2e86673b83bac793c69a2047eb122d35fc",
+    "accessed_utc": "2026-10-30T08:18:14.375582+00:00"
+  },
+  {
+    "key": "domain_SMPGL",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/SMPGL/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 2820,
+    "sha256": "db84e0a3b087fcbc388da62a63eaa5bd0fbf1cad872b3291777fcab4834bafc5",
+    "accessed_utc": "2026-10-30T08:18:14.351510+00:00"
+  },
+  {
+    "key": "domain_AdaESPGL",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/AdaESPGL/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 2813,
+    "sha256": "f3fecf0887ea6ea4685d8bf0c0fbf3491eecf041c36dd8d01aaa16485d870a41",
+    "accessed_utc": "2026-10-30T08:18:14.422030+00:00"
+  },
+  {
+    "key": "domain_WaveletKernelNet",
+    "url": "https://raw.githubusercontent.com/HazeDT/WaveletKernelNet/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 1063,
+    "sha256": "8ea26d51d56613a98b90981e4c23dca8ae5b0cb9aff44248ae57170793b34183",
+    "accessed_utc": "2026-10-30T08:18:14.568334+00:00"
+  },
+  {
+    "key": "domain_Basic-Rotating-Machine-Vibration-Analysis",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/Basic-Rotating-Machine-Vibration-Analysis/master/README.md",
+    "status": "retrieved",
+    "http_status": 200,
+    "bytes": 3294,
+    "sha256": "a0f09d569a64ea48dc8aabe07d640b9bb34fee994006fc0fc40ae4c4cbde2dfd",
+    "accessed_utc": "2026-10-30T08:18:14.638241+00:00"
+  },
+  {
+    "key": "domain_DL-based-Intelligent-Diagnosis-Benchmark",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark/master/README.md",
+    "status": "retrieved",
+    "bytes": 4318,
+    "sha256": "8e822ca1ad8bcee5502cfc96da80715dbd616a77b93df3bc476623780aa95db8",
+    "accessed_utc": "2026-10-30; recorded after retrieval"
+  },
+  {
+    "key": "zhao_publications",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/ZhaoZhibin.github.io/master/_pages/publications.md",
+    "status": "retrieved",
+    "bytes": 56538,
+    "sha256": "19dce237e9866c7dc6781fcf86cefdaadad71860612c8f8c70485e55e204d60d",
+    "accessed_utc": "2026-10-30; recorded after retrieval"
+  },
+  {
+    "key": "zhao_codes",
+    "url": "https://raw.githubusercontent.com/ZhaoZhibin/ZhaoZhibin.github.io/master/_pages/codes.md",
+    "status": "retrieved",
+    "bytes": 2496,
+    "sha256": "ce04656016debe97291c73bf40f400893239d382a7583da8b36e441cfaf4d9ad",
+    "accessed_utc": "2026-10-30; recorded after retrieval"
+  }
+]

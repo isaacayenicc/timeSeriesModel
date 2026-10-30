@@ -1,0 +1,323 @@
+[
+  {
+    "name": "MECG 7780 Course Project - Score Allocation Updated.pdf",
+    "availability": "available",
+    "size_bytes": 169390,
+    "sha256": "22df5fb9c353c16d40ccd8f4cb000a095608969b49dad0aad390fb57aec0b4d5",
+    "location": "data/raw/MECG 7780 Course Project - Score Allocation Updated.pdf"
+  },
+  {
+    "name": "fdt_featcal.m",
+    "availability": "available",
+    "size_bytes": 4115,
+    "sha256": "6c1206b0cb7e1098b6b9b52cf437e2ba5097e05334e9c00cee51e5fc8fabbf06",
+    "location": "data/raw/fdt_featcal.m"
+  },
+  {
+    "name": "sigtrain.mat",
+    "availability": "available",
+    "size_bytes": 737025,
+    "sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+    "location": "data/raw/sigtrain.mat",
+    "format": "MATLAB v5 family",
+    "records": 1,
+    "fields": [
+      "xraw",
+      "t",
+      "fs",
+      "N",
+      "spd",
+      "spdmax",
+      "spdmin",
+      "spdnorm",
+      "xmean",
+      "xstd",
+      "x"
+    ],
+    "generated_fields": [
+      "record_id"
+    ]
+  },
+  {
+    "name": "sigvalid.mat",
+    "availability": "available",
+    "size_bytes": 736973,
+    "sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+    "location": "data/raw/sigvalid.mat",
+    "format": "MATLAB v5 family",
+    "records": 1,
+    "fields": [
+      "xraw",
+      "t",
+      "fs",
+      "N",
+      "spd",
+      "spdnorm",
+      "x",
+      "xstd",
+      "xmean",
+      "spdmin",
+      "spdmax"
+    ],
+    "generated_fields": [
+      "record_id"
+    ]
+  },
+  {
+    "name": "sigfault1_part_001.mat",
+    "availability": "available",
+    "size_bytes": 7347291,
+    "sha256": "a5554e18ff68f8fe50b48d6020ea818d279aa7ceed1f558cbd540526cceddede",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_001.mat",
+    "records": 10,
+    "global_record_range": [
+      1,
+      10
+    ]
+  },
+  {
+    "name": "sigfault1_part_002.mat",
+    "availability": "available",
+    "size_bytes": 7346281,
+    "sha256": "a1d96948943512734ad5779dd2acfa2d9e0cfdcfa8870212fa074b511274372c",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_002.mat",
+    "records": 10,
+    "global_record_range": [
+      11,
+      20
+    ]
+  },
+  {
+    "name": "sigfault1_part_003.mat",
+    "availability": "available",
+    "size_bytes": 7345482,
+    "sha256": "f1cccc900b8b0a0cd29e0deed493dee367ed963484ee0853b16b16c332314e14",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_003.mat",
+    "records": 10,
+    "global_record_range": [
+      21,
+      30
+    ]
+  },
+  {
+    "name": "sigfault1_part_004.mat",
+    "availability": "available",
+    "size_bytes": 7346358,
+    "sha256": "b9f5d5763838dda8770e1dc4bcf250b2698fcd95e4ad549fb0a2e127c2ba576c",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_004.mat",
+    "records": 10,
+    "global_record_range": [
+      31,
+      40
+    ]
+  },
+  {
+    "name": "sigfault1_part_005.mat",
+    "availability": "available",
+    "size_bytes": 7346786,
+    "sha256": "b133ebde2b89248dc1851bbfc484bc76d5a28a0370367545beeac85d9e26f920",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_005.mat",
+    "records": 10,
+    "global_record_range": [
+      41,
+      50
+    ]
+  },
+  {
+    "name": "sigfault1_part_006.mat",
+    "availability": "available",
+    "size_bytes": 7346063,
+    "sha256": "0e085b9c47ce187d561082550a3bb39bd1555eeaf3676a87282a90c509f757c0",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_006.mat",
+    "records": 10,
+    "global_record_range": [
+      51,
+      60
+    ]
+  },
+  {
+    "name": "sigfault1_part_007.mat",
+    "availability": "available",
+    "size_bytes": 7347286,
+    "sha256": "a0cf55f56547c1eb80525b138161f465dbaac2280a5e11bb19cde83a240b5c57",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_007.mat",
+    "records": 10,
+    "global_record_range": [
+      61,
+      70
+    ]
+  },
+  {
+    "name": "sigfault1_part_008.mat",
+    "availability": "available",
+    "size_bytes": 7344960,
+    "sha256": "ec7bc802d52fec5513beafb5363ff4ded6324974ab1cb21ab61dc9b7f01e2197",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_008.mat",
+    "records": 10,
+    "global_record_range": [
+      71,
+      80
+    ]
+  },
+  {
+    "name": "sigfault1_part_009.mat",
+    "availability": "available",
+    "size_bytes": 7345897,
+    "sha256": "8544d50c12df5bdabfbb99f5deac60c0bf540ec231e59b60612de18ff7dcb6ce",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_009.mat",
+    "records": 10,
+    "global_record_range": [
+      81,
+      90
+    ]
+  },
+  {
+    "name": "sigfault1_part_010.mat",
+    "availability": "available",
+    "size_bytes": 7347529,
+    "sha256": "2009abd91fc96912085f09fb73cf185a09782183247d9702708ee25d83399ad6",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_010.mat",
+    "records": 10,
+    "global_record_range": [
+      91,
+      100
+    ]
+  },
+  {
+    "name": "sigfault1_part_011.mat",
+    "availability": "available",
+    "size_bytes": 7351041,
+    "sha256": "8abf0c38dc7ff2b82a3ab8e1ea8f1fcb22608d2916559d690c928aa2914d0343",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_011.mat",
+    "records": 10,
+    "global_record_range": [
+      101,
+      110
+    ]
+  },
+  {
+    "name": "sigfault1_part_012.mat",
+    "availability": "available",
+    "size_bytes": 7351047,
+    "sha256": "02af3194fb8dc85576369f738306750118ab8bfc7239aea40e734923e18467c1",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_012.mat",
+    "records": 10,
+    "global_record_range": [
+      111,
+      120
+    ]
+  },
+  {
+    "name": "sigfault1_part_013.mat",
+    "availability": "available",
+    "size_bytes": 7351071,
+    "sha256": "9a89c40796ae5faae1a4df35942fcb25ac9ab8205398de06eeba003fed0ee8bd",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_013.mat",
+    "records": 10,
+    "global_record_range": [
+      121,
+      130
+    ]
+  },
+  {
+    "name": "sigfault1_part_014.mat",
+    "availability": "available",
+    "size_bytes": 7350602,
+    "sha256": "da065e69f85b62cde24fc6010bb2eb6692b968badfda17e98c4d10077b2089a5",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_014.mat",
+    "records": 10,
+    "global_record_range": [
+      131,
+      140
+    ]
+  },
+  {
+    "name": "sigfault1_part_015.mat",
+    "availability": "available",
+    "size_bytes": 7350644,
+    "sha256": "da0f89d3d1af43916c69784fb384a31673903cd1daf8d103a44866261929d47b",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_015.mat",
+    "records": 10,
+    "global_record_range": [
+      141,
+      150
+    ]
+  },
+  {
+    "name": "sigfault1_part_016.mat",
+    "availability": "available",
+    "size_bytes": 7349686,
+    "sha256": "0efcd466b0d55efaee8f530097886f9839cd50acccd23d912ec8722cbfa74491",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_016.mat",
+    "records": 10,
+    "global_record_range": [
+      151,
+      160
+    ]
+  },
+  {
+    "name": "sigfault1_part_017.mat",
+    "availability": "available",
+    "size_bytes": 7349848,
+    "sha256": "f99c39d7a7aa4c47166fdb49637d8d68be71562fc1b4d93f0ae4325b60aeb2bc",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_017.mat",
+    "records": 10,
+    "global_record_range": [
+      161,
+      170
+    ]
+  },
+  {
+    "name": "sigfault1_part_018.mat",
+    "availability": "available",
+    "size_bytes": 7349897,
+    "sha256": "cd33880813bb58f39a2e01d3b9063b869459db4623bd4311ad2ac68eaa997649",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_018.mat",
+    "records": 10,
+    "global_record_range": [
+      171,
+      180
+    ]
+  },
+  {
+    "name": "sigfault1_part_019.mat",
+    "availability": "available",
+    "size_bytes": 7350111,
+    "sha256": "e8ad2cb988993a5cb2d256d5b3def17c2d044a3cac7c7da0bfa8cbe3c4941e65",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_019.mat",
+    "records": 10,
+    "global_record_range": [
+      181,
+      190
+    ]
+  },
+  {
+    "name": "sigfault1_part_020.mat",
+    "availability": "available",
+    "size_bytes": 7350651,
+    "sha256": "b6012159aed886dbec90032bc5241a55d2faa1ba5cf909401e47ae315a9bb8d8",
+    "location": "data/raw/sigfault1_parts/sigfault1_part_020.mat",
+    "records": 10,
+    "global_record_range": [
+      191,
+      200
+    ]
+  },
+  {
+    "name": "sigfault1.mat",
+    "availability": "available as verified complete-record partitions",
+    "location": "data/raw/sigfault1_parts",
+    "records": 200,
+    "logical_data_sha256": "705731dbfe79605f9ef10de1146c99cc2db95e85ab9f3b03f1cf2a14f51bf701"
+  },
+  {
+    "name": "sigtest.mat",
+    "availability": "unavailable",
+    "reason": "not supplied"
+  },
+  {
+    "name": "sigfault2.mat",
+    "availability": "unavailable",
+    "reason": "not supplied"
+  }
+]

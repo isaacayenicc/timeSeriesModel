@@ -1,0 +1,101 @@
+# Measured input audit
+
+```json
+{
+  "sigtrain": {
+    "N": 24000,
+    "fs": 3200.0,
+    "duration_samples_s": 7.5,
+    "time_first": 0.0003125,
+    "time_last": 7.5,
+    "x_mean": -0.003079531999140838,
+    "x_std": 1.04009845289332,
+    "speed_min": 124.32284023482558,
+    "speed_max": 167.33351836572703,
+    "normalized_speed_min": 0.00573895220324136,
+    "normalized_speed_max": 0.9999043135602081,
+    "xmean_metadata": [
+      0.0026221941677904226,
+      0.0,
+      0.0
+    ],
+    "xstd_metadata": [
+      0.42517293168840065,
+      0.0,
+      0.0
+    ],
+    "empirical_raw_mean": 0.0013128605194874681,
+    "empirical_raw_std": 0.4422217084612227,
+    "x_reconstruction_max_error": 0.0,
+    "speed_reconstruction_max_error": 0.0
+  },
+  "sigvalid": {
+    "N": 24000,
+    "fs": 3200.0,
+    "duration_samples_s": 7.5,
+    "time_first": 0.0003125,
+    "time_last": 7.5,
+    "x_mean": -0.011850960919615513,
+    "x_std": 1.0472683320383378,
+    "speed_min": 124.33517921700054,
+    "speed_max": 167.32253877671826,
+    "normalized_speed_min": 0.00602416018427851,
+    "normalized_speed_max": 0.9996505271157994,
+    "xmean_metadata": [
+      0.0026221941677904226,
+      0.00047511172064736986,
+      0.0009361694855151841
+    ],
+    "xstd_metadata": [
+      0.42517293168840065,
+      0.36319708540032314,
+      0.42493053223747734
+    ],
+    "empirical_raw_mean": -0.002416513629727175,
+    "empirical_raw_std": 0.44527014699716155,
+    "x_reconstruction_max_error": 0.0,
+    "speed_reconstruction_max_error": 0.0
+  },
+  "sigfault1": {
+    "availability": "verified split representation",
+    "records": 200,
+    "parts": 20,
+    "N_values": [
+      32000
+    ],
+    "fs_values": [
+      3200.0
+    ],
+    "total_vibration_samples": 6400000,
+    "all_source_fields": [
+      "t",
+      "fs",
+      "N",
+      "spd",
+      "spdnorm",
+      "x",
+      "spdmin",
+      "spdmax"
+    ],
+    "speed_min": 123.65527578136125,
+    "speed_max": 167.41649077425024,
+    "normalized_speed_min": -0.00969138939908284,
+    "normalized_speed_max": 1.001822169731903,
+    "aggregate_speed_outside_reference_fraction": 0.00622453125,
+    "speed_reconstruction_max_error": 0.0,
+    "logical_data_sha256": "705731dbfe79605f9ef10de1146c99cc2db95e85ab9f3b03f1cf2a14f51bf701",
+    "labels": "No health, severity, onset or class field in the inspected structs; no external labels supplied",
+    "speed_units": "not encoded; source units only",
+    "x_normalization": "provided x retained without rescaling; xraw absent, raw transform not independently recoverable",
+    "original_byte_provenance": "Original MAT fingerprint is declared by the supplied manifest; exact original-file bytes were not available for independent comparison."
+  },
+  "comparisons": {
+    "speed_pearson": 0.9999995705325337,
+    "vibration_pearson": 0.04129076012774545,
+    "valid_speed_outside_train_fraction": 0.0
+  },
+  "status": "PASS structural/normalization incl. fault partitions; WARN missing test/physical units/labels"
+}
+```
+
+Speed is in source units. Normalized x is dimensionless. Other scaling metadata entries have no inferred interpretation. File hashes are in data/manifest.json. All fault partitions and 200 recording boundaries were inspected, with matched logical/file digests; no health-state labels or physical speed-unit fields were found. The original monolithic MAT byte fingerprint remains supplied-manifest metadata rather than independently verified original bytes.

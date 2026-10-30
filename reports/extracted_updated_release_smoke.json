@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "fresh_zip_extraction": true,
+  "minimal_checkpoint_score": 0.42005759033115847,
+  "artifact_verification": "PASS full200record tables,31models,executednotebook,decks,links",
+  "raw_source_parts_included": false,
+  "scope": "Minimal CPU source/checkpoint replay and data-independent fullartifact checks; the200record computations were executed once in the managed workspace"
+}
