@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "command": "python reproduce_minimal.py --data-dir data/raw",
+  "scope": "Fresh ZIP extraction; user raw train/valid copied; packaged source and ridge checkpoint used; no retraining",
+  "mse": 0.42005759033115847
+}

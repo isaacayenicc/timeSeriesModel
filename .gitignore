@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+data/raw/
+*.zip
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Local execution outputs and release-archive checksum inventory
+*.log
+checksums.sha256
+experiments/fault_study/
+experiments/fault_traces/
+experiments/runs/*/predictions.npz
+reports/fault_smoke/
+presentations/exported_pdf/*_slides/
+presentations/exported_pdf/*_contact_sheet.jpg
+
+# Downloaded search pages and full third-party implementation dumps
+research/evidence/domain_discovery/
+research/evidence/scipy_kurtosis.txt
+research/evidence/scipy_hilbert.txt
+research/evidence/scipy_spectral.txt
+research/evidence/sklearn_ridge.txt
+research/evidence/sklearn_timesplit.txt
+research/evidence/sklearn_ar_example.txt
+research/evidence/pytorch_benchmark.txt
+research/evidence/tcn_model.txt
+research/evidence/film_module.txt
+research/evidence/acl_gru_xml.txt
+research/evidence/domain_MCKD.md

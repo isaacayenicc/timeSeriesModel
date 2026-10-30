@@ -1,0 +1,13 @@
+{
+  "kind": "lpv",
+  "lag": 256,
+  "seed": 17,
+  "alpha": 1.0,
+  "run_id": "lpv_L256_s17_a1",
+  "burnin": 256,
+  "device": "cpu",
+  "precision": "float64 linear/float32 neural",
+  "train_sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+  "valid_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+  "family": "linear"
+}

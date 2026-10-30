@@ -1,0 +1,18 @@
+{
+  "channels": 8,
+  "learning_rate": 0.003,
+  "weight_decay": 0.0001,
+  "batch_size": 512,
+  "epochs": 10,
+  "patience": 3,
+  "kind": "speed_tcn",
+  "lag": 64,
+  "seed": 29,
+  "run_id": "speed_tcn_L64_s29",
+  "burnin": 256,
+  "device": "cpu",
+  "precision": "float64 linear/float32 neural",
+  "train_sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+  "valid_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+  "family": "neural"
+}

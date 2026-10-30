@@ -1,0 +1,105 @@
+{
+  "selection_rule": "lowest original validation MSE within each causal family; no fault tuning",
+  "selected_models": [
+    {
+      "run_id": "lpv_L256_s17_a1",
+      "kind": "lpv",
+      "mse": 0.3612174677596073,
+      "artifact_sha256": "d6861c525e85d71084e91aab97a083971f380d4fade8c42f357643a98161dd7d"
+    },
+    {
+      "run_id": "ar_L256_s17_a1",
+      "kind": "ar",
+      "mse": 0.4200575903311584,
+      "artifact_sha256": "0d8e4a7ef984d697ed1434c6d7e8b9552a186f23734b9ffcb98944ade218c4ca"
+    },
+    {
+      "run_id": "ols_L256_s17",
+      "kind": "ols",
+      "mse": 0.4200585703904193,
+      "artifact_sha256": "5103e968eb11708277c2de7fa90a43384a193cdc0e237c14c850b247e3ccf84d"
+    },
+    {
+      "run_id": "arx_L256_s17_a1",
+      "kind": "arx",
+      "mse": 0.4278213504403889,
+      "artifact_sha256": "3f244e6073df3f6ff2f6dcddcb07360c85632cba7c7f281dd0b06336ebcaac4f"
+    },
+    {
+      "run_id": "mlp_L64_s17",
+      "kind": "mlp",
+      "mse": 0.4504687602753487,
+      "artifact_sha256": "664eecf87d4ee2679ea869a940df62abf0de907e15622198613e65914c9b0a60"
+    },
+    {
+      "run_id": "tcn_L128_s17",
+      "kind": "tcn",
+      "mse": 0.4544904813250429,
+      "artifact_sha256": "5e2e2c9a2f611479c2919ebc143a6f1eb08d35d4a65caeba21934895ac89096b"
+    },
+    {
+      "run_id": "speed_tcn_L128_s17",
+      "kind": "speed_tcn",
+      "mse": 0.458225562144933,
+      "artifact_sha256": "ce4fe4c1c4c7638d7ae337804d89c1af5ae7c866fa39d82e7f0a2de63b05f020"
+    },
+    {
+      "run_id": "late_tcn_L64_s17",
+      "kind": "late_tcn",
+      "mse": 0.463273998437136,
+      "artifact_sha256": "6aec2b805453fa317939b6973b019e7f42f93a3137cc7696cf3a7fdfd3f2f969"
+    },
+    {
+      "run_id": "capacity_tcn_L64_s17",
+      "kind": "capacity_tcn",
+      "mse": 0.4714192724803135,
+      "artifact_sha256": "cfcdc21b249141684d1c3da750ee333006401e968d36a7a302f02e6c8d249b75"
+    },
+    {
+      "run_id": "gru_L64_s17",
+      "kind": "gru",
+      "mse": 0.8236061822365446,
+      "artifact_sha256": "503fee580461562653196aca5cfa7f066d727839d0b762b8bef7e3f534c6b6b4"
+    },
+    {
+      "run_id": "mean_L256_s17",
+      "kind": "mean",
+      "mse": 1.1040166978508237,
+      "artifact_sha256": "a5ebb51372a25d10100a96241a7d4d14900449fd1f66dd7014f8288a966a0578"
+    },
+    {
+      "run_id": "zero_L256_s17",
+      "kind": "zero",
+      "mse": 1.1040773165546844,
+      "artifact_sha256": "c5e7cf4e4d8e0cc28451fb1e93385858b641f366105ddb48d8260b461f91bfc8"
+    },
+    {
+      "run_id": "persistence_L256_s17",
+      "kind": "persistence",
+      "mse": 2.0326669612971773,
+      "artifact_sha256": "c5e7cf4e4d8e0cc28451fb1e93385858b641f366105ddb48d8260b461f91bfc8"
+    }
+  ],
+  "manifest_sha256": "723aed22fa08aaf138139b5a4a2872e9e88944037d50cc1ed9507e9e950db57b",
+  "burnin": 256,
+  "speed_unit_assumptions": [
+    "rpm",
+    "rad_s",
+    "rps"
+  ],
+  "assumed_modulation_order": 1,
+  "neutral_trace_record_ids": [
+    1,
+    50,
+    100,
+    150,
+    200
+  ],
+  "expected_records": 200,
+  "diagnostic_sources": {
+    "fault_study.py": "cdf583d1ed7fdd734f47b7a6ddc385ec3f0cf4aa58db840bc781b1915736e2ea",
+    "diagnostics.py": "1ecdee3fa492fb036fd79127e3991e3acd40be1d7f461be79100b6556c9b5133",
+    "angle_resample.py": "427b78b15c06213344644c3ba7db2173fe049f898f0d51450ca6339f506cf35f"
+  },
+  "fingerprint": "52902570fab60bae955e6c753ebe5c6dc0e2e5bc99301a2f79b885a54ff20cbf"
+}

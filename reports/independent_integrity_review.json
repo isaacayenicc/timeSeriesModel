@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "runs_checked": 31,
+  "first_index_inclusive": 256,
+  "last_index_inclusive": 23999,
+  "targets_per_run": 23744,
+  "identical_y_true": true,
+  "metrics_recomputed_from_saved_predictions": true,
+  "data_hashes_match": true,
+  "noncausal_control_excluded_from_winner": true,
+  "best_run": "lpv_L256_s17_a1",
+  "scope": "Saved-array integrity; checkpoint reload checked separately"
+}

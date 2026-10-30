@@ -1,0 +1,357 @@
+{
+  "real_fault_records_processed": 200,
+  "n_records": 200,
+  "selected_models": [
+    {
+      "run_id": "lpv_L256_s17_a1",
+      "kind": "lpv",
+      "mse": 0.3612174677596073,
+      "artifact_sha256": "d6861c525e85d71084e91aab97a083971f380d4fade8c42f357643a98161dd7d"
+    },
+    {
+      "run_id": "ar_L256_s17_a1",
+      "kind": "ar",
+      "mse": 0.4200575903311584,
+      "artifact_sha256": "0d8e4a7ef984d697ed1434c6d7e8b9552a186f23734b9ffcb98944ade218c4ca"
+    },
+    {
+      "run_id": "ols_L256_s17",
+      "kind": "ols",
+      "mse": 0.4200585703904193,
+      "artifact_sha256": "5103e968eb11708277c2de7fa90a43384a193cdc0e237c14c850b247e3ccf84d"
+    },
+    {
+      "run_id": "arx_L256_s17_a1",
+      "kind": "arx",
+      "mse": 0.4278213504403889,
+      "artifact_sha256": "3f244e6073df3f6ff2f6dcddcb07360c85632cba7c7f281dd0b06336ebcaac4f"
+    },
+    {
+      "run_id": "mlp_L64_s17",
+      "kind": "mlp",
+      "mse": 0.4504687602753487,
+      "artifact_sha256": "664eecf87d4ee2679ea869a940df62abf0de907e15622198613e65914c9b0a60"
+    },
+    {
+      "run_id": "tcn_L128_s17",
+      "kind": "tcn",
+      "mse": 0.4544904813250429,
+      "artifact_sha256": "5e2e2c9a2f611479c2919ebc143a6f1eb08d35d4a65caeba21934895ac89096b"
+    },
+    {
+      "run_id": "speed_tcn_L128_s17",
+      "kind": "speed_tcn",
+      "mse": 0.458225562144933,
+      "artifact_sha256": "ce4fe4c1c4c7638d7ae337804d89c1af5ae7c866fa39d82e7f0a2de63b05f020"
+    },
+    {
+      "run_id": "late_tcn_L64_s17",
+      "kind": "late_tcn",
+      "mse": 0.463273998437136,
+      "artifact_sha256": "6aec2b805453fa317939b6973b019e7f42f93a3137cc7696cf3a7fdfd3f2f969"
+    },
+    {
+      "run_id": "capacity_tcn_L64_s17",
+      "kind": "capacity_tcn",
+      "mse": 0.4714192724803135,
+      "artifact_sha256": "cfcdc21b249141684d1c3da750ee333006401e968d36a7a302f02e6c8d249b75"
+    },
+    {
+      "run_id": "gru_L64_s17",
+      "kind": "gru",
+      "mse": 0.8236061822365446,
+      "artifact_sha256": "503fee580461562653196aca5cfa7f066d727839d0b762b8bef7e3f534c6b6b4"
+    },
+    {
+      "run_id": "mean_L256_s17",
+      "kind": "mean",
+      "mse": 1.1040166978508237,
+      "artifact_sha256": "a5ebb51372a25d10100a96241a7d4d14900449fd1f66dd7014f8288a966a0578"
+    },
+    {
+      "run_id": "zero_L256_s17",
+      "kind": "zero",
+      "mse": 1.1040773165546844,
+      "artifact_sha256": "c5e7cf4e4d8e0cc28451fb1e93385858b641f366105ddb48d8260b461f91bfc8"
+    },
+    {
+      "run_id": "persistence_L256_s17",
+      "kind": "persistence",
+      "mse": 2.0326669612971773,
+      "artifact_sha256": "c5e7cf4e4d8e0cc28451fb1e93385858b641f366105ddb48d8260b461f91bfc8"
+    }
+  ],
+  "n_models": 13,
+  "n_time_feature_rows": 2800,
+  "n_angular_feature_rows": 8400,
+  "n_samples_each_evaluated": 31744,
+  "record_duration_s": 10.0,
+  "fs": 3200.0,
+  "labels_verified": false,
+  "speed_unit_verified": false,
+  "assumed_modulation_order": 1,
+  "reference_state_health_verified": false,
+  "raw_and_recommended_medians": {
+    "raw": {
+      "rms": 1.0534097625337062,
+      "crest_factor": 4.81411783441877,
+      "kurtosis": 3.391279753758079
+    },
+    "lpv_L256_s17_a1": {
+      "rms": 0.6239737962340481,
+      "crest_factor": 4.90841055695848,
+      "kurtosis": 3.2726596826279764
+    }
+  },
+  "recommended_model_id": "lpv_L256_s17_a1",
+  "unit_assumptions": [
+    "rpm",
+    "rad_s",
+    "rps"
+  ],
+  "normalized_speed_outside_0_1_fraction_min": 0.0,
+  "normalized_speed_outside_0_1_fraction_max": 0.02496875,
+  "prediction_mse_mean_ranking": [
+    {
+      "model_id": "lpv_L256_s17_a1",
+      "mse_mean": 0.3980111588084397
+    },
+    {
+      "model_id": "ar_L256_s17_a1",
+      "mse_mean": 0.45669223994468766
+    },
+    {
+      "model_id": "ols_L256_s17",
+      "mse_mean": 0.45670245016316685
+    },
+    {
+      "model_id": "arx_L256_s17_a1",
+      "mse_mean": 0.4582380399038189
+    },
+    {
+      "model_id": "speed_tcn_L128_s17",
+      "mse_mean": 0.47974460322284534
+    },
+    {
+      "model_id": "tcn_L128_s17",
+      "mse_mean": 0.48136579661442286
+    },
+    {
+      "model_id": "mlp_L64_s17",
+      "mse_mean": 0.48301904752315894
+    },
+    {
+      "model_id": "late_tcn_L64_s17",
+      "mse_mean": 0.4900819191039602
+    },
+    {
+      "model_id": "capacity_tcn_L64_s17",
+      "mse_mean": 0.4967607649338824
+    },
+    {
+      "model_id": "gru_L64_s17",
+      "mse_mean": 0.869246272308432
+    },
+    {
+      "model_id": "mean_L256_s17",
+      "mse_mean": 1.1441640881230786
+    },
+    {
+      "model_id": "zero_L256_s17",
+      "mse_mean": 1.1441948728912237
+    },
+    {
+      "model_id": "persistence_L256_s17",
+      "mse_mean": 2.3642160055887675
+    }
+  ],
+  "physical_detection_metrics": "not estimable without validated fault labels",
+  "record_order_semantics": "unknown; no onset/severity/class labels inferred",
+  "plan_fingerprint": "52902570fab60bae955e6c753ebe5c6dc0e2e5bc99301a2f79b885a54ff20cbf",
+  "status": "complete_descriptive_unlabeled",
+  "current_call_wall_seconds": 1.32501485199964,
+  "total_record_compute_seconds": 809.3011920910008,
+  "median_record_compute_seconds": 4.0280522230000315,
+  "verification": {
+    "status": "PASS",
+    "part_total": 20,
+    "record_total": 200,
+    "logical_data_sha256": "705731dbfe79605f9ef10de1146c99cc2db95e85ab9f3b03f1cf2a14f51bf701",
+    "manifest_sha256": "723aed22fa08aaf138139b5a4a2872e9e88944037d50cc1ed9507e9e950db57b",
+    "parts": [
+      {
+        "filename": "sigfault1_part_001.mat",
+        "record_count": 10,
+        "first_record": 1,
+        "last_record": 10,
+        "bytes": 7347291,
+        "sha256": "a5554e18ff68f8fe50b48d6020ea818d279aa7ceed1f558cbd540526cceddede"
+      },
+      {
+        "filename": "sigfault1_part_002.mat",
+        "record_count": 10,
+        "first_record": 11,
+        "last_record": 20,
+        "bytes": 7346281,
+        "sha256": "a1d96948943512734ad5779dd2acfa2d9e0cfdcfa8870212fa074b511274372c"
+      },
+      {
+        "filename": "sigfault1_part_003.mat",
+        "record_count": 10,
+        "first_record": 21,
+        "last_record": 30,
+        "bytes": 7345482,
+        "sha256": "f1cccc900b8b0a0cd29e0deed493dee367ed963484ee0853b16b16c332314e14"
+      },
+      {
+        "filename": "sigfault1_part_004.mat",
+        "record_count": 10,
+        "first_record": 31,
+        "last_record": 40,
+        "bytes": 7346358,
+        "sha256": "b9f5d5763838dda8770e1dc4bcf250b2698fcd95e4ad549fb0a2e127c2ba576c"
+      },
+      {
+        "filename": "sigfault1_part_005.mat",
+        "record_count": 10,
+        "first_record": 41,
+        "last_record": 50,
+        "bytes": 7346786,
+        "sha256": "b133ebde2b89248dc1851bbfc484bc76d5a28a0370367545beeac85d9e26f920"
+      },
+      {
+        "filename": "sigfault1_part_006.mat",
+        "record_count": 10,
+        "first_record": 51,
+        "last_record": 60,
+        "bytes": 7346063,
+        "sha256": "0e085b9c47ce187d561082550a3bb39bd1555eeaf3676a87282a90c509f757c0"
+      },
+      {
+        "filename": "sigfault1_part_007.mat",
+        "record_count": 10,
+        "first_record": 61,
+        "last_record": 70,
+        "bytes": 7347286,
+        "sha256": "a0cf55f56547c1eb80525b138161f465dbaac2280a5e11bb19cde83a240b5c57"
+      },
+      {
+        "filename": "sigfault1_part_008.mat",
+        "record_count": 10,
+        "first_record": 71,
+        "last_record": 80,
+        "bytes": 7344960,
+        "sha256": "ec7bc802d52fec5513beafb5363ff4ded6324974ab1cb21ab61dc9b7f01e2197"
+      },
+      {
+        "filename": "sigfault1_part_009.mat",
+        "record_count": 10,
+        "first_record": 81,
+        "last_record": 90,
+        "bytes": 7345897,
+        "sha256": "8544d50c12df5bdabfbb99f5deac60c0bf540ec231e59b60612de18ff7dcb6ce"
+      },
+      {
+        "filename": "sigfault1_part_010.mat",
+        "record_count": 10,
+        "first_record": 91,
+        "last_record": 100,
+        "bytes": 7347529,
+        "sha256": "2009abd91fc96912085f09fb73cf185a09782183247d9702708ee25d83399ad6"
+      },
+      {
+        "filename": "sigfault1_part_011.mat",
+        "record_count": 10,
+        "first_record": 101,
+        "last_record": 110,
+        "bytes": 7351041,
+        "sha256": "8abf0c38dc7ff2b82a3ab8e1ea8f1fcb22608d2916559d690c928aa2914d0343"
+      },
+      {
+        "filename": "sigfault1_part_012.mat",
+        "record_count": 10,
+        "first_record": 111,
+        "last_record": 120,
+        "bytes": 7351047,
+        "sha256": "02af3194fb8dc85576369f738306750118ab8bfc7239aea40e734923e18467c1"
+      },
+      {
+        "filename": "sigfault1_part_013.mat",
+        "record_count": 10,
+        "first_record": 121,
+        "last_record": 130,
+        "bytes": 7351071,
+        "sha256": "9a89c40796ae5faae1a4df35942fcb25ac9ab8205398de06eeba003fed0ee8bd"
+      },
+      {
+        "filename": "sigfault1_part_014.mat",
+        "record_count": 10,
+        "first_record": 131,
+        "last_record": 140,
+        "bytes": 7350602,
+        "sha256": "da065e69f85b62cde24fc6010bb2eb6692b968badfda17e98c4d10077b2089a5"
+      },
+      {
+        "filename": "sigfault1_part_015.mat",
+        "record_count": 10,
+        "first_record": 141,
+        "last_record": 150,
+        "bytes": 7350644,
+        "sha256": "da0f89d3d1af43916c69784fb384a31673903cd1daf8d103a44866261929d47b"
+      },
+      {
+        "filename": "sigfault1_part_016.mat",
+        "record_count": 10,
+        "first_record": 151,
+        "last_record": 160,
+        "bytes": 7349686,
+        "sha256": "0efcd466b0d55efaee8f530097886f9839cd50acccd23d912ec8722cbfa74491"
+      },
+      {
+        "filename": "sigfault1_part_017.mat",
+        "record_count": 10,
+        "first_record": 161,
+        "last_record": 170,
+        "bytes": 7349848,
+        "sha256": "f99c39d7a7aa4c47166fdb49637d8d68be71562fc1b4d93f0ae4325b60aeb2bc"
+      },
+      {
+        "filename": "sigfault1_part_018.mat",
+        "record_count": 10,
+        "first_record": 171,
+        "last_record": 180,
+        "bytes": 7349897,
+        "sha256": "cd33880813bb58f39a2e01d3b9063b869459db4623bd4311ad2ac68eaa997649"
+      },
+      {
+        "filename": "sigfault1_part_019.mat",
+        "record_count": 10,
+        "first_record": 181,
+        "last_record": 190,
+        "bytes": 7350111,
+        "sha256": "e8ad2cb988993a5cb2d256d5b3def17c2d044a3cac7c7da0bfa8cbe3c4941e65"
+      },
+      {
+        "filename": "sigfault1_part_020.mat",
+        "record_count": 10,
+        "first_record": 191,
+        "last_record": 200,
+        "bytes": 7350651,
+        "sha256": "b6012159aed886dbec90032bc5241a55d2faa1ba5cf909401e47ae315a9bb8d8"
+      }
+    ],
+    "source_fields": [
+      "t",
+      "fs",
+      "N",
+      "spd",
+      "spdnorm",
+      "x",
+      "spdmin",
+      "spdmax"
+    ],
+    "original_file_sha256_declared": "abc20abd79660b502750b747815e2b96825c0fd6982c724d85001c88e02de01e",
+    "original_file_independently_available": false,
+    "provenance_limit": "Original MAT fingerprint is declared by the supplied manifest; exact original-file bytes were not available for independent comparison."
+  }
+}

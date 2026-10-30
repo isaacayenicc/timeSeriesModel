@@ -1,0 +1,9 @@
+[
+  {
+    "run_id": "shift_tcn_L64_s17",
+    "status": "superseded after source review",
+    "mse": 0.4683365400883181,
+    "train_wall_s": 33.496943697000006,
+    "reason": "training speed shift used window-count phase rather than sample-count phase. Fixed to roll original raw speed by N//3 consistently. Full corrected trial rerun; old result excluded from comparisons; log retained."
+  }
+]

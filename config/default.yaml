@@ -1,0 +1,12 @@
+# All amplitude inputs use supplied normalization. No fitted global scaler.
+data_dir: data/raw
+device: cpu
+threads: 2
+evaluation_burnin: 256
+target: one_step_teacher_forced
+speed_input: past_only
+experiment_plan: config/experiment_plan.json
+speed_unit: unknown
+fault_labels: unavailable
+fault_parts_dir: data/raw/sigfault1_parts
+fault_protocol: reports/fault_study_plan.json

@@ -1,0 +1,3 @@
+# Rights and attribution
+
+Course PDF, data and MATLAB reference were supplied by the user. Their redistribution rights are not established. They are excluded from public/source release archives. Original project code was generated in this workspace for the user's requested analysis; no third-party license is invented on the user's behalf. Published sources remain their authors' work. Metadata and short source evidence excerpts in research are attributed and do not imply redistribution permission for full papers. Consult institutional rules for authorship, disclosure and use of generated code in coursework.

@@ -1,0 +1,182 @@
+{
+  "status": "PASS",
+  "part_total": 20,
+  "record_total": 200,
+  "logical_data_sha256": "705731dbfe79605f9ef10de1146c99cc2db95e85ab9f3b03f1cf2a14f51bf701",
+  "manifest_sha256": "723aed22fa08aaf138139b5a4a2872e9e88944037d50cc1ed9507e9e950db57b",
+  "parts": [
+    {
+      "filename": "sigfault1_part_001.mat",
+      "record_count": 10,
+      "first_record": 1,
+      "last_record": 10,
+      "bytes": 7347291,
+      "sha256": "a5554e18ff68f8fe50b48d6020ea818d279aa7ceed1f558cbd540526cceddede"
+    },
+    {
+      "filename": "sigfault1_part_002.mat",
+      "record_count": 10,
+      "first_record": 11,
+      "last_record": 20,
+      "bytes": 7346281,
+      "sha256": "a1d96948943512734ad5779dd2acfa2d9e0cfdcfa8870212fa074b511274372c"
+    },
+    {
+      "filename": "sigfault1_part_003.mat",
+      "record_count": 10,
+      "first_record": 21,
+      "last_record": 30,
+      "bytes": 7345482,
+      "sha256": "f1cccc900b8b0a0cd29e0deed493dee367ed963484ee0853b16b16c332314e14"
+    },
+    {
+      "filename": "sigfault1_part_004.mat",
+      "record_count": 10,
+      "first_record": 31,
+      "last_record": 40,
+      "bytes": 7346358,
+      "sha256": "b9f5d5763838dda8770e1dc4bcf250b2698fcd95e4ad549fb0a2e127c2ba576c"
+    },
+    {
+      "filename": "sigfault1_part_005.mat",
+      "record_count": 10,
+      "first_record": 41,
+      "last_record": 50,
+      "bytes": 7346786,
+      "sha256": "b133ebde2b89248dc1851bbfc484bc76d5a28a0370367545beeac85d9e26f920"
+    },
+    {
+      "filename": "sigfault1_part_006.mat",
+      "record_count": 10,
+      "first_record": 51,
+      "last_record": 60,
+      "bytes": 7346063,
+      "sha256": "0e085b9c47ce187d561082550a3bb39bd1555eeaf3676a87282a90c509f757c0"
+    },
+    {
+      "filename": "sigfault1_part_007.mat",
+      "record_count": 10,
+      "first_record": 61,
+      "last_record": 70,
+      "bytes": 7347286,
+      "sha256": "a0cf55f56547c1eb80525b138161f465dbaac2280a5e11bb19cde83a240b5c57"
+    },
+    {
+      "filename": "sigfault1_part_008.mat",
+      "record_count": 10,
+      "first_record": 71,
+      "last_record": 80,
+      "bytes": 7344960,
+      "sha256": "ec7bc802d52fec5513beafb5363ff4ded6324974ab1cb21ab61dc9b7f01e2197"
+    },
+    {
+      "filename": "sigfault1_part_009.mat",
+      "record_count": 10,
+      "first_record": 81,
+      "last_record": 90,
+      "bytes": 7345897,
+      "sha256": "8544d50c12df5bdabfbb99f5deac60c0bf540ec231e59b60612de18ff7dcb6ce"
+    },
+    {
+      "filename": "sigfault1_part_010.mat",
+      "record_count": 10,
+      "first_record": 91,
+      "last_record": 100,
+      "bytes": 7347529,
+      "sha256": "2009abd91fc96912085f09fb73cf185a09782183247d9702708ee25d83399ad6"
+    },
+    {
+      "filename": "sigfault1_part_011.mat",
+      "record_count": 10,
+      "first_record": 101,
+      "last_record": 110,
+      "bytes": 7351041,
+      "sha256": "8abf0c38dc7ff2b82a3ab8e1ea8f1fcb22608d2916559d690c928aa2914d0343"
+    },
+    {
+      "filename": "sigfault1_part_012.mat",
+      "record_count": 10,
+      "first_record": 111,
+      "last_record": 120,
+      "bytes": 7351047,
+      "sha256": "02af3194fb8dc85576369f738306750118ab8bfc7239aea40e734923e18467c1"
+    },
+    {
+      "filename": "sigfault1_part_013.mat",
+      "record_count": 10,
+      "first_record": 121,
+      "last_record": 130,
+      "bytes": 7351071,
+      "sha256": "9a89c40796ae5faae1a4df35942fcb25ac9ab8205398de06eeba003fed0ee8bd"
+    },
+    {
+      "filename": "sigfault1_part_014.mat",
+      "record_count": 10,
+      "first_record": 131,
+      "last_record": 140,
+      "bytes": 7350602,
+      "sha256": "da065e69f85b62cde24fc6010bb2eb6692b968badfda17e98c4d10077b2089a5"
+    },
+    {
+      "filename": "sigfault1_part_015.mat",
+      "record_count": 10,
+      "first_record": 141,
+      "last_record": 150,
+      "bytes": 7350644,
+      "sha256": "da0f89d3d1af43916c69784fb384a31673903cd1daf8d103a44866261929d47b"
+    },
+    {
+      "filename": "sigfault1_part_016.mat",
+      "record_count": 10,
+      "first_record": 151,
+      "last_record": 160,
+      "bytes": 7349686,
+      "sha256": "0efcd466b0d55efaee8f530097886f9839cd50acccd23d912ec8722cbfa74491"
+    },
+    {
+      "filename": "sigfault1_part_017.mat",
+      "record_count": 10,
+      "first_record": 161,
+      "last_record": 170,
+      "bytes": 7349848,
+      "sha256": "f99c39d7a7aa4c47166fdb49637d8d68be71562fc1b4d93f0ae4325b60aeb2bc"
+    },
+    {
+      "filename": "sigfault1_part_018.mat",
+      "record_count": 10,
+      "first_record": 171,
+      "last_record": 180,
+      "bytes": 7349897,
+      "sha256": "cd33880813bb58f39a2e01d3b9063b869459db4623bd4311ad2ac68eaa997649"
+    },
+    {
+      "filename": "sigfault1_part_019.mat",
+      "record_count": 10,
+      "first_record": 181,
+      "last_record": 190,
+      "bytes": 7350111,
+      "sha256": "e8ad2cb988993a5cb2d256d5b3def17c2d044a3cac7c7da0bfa8cbe3c4941e65"
+    },
+    {
+      "filename": "sigfault1_part_020.mat",
+      "record_count": 10,
+      "first_record": 191,
+      "last_record": 200,
+      "bytes": 7350651,
+      "sha256": "b6012159aed886dbec90032bc5241a55d2faa1ba5cf909401e47ae315a9bb8d8"
+    }
+  ],
+  "source_fields": [
+    "t",
+    "fs",
+    "N",
+    "spd",
+    "spdnorm",
+    "x",
+    "spdmin",
+    "spdmax"
+  ],
+  "original_file_sha256_declared": "abc20abd79660b502750b747815e2b96825c0fd6982c724d85001c88e02de01e",
+  "original_file_independently_available": false,
+  "provenance_limit": "Original MAT fingerprint is declared by the supplied manifest; exact original-file bytes were not available for independent comparison."
+}

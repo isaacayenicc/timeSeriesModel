@@ -1,0 +1,15 @@
+{
+  "status": "PASS available-artifact integrity",
+  "runs": 31,
+  "common_targets": 23744,
+  "executed_notebook_code_cells": 31,
+  "verified_figure_hashes": 17,
+  "decks": {
+    "Progress_Presentation_8min": 10,
+    "Final_Presentation_12min": 15
+  },
+  "broken_file_links": [],
+  "real_fault_analysis": "PASS 200 separate records, 13 frozen predictors + raw; unlabeled descriptive analysis",
+  "anchor_full_text": "BLOCKED network access",
+  "external_platform_execution": "Windows/macOS unverified"
+}
