@@ -1,0 +1,23 @@
+{
+  "causal_checks": [
+    {
+      "boundary_index": 1792,
+      "perturbed_suffix_max_abs": 2.0213302792670973e-07,
+      "truncated_prefix_max_abs": 1.3453700486998343e-08
+    },
+    {
+      "boundary_index": 12000,
+      "perturbed_suffix_max_abs": 1.2033484950713103e-06,
+      "truncated_prefix_max_abs": 7.126631220710777e-07
+    },
+    {
+      "boundary_index": 22000,
+      "perturbed_suffix_max_abs": 1.1856180274216754e-06,
+      "truncated_prefix_max_abs": 1.0707134805443275e-06
+    }
+  ],
+  "float32_tolerance": 3e-05,
+  "repeated_record_max_abs": 0.0,
+  "checkpoint_reload_max_abs": 0.0,
+  "status": "PASS"
+}

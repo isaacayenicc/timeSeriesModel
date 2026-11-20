@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.ipynb_checkpoints/
+data/raw/*
+data/processed/
+references/prior_work/
+
+# Private numerical artifacts and unpublished inputs
+*.mat
+*.npz
+*.npy
+*.pt
+*.pth
+*.pkl
+*.zip
+*.log
+outputs/runs/*/predictions/
+outputs/runs/*/checkpoints/
+outputs/runs/*/search/folds/

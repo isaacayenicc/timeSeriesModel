@@ -1,0 +1,3 @@
+model,basis,scheduling,cv_policy,start,n,mse,start1792_mse,runs_p
+spa_lpv_ar,monomial,current,random_rows_diagnostic,316,23684,0.42453722183404247,0.43385526217337783,0.44870007881911
+spa_lpv_arma,monomial,current,random_rows_diagnostic,316,23684,0.43978296305479986,0.4493382179677847,0.021688355436120556

@@ -1,0 +1,28 @@
+{
+  "profile": "full",
+  "duration_seconds": 160.716323471,
+  "trials": 69,
+  "fold_fits": 207,
+  "threads": 1,
+  "device": "cpu",
+  "torch_version": "2.10.0+cpu",
+  "cuda_available": false,
+  "seed": 7780,
+  "source_sha256": "36283687397acb9ab034c69440c4ed6553d349f34e44627694607ee482392132",
+  "folds": [
+    [
+      4800,
+      7200
+    ],
+    [
+      11200,
+      13600
+    ],
+    [
+      18400,
+      20800
+    ]
+  ],
+  "target_start": 1792,
+  "guard": 1792
+}

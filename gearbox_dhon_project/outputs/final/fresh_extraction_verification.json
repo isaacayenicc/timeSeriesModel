@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "fresh_extraction": true,
+  "archive_sha256_entries_verified": 462,
+  "editable_install_entry_point": "PASS",
+  "checkpoint_replays": {
+    "primary_dhon": {
+      "max_abs": 0.0,
+      "tolerance": 1e-05,
+      "pass": true
+    },
+    "spa_lpv_arma": {
+      "max_abs": 1.7763568394002505e-15,
+      "tolerance": 1e-05,
+      "pass": true
+    },
+    "ngrc": {
+      "max_abs": 0.0,
+      "tolerance": 1e-05,
+      "pass": true
+    },
+    "physics_linear": {
+      "max_abs": 0.0,
+      "tolerance": 1e-05,
+      "pass": true
+    },
+    "archive_dhon_optimized": {
+      "max_abs": 0.0,
+      "tolerance": 1e-05,
+      "pass": true
+    },
+    "archive_dhon_optimized_corrected": {
+      "max_abs": 0.0,
+      "tolerance": 1e-05,
+      "pass": true
+    },
+    "archive_ngrc_optimized_corrected": {
+      "max_abs": 0.0,
+      "tolerance": 1e-05,
+      "pass": true
+    }
+  },
+  "smoke_stages": {
+    "audit": {
+      "status": "PASS",
+      "seconds": 4.91525972799991
+    },
+    "eda": {
+      "status": "PASS",
+      "seconds": 3.4536393300002146
+    },
+    "baselines": {
+      "status": "PASS",
+      "seconds": 1.230746186000033
+    },
+    "dhon": {
+      "status": "PASS",
+      "seconds": 12.329808922999973
+    },
+    "comparators": {
+      "status": "PASS",
+      "seconds": 4.371114839000029
+    },
+    "matched_metrics": {
+      "status": "PASS",
+      "seconds": 1.470325604999971
+    },
+    "checkpoint_replay": {
+      "status": "PASS",
+      "seconds": 0.33196576500017727
+    },
+    "timing": {
+      "status": "PASS",
+      "seconds": 3.0120726269999523
+    },
+    "freeze": {
+      "status": "PASS",
+      "seconds": 0.119458793999911
+    }
+  },
+  "notebooks": 9,
+  "tests": 31
+}

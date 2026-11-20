@@ -1,0 +1,6 @@
+# Frozen prediction references
+
+- `lpv_coefficients.npz` is the safe numerical array export `outputs/coefficients.npz` from `Sparse_LPV_ARMA_complete_reproduction.zip`, augmented with the verified RPM normalization range. The shipped Python predictor replays these arrays with monomials and archived orders. The archive's incompletely converged fit remains a historical reference.
+- Named NPZ/JSON pairs are frozen inference exports from `Gearbox_DHON_NGRC_Improved_Optimization.zip`. The package implements the equations with NumPy and SciPy. Checkpoints are arrays read with `allow_pickle=False`. The archived time constants remain fixed.
+- `ablation_predictions.npz` and `local_predictions.npz` retain forecast arrays only. The source validation target array was used to verify exact correspondence and removed from the shipped copies. Its SHA-256 and index convention are in `validation_identity.json`. Ancestor forecasts in the ablation file can be rescored on the matching development record. They have no runnable checkpoints in the supplied sources.
+- The original train/validation MAT copies in the improved archive match the direct upload hashes byte for byte. The project never executes supplied archive entry points. Reproduction uses the local `gearbox_dhon.archived` and `gearbox_dhon.baselines` modules.

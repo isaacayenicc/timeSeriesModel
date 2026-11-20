@@ -1,0 +1,26 @@
+# Completion checklist
+
+Run `development`. These are verification statuses for the supplied brief and master prompt.
+
+- **PASS** · Course/paper/thesis and archive source audit. Sources read, inputs hashed and archive methods inspected. [Evidence](../../docs/prior_work_audit.md)
+- **PARTIAL** · Data availability, units, duplicate checks and official split. Exact joint overlap excludes 61 and 63. Condition and original acquisition IDs are unavailable. [Evidence](../../outputs/runs/development/tables/record_inventory.csv)
+- **PASS** · Standalone Python, pinned dependencies and local smoke. Linux clean-extraction replay and smoke checked. PowerShell instructions supplied. [Evidence](../../README.md)
+- **PASS** · Executed physics EDA and feature evidence. Training speed, harmonic tracks and guarded feature screen. [Evidence](../../notebooks/01_Physics_Informed_EDA.ipynb)
+- **PASS** · Conventional fit/replay and matched errors. Strict refits and archive replay on same targets. Paper source segment mismatch documented. [Evidence](../../outputs/runs/development/metrics/conventional_metrics.csv)
+- **PARTIAL** · Archived DHON and NG-RC replay with correction controls. Available checkpoints replay. Strongest ancestor supplied as forecast vectors only. [Evidence](../../outputs/runs/development/metrics/archive_replay.csv)
+- **PASS** · Learnable oscillator, constraints and numerical verification. Gradient, recurrence, reset, prefix and causality tests plus matched fixed state. [Evidence](../../docs/mathematical_formulation.md)
+- **PASS** · Executed finite joint optimization. 21 candidates and 63 guarded folds with per-fold predictions and logs. [Evidence](../../outputs/runs/development/search/dhon_trials.csv)
+- **PASS** · Selected primary and alternate freeze and replay. Training-fold decision and exact checkpoint reload recorded. [Evidence](../../outputs/runs/development/frozen_manifest.json)
+- **PASS** · Matched learned and conventional comparisons. Nine trained/naive comparator families plus LPV and archive models. [Evidence](../../notebooks/05_Comparative_Model_Performance.ipynb)
+- **PARTIAL** · Angular PMI and instructor diagnostic indexing. Both lags implemented and verified analytically. MATLAB helper and golden parity unavailable. [Evidence](../../docs/fault_diagnostics.md)
+- **PASS** · Per-record fault diagnostics with eligibility flags. 200 actual candidate records, overlap exclusion and provisional group-only interpretation. [Evidence](../../outputs/runs/development/metrics/fault_per_record.csv)
+- **PARTIAL** · Stress, pulse, oscillator, adapter and sensitivity checks. Controlled RPM stress, pulse injection, matched DHON ablations and seeds completed. A fully crossed ablation grid and production-streaming stress remain open. [Evidence](../../outputs/runs/development/metrics/robustness_summary.csv)
+- **PARTIAL** · Measured efficiency including CPU/GPU. Common CPU batch times and isolated component tables. GPU and streaming deadlines unmeasured. [Evidence](../../outputs/runs/development/metrics/timings.csv)
+- **BLOCKED** · Frozen independent assessment. Both held-out datasets absent. Inference-only frozen preflight executed. [Evidence](../../outputs/runs/blind_missing/data_availability.json)
+- **PASS** · Nine instructional notebooks executed. Nine clean-kernel replay notebooks generated, with recorded times. [Evidence](../../outputs/runs/development/notebook_execution.csv)
+- **PARTIAL** · Numerical and pipeline QA. Unit suite, actual checkpoint replay and smoke completed. No GPU/MATLAB parity. [Evidence](../../outputs/runs/development/pytest.log)
+- **PASS** · Plots, metrics, predictions, search and checkpoint provenance. Inputs and code/checkpoint hashes, actual arrays, PNGs, PDFs and metrics indexed. [Evidence](../../outputs/final/artifact_index.md)
+- **PARTIAL** · Companion, methods, reproducibility and report PDF/source. All 18 study topics covered, with separate methods and notebook material. Guide length below aspirational 15,000–25,000 words. [Evidence](../../docs/companion_guide.md)
+- **PASS** · Editable talks and speaker notes. 8 and 12 minutes, editable slides and render verification. [Evidence](../../presentations/README.md)
+- **PASS** · Course marking traceability. Requirements, weights, evidence and statuses tracked. [Evidence](../../docs/requirements_traceability.md)
+- **PASS** · Source package, manifest and fresh replay. ZIP integrity verification and fresh-extraction checkpoint replay. Raw MAT files external. [Evidence](../../CHECKSUMS.sha256)
