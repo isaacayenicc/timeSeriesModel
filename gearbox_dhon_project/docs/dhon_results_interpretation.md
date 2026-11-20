@@ -1,0 +1,38 @@
+# DHON results and interpretation
+
+The guarded design completed all 21 configurations and 63 fold evaluations. Their cumulative measured elapsed time was 213.25 s on the shared one-thread CPU execution setup. Mean clean fold MSE for the selected expanded short-memory model was 0.352115 with sample fold SD 0.08104. The selected fit has 12 mesh orders, three memory scales initialized at 8, 32 and 128 samples, a 512-sample oscillator horizon, 96 vibration lags, 16 angular points per mesh across eight cycles, 24 proxy innovations following an LPV-AR(256) stage, and an eight-unit head. The alternative uses five mesh orders and two fixed-Hz carriers. See [search results](../outputs/runs/development/search/dhon_ranking.csv) and [frozen selection](../outputs/runs/development/search/dhon_selection.json).
+
+## Accuracy and attribution
+
+All following MSE values use 22,208 standardized validation samples and lag-1 vibration and speed. Reporting native baselines with their archived sampler settings alongside same-mask controls preserves the actual prediction comparison. The experiment treats official validation as development evidence.
+
+| DHON variant | MSE, base | MSE, adapted | Trainable coefficients |
+|---|---:|---:|---:|
+| Jointly learnable, primary | 0.332654 | **0.318626** | 1,445 |
+| Decay only, matched | 0.332684 | 0.318653 | 1,433 |
+| Frequency only, matched | 0.332770 | 0.318746 | 1,409 |
+| Fixed physical state, matched | 0.332798 | 0.318773 | 1,397 |
+| Linear readout, fixed state | 0.333468 | 0.319213 | 972 |
+| Compact mixed-bank alternative | 0.344997 | 0.338247 | 1,255 |
+
+The strict Spa LPV-ARMA benchmark scored 0.371406, so the primary reduces MSE 14.21% on the supplied validation segment. The best reproduced expanded archive DHON with correction scored 0.316889, leaving the proposed model 0.001737 absolute MSE (0.55%) behind. The reported prior-ancestor correction result 0.316445 remains an external archive claim if its weights are unavailable. The paper’s 0.2893 refers to its own segment and serves as context. See [DHON measures](../outputs/runs/development/metrics/dhon_metrics.csv), [verified conventional measures](../outputs/runs/development/metrics/conventional_metrics.csv) and [archive checkpoint replay](../outputs/runs/development/metrics/archive_replay.csv).
+
+The optimizer changed every enabled carrier, with orders shifting by −0.04361 to +0.04372. Across carriers, final memory ranges were 7.83–8.11, 30.62–33.54 and 123.55–133.03 samples. Final automatic differentiation norms were 0.000270 for carrier parameters and 0.000657 for decay parameters. The matched fixed-state model scored 0.000148 higher MSE than the learned-state model, a 0.046% difference. The adapter effect on the learned model was 0.014029, about 95 times the physical-learning difference. This provides direct verification of state learning, with small incremental accuracy benefit under these settings. The matched decay-only result was closer to the joint result than the frequency-only result. See [state trajectories](../outputs/runs/development/search/primary_dhon_learning.json).
+
+## Physics and robustness
+
+The stage-A design illustrates a sequence of observed associations under a common fold objective. Lag history with local RMS yielded 0.4624 mean fold MSE, adding RPM conditioning yielded 0.4310, and adding the angle grid yielded 0.3987. The broader geometry with mesh states and proxy innovations yielded 0.3758 for its linear control. That latter change bundles factors. In a same-geometry focused joint comparison, removing the innovations raised mean MSE from 0.3654 to 0.3912. Removing acceleration moved it to 0.3654 at four digits. The selected short-memory expanded model beat the longer-memory expanded joint configuration in mean clean fold MSE (0.3521 vs 0.3535), but width and ridge penalty also differed. Within focused configurations, the fixed-Hz-only model yielded 0.3709 versus 0.3654 for the mixed bank. This identifies useful feature interactions and confines inference about individual effects to matched contrasts.
+
+The primary’s development stress MSE was 0.4181 on the specified ±1.2% bias with jitter, versus 0.3186 under clean RPM. The compact alternative scored 0.3992 under the same stress and gave lower pulse distortion (0.6134 vs 0.7619). Its clean MSE rose by 0.0196. A reserve option for RPM uncertainty merits independent confirmation. For the primary, the residual pulse projection onto the injected waveform was 1.0642; the prediction still changed substantially in other directions. Both metrics are needed to interpret pulse response. The fixtures model short decaying bursts at specified angular phases and cannot establish detection sensitivity. See [robustness metrics](../outputs/runs/development/metrics/dhon_validation_robustness.csv).
+
+The three chronological blocks scored MSE 3.7598, 1.6508 and 0.3354. This is a large failure under short initial fit windows, which can make the RPM-conditioned model extrapolate from a narrow speed range with few data. Training information on both sides of evaluation explains why the blocked fold estimate addresses interpolation within the training acquisition. The chronological check addresses generalization across its successive operating regimes. Auxiliary speed coverage calculations and independent acquisitions would be needed to establish exactly which covariate changes drive failure. See [chronological diagnostics](../outputs/runs/development/search/dhon_chronological.csv).
+
+Median CPU inference during individual runner timing was 0.222 s for 7.5 s of input for the primary and 0.154 s for the compact model, with both including feature generation and adapter. Shared-host contention was visible in some timing rows. Refer to the separate benchmark for consistent repeated comparisons across models. This batch throughput does not certify an online 0.3125 ms sample deadline. CUDA was unavailable with the installed CPU PyTorch build.
+
+## Replication and pulse sensitivity
+
+The five primary initializations scored 0.318623947–0.318625568 on the same validation targets. This stability across the tested optimizer starts reflects a shared deterministic ridge initialization. It provides no estimate of variability across acquisitions. See [primary fit seeds](../outputs/runs/development/metrics/dhon_metrics.csv) and [supplemental seeds](../outputs/runs/development/metrics/dhon_supplemental_seeds.csv).
+
+The supplemental 12-condition pulse grid crosses 430, 930 and 1100 Hz, two amplitudes and two shaft phases, at 3.5 ms decay. Primary adapted residual pulse correlations ranged from 0.509 to 0.770, and projection ranged from 0.493 to 1.233. Matched fixed-state metrics were nearly identical. The compact alternative ranged from 0.554 to 0.814 in correlation. The adapter changes the shape measures only slightly across these tests. This fixture family exposes material waveform sensitivity even when the designated 930 Hz projection exceeds one. See [pulse grid](../outputs/runs/development/metrics/dhon_pulse_grid.csv).
+
+Timing-specific controls were developed and reported separately. A supplied-record suffix perturbation of acceleration and RPM changed earlier predictions by at most \(1.21\times10^{-6}\), and truncated-prefix inference agreed within \(1.08\times10^{-6}\). Checkpoint reload and inference after another record were numerically identical. Six unit tests cover float64 summation versus FFT and recurrence, gradcheck, interpolation, guarded support, adapter response, learning and replay. See [development numerics](../outputs/runs/development/metrics/dhon_development_verification.json).

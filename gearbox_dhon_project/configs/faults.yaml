@@ -1,0 +1,7 @@
+samples_per_revolution: 2048
+pmi_primary_lag_offset: -1
+pmi_sensitivity_lag_offset: 0
+group_a_one_based: [1, 100]
+group_b_one_based: [101, 200]
+label_provenance: unconfirmed_index_groups
+threshold: null

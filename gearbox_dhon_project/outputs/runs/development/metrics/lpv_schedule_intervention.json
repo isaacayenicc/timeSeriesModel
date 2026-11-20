@@ -1,0 +1,12 @@
+{
+  "archived_spa_lpv_ar_lagged_schedule": {
+    "lagged_MSE": 0.34982645292261005,
+    "current_MSE": 0.34984357426907947,
+    "max_abs_forecast_delta": 0.0021586652254939054
+  },
+  "archived_spa_lpv_arma_lagged_schedule": {
+    "lagged_MSE": 0.3451333676680575,
+    "current_MSE": 0.3451508441670338,
+    "max_abs_forecast_delta": 0.002284873870266324
+  }
+}

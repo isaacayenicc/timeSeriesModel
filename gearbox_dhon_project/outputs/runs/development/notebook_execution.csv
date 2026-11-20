@@ -1,0 +1,10 @@
+notebook,mode,status,seconds,error
+00_Project_Overview_and_Data_Audit.ipynb,replay,PASS,2.2852155230000335,
+01_Physics_Informed_EDA.ipynb,replay,PASS,2.4519202769999993,
+02_Spa_LPV_ARMA_Reproduction.ipynb,replay,PASS,5.028013738000027,
+03_DHON_Mathematical_Development.ipynb,replay,PASS,3.363792020999881,
+04_DHON_Joint_Physics_and_Model_Optimization.ipynb,replay,PASS,1.7929534510001304,
+05_Comparative_Model_Performance.ipynb,replay,PASS,2.30478141399999,
+06_Fault_Detection_and_Robustness.ipynb,replay,PASS,2.1384048659999735,
+07_Ablation_and_Computational_Efficiency.ipynb,replay,PASS,2.0166904759998943,
+08_Independent_Test_and_Final_Synthesis.ipynb,replay,PASS,1.6841076809998867,

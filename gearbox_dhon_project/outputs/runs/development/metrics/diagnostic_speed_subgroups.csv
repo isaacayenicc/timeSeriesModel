@@ -1,0 +1,7 @@
+model,condition,target_count,mse
+primary_dhon,accelerating,13055,0.31222912731853303
+primary_dhon,decelerating,9153,0.32774886421241334
+spa_lpv_arma,accelerating,13055,0.3596659442734273
+spa_lpv_arma,decelerating,9153,0.388149767139553
+archive_dhon_optimized_corrected,accelerating,13055,0.31060336601509886
+archive_dhon_optimized_corrected,decelerating,9153,0.3258537498913505

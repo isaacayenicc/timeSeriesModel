@@ -1,0 +1,5 @@
+model,published_train_mse,published_test_mse
+ARI,0.4049,0.3658
+ARIMA,0.4034,0.3671
+Spa LPV-AR,0.3001,0.2911
+Spa LPV-ARMA,0.3099,0.2893

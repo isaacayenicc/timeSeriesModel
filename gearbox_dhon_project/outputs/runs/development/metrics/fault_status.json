@@ -1,0 +1,29 @@
+{
+  "dataset": "sigfault1",
+  "records": 200,
+  "models": [
+    "raw",
+    "primary_dhon",
+    "spa_lpv_arma",
+    "archive_dhon_optimized_corrected"
+  ],
+  "warmup_samples": 1792,
+  "diagnostic_median_ms": 12.597530499988352,
+  "diagnostic_p95_ms": 64.72174979994631,
+  "diagnostic_timing_includes_trace_spectra_on_representatives": true,
+  "diagnostic_timing_n": 800,
+  "samples_per_revolution": 2048,
+  "matlab_parity": "PARTIAL: source conventions audited, helper and gold outputs unavailable",
+  "label_status": "BLOCKED: verified development or blind fault labels unavailable",
+  "calibration_status": "BLOCKED: no independently verified healthy calibration cohort",
+  "group_interpretation": "A records 1\u2013100, B records 101\u2013200; descriptive index groups",
+  "exclusions": {
+    "61": "overlapping official acquisition",
+    "63": "overlapping official acquisition"
+  },
+  "reference_overlap_checks": [
+    "sigtrain",
+    "sigvalid"
+  ],
+  "candidate_arrays": "fixed records (1, 100, 101, 200); others reproducible from checkpoints and source data"
+}

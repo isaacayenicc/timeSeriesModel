@@ -1,0 +1,5 @@
+threads: 1
+batch_repeats: 7
+cold_repeats: 1
+precision: native checkpoint
+devices: [cpu, cuda]

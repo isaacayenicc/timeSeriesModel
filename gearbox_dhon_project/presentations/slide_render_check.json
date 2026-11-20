@@ -1,0 +1,184 @@
+{
+  "progress_presentation.pptx": {
+    "page_count": 12,
+    "pages": [
+      {
+        "page": 1,
+        "title": "Predicting variable-speed gearbox vibration",
+        "characters": 275
+      },
+      {
+        "page": 2,
+        "title": "How the project will be judged",
+        "characters": 325
+      },
+      {
+        "page": 3,
+        "title": "The official split and overlap checks",
+        "characters": 250
+      },
+      {
+        "page": 4,
+        "title": "Mesh energy follows shaft speed",
+        "characters": 323
+      },
+      {
+        "page": 5,
+        "title": "Sparse LPV\u2013ARMA establishes the reference",
+        "characters": 380
+      },
+      {
+        "page": 6,
+        "title": "DHON makes the oscillator trainable",
+        "characters": 467
+      },
+      {
+        "page": 7,
+        "title": "Tune within training and score once on development",
+        "characters": 416
+      },
+      {
+        "page": 8,
+        "title": "Progress and remaining evidence",
+        "characters": 266
+      },
+      {
+        "page": 9,
+        "title": "How an LPV filter differs from ordinary AR",
+        "characters": 396
+      },
+      {
+        "page": 10,
+        "title": "How phase and causality meet",
+        "characters": 420
+      },
+      {
+        "page": 11,
+        "title": "Why mean squared error and PMI can disagree",
+        "characters": 391
+      },
+      {
+        "page": 12,
+        "title": "Order spectra offer a second view of mesh energy",
+        "characters": 312
+      }
+    ],
+    "text_extraction_review_flags": 0
+  },
+  "final_presentation.pptx": {
+    "page_count": 22,
+    "pages": [
+      {
+        "page": 1,
+        "title": "Predicting variable-speed gearbox vibration",
+        "characters": 248
+      },
+      {
+        "page": 2,
+        "title": "Audit the split before fitting",
+        "characters": 258
+      },
+      {
+        "page": 3,
+        "title": "Shaft angle gives an interpretable frequency prior",
+        "characters": 314
+      },
+      {
+        "page": 4,
+        "title": "A matched benchmark for sparse LPV\u2013ARMA",
+        "characters": 358
+      },
+      {
+        "page": 5,
+        "title": "The prediction path is causal by construction",
+        "characters": 461
+      },
+      {
+        "page": 6,
+        "title": "Learn order and memory inside the state equation",
+        "characters": 403
+      },
+      {
+        "page": 7,
+        "title": "Search jointly before opening development results",
+        "characters": 404
+      },
+      {
+        "page": 8,
+        "title": "Read the selected configuration with its controls",
+        "characters": 462
+      },
+      {
+        "page": 9,
+        "title": "Development prediction on common targets",
+        "characters": 457
+      },
+      {
+        "page": 10,
+        "title": "Residual PMI measures periodicity by shaft angle",
+        "characters": 254
+      },
+      {
+        "page": 11,
+        "title": "Challenge the predictor and the diagnostic",
+        "characters": 440
+      },
+      {
+        "page": 12,
+        "title": "Account for correction and computation",
+        "characters": 423
+      },
+      {
+        "page": 13,
+        "title": "What this experiment establishes",
+        "characters": 371
+      },
+      {
+        "page": 14,
+        "title": "How an LPV filter differs from ordinary AR",
+        "characters": 393
+      },
+      {
+        "page": 15,
+        "title": "How phase and causality meet",
+        "characters": 417
+      },
+      {
+        "page": 16,
+        "title": "Why mean squared error and PMI can disagree",
+        "characters": 388
+      },
+      {
+        "page": 17,
+        "title": "Order spectra offer a second view of mesh energy",
+        "characters": 309
+      },
+      {
+        "page": 18,
+        "title": "How the guarded folds keep raw histories apart",
+        "characters": 421
+      },
+      {
+        "page": 19,
+        "title": "PMI reference lag and parity status",
+        "characters": 370
+      },
+      {
+        "page": 20,
+        "title": "Inspect a representative prediction trace",
+        "characters": 274
+      },
+      {
+        "page": 21,
+        "title": "Inspect the oscillator learning trajectory",
+        "characters": 245
+      },
+      {
+        "page": 22,
+        "title": "What the efficiency test measures",
+        "characters": 389
+      }
+    ],
+    "text_extraction_review_flags": 0
+  }
+}

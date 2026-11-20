@@ -1,0 +1,14 @@
+sampling_frequency_hz: 3200
+score_start_zero_based: 1792
+measurement_cutoff: t_minus_1
+fit: sigtrain
+development: sigvalid
+candidate_diagnostic_corpus: sigfault1
+blind_prediction: sigtest
+blind_diagnostics: sigfault2
+guarded_training_folds: [[4800, 7200], [11200, 13600], [18400, 20800]]
+guard_samples: 1792
+mesh_teeth: 37
+fault_labels: unconfirmed
+bootstrap_block_samples: 640
+bootstrap_seed: 7780

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "record_model_rows": 800,
+  "group_summary_rows_verified": 16,
+  "representative_traces_verified": 16,
+  "max_absolute_representative_PMI_rounding_error": 1.2072609856250693e-09,
+  "robustness_summary_rows_verified": 3,
+  "paired_provisional_index_group_gap_differences": {
+    "spa_lpv_arma": {
+      "B_minus_A_median_gap_primary_minus_reference": 0.03409143276342548,
+      "CI_95_record_bootstrap": [
+        0.029775957613812243,
+        0.038381781173799145
+      ]
+    },
+    "archive_dhon_optimized_corrected": {
+      "B_minus_A_median_gap_primary_minus_reference": 0.0009084865977853213,
+      "CI_95_record_bootstrap": [
+        -0.0019131526455343799,
+        0.004031860469031414
+      ]
+    }
+  }
+}

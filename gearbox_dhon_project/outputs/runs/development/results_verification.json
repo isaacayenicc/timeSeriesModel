@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "scored_targets": 22208,
+  "mse_abs_discrepancy": {
+    "ari": 5.551115123125783e-17,
+    "arima": 5.551115123125783e-17,
+    "spa_lpv_ar": 0.0,
+    "spa_lpv_arma": 0.0,
+    "lpv_ar_dense": 0.0,
+    "lpv_arma_dense": 5.551115123125783e-17,
+    "archived_ari": 0.0,
+    "archived_arima": 5.551115123125783e-17,
+    "archived_spa_lpv_ar": 5.551115123125783e-17,
+    "archived_spa_lpv_arma": 0.0,
+    "archived_spa_lpv_ar_lagged_schedule": 5.551115123125783e-17,
+    "archived_spa_lpv_arma_lagged_schedule": 0.0,
+    "archive_dhon_linear": 5.551115123125783e-17,
+    "archive_dhon_linear_corrected": 0.0,
+    "archive_dhon_optimized": 5.551115123125783e-17,
+    "archive_dhon_optimized_corrected": 5.551115123125783e-17,
+    "archive_ngrc_optimized": 0.0,
+    "archive_ngrc_optimized_corrected": 5.551115123125783e-17,
+    "archive_dhon_local": 5.551115123125783e-17,
+    "archive_dhon_local_corrected": 5.551115123125783e-17,
+    "archive_ngrc_local": 0.0,
+    "archive_ngrc_local_corrected": 0.0,
+    "archive_dhon_seed29": 5.551115123125783e-17,
+    "archive_dhon_seed29_corrected": 5.551115123125783e-17,
+    "archive_dhon_tau_context_extended_gated": 0.0,
+    "archive_dhon_tau_context_extended_gated_corrected": 5.551115123125783e-17,
+    "archive_ngrc_orth_mod_extended_gated": 5.551115123125783e-17,
+    "archive_ngrc_orth_mod_extended_gated_corrected": 5.551115123125783e-17,
+    "persistence": 0.0,
+    "ridge_ar": 0.0,
+    "ridge_lpv": 5.551115123125783e-17,
+    "physics_linear": 0.0,
+    "ngrc": 0.0,
+    "mlp_vibration": 0.0,
+    "mlp_rpm": 0.0,
+    "tcn_vibration": 0.0,
+    "tcn_rpm": 0.0,
+    "primary_dhon": 0.0,
+    "primary_dhon_base": 5.551115123125783e-17,
+    "primary_dhon_seed29": 5.551115123125783e-17,
+    "primary_dhon_seed29_base": 0.0,
+    "primary_dhon_seed41": 0.0,
+    "primary_dhon_seed41_base": 0.0,
+    "alternative_dhon": 0.0,
+    "alternative_dhon_base": 5.551115123125783e-17,
+    "dhon_matched_fixed": 0.0,
+    "dhon_matched_fixed_base": 5.551115123125783e-17,
+    "dhon_matched_decay_only": 5.551115123125783e-17,
+    "dhon_matched_decay_only_base": 5.551115123125783e-17,
+    "dhon_matched_frequency_only": 5.551115123125783e-17,
+    "dhon_matched_frequency_only_base": 5.551115123125783e-17,
+    "dhon_matched_linear": 0.0,
+    "dhon_matched_linear_base": 5.551115123125783e-17
+  },
+  "dhon_improvement_pct": {
+    "spa_lpv_arma": 14.210868362740909,
+    "lpv_arma_dense": 3.6748421653943653,
+    "archive_dhon_optimized_corrected": -0.5480707610475802,
+    "archive_dhon_tau_context_extended_gated_corrected": -0.6892034615647821
+  },
+  "pmi_recomputed": {
+    "raw/pmi_course": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 0.36428571428571427
+    },
+    "raw/pmi_lag_corrected": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 0.3879591836734694
+    },
+    "raw/pmi_math": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 0.3896938775510204
+    },
+    "raw/pmi_unrelated_0p63_rev": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 0.22938775510204082
+    },
+    "primary_dhon/pmi_course": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "primary_dhon/pmi_lag_corrected": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "primary_dhon/pmi_math": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "primary_dhon/pmi_unrelated_0p63_rev": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 0.5179591836734694
+    },
+    "spa_lpv_arma/pmi_course": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "spa_lpv_arma/pmi_lag_corrected": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "spa_lpv_arma/pmi_math": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "spa_lpv_arma/pmi_unrelated_0p63_rev": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 0.7631632653061224
+    },
+    "archive_dhon_optimized_corrected/pmi_course": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "archive_dhon_optimized_corrected/pmi_lag_corrected": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "archive_dhon_optimized_corrected/pmi_math": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 1.0
+    },
+    "archive_dhon_optimized_corrected/pmi_unrelated_0p63_rev": {
+      "n_a": 98,
+      "n_b": 100,
+      "auc": 0.5088775510204082
+    }
+  }
+}

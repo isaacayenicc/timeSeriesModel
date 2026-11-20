@@ -1,0 +1,7 @@
+model,device,seconds_median,seconds_p95,repeats,parameters
+archive_dhon_linear,cpu,0.36247751600001266,0.45025588959993,5,1732
+archive_dhon_linear_corrected,cpu,0.3744635799999969,0.39421892720004054,5,1733
+archive_dhon_optimized,cpu,0.5061001689999785,0.5836201722000169,5,3709
+archive_dhon_optimized_corrected,cpu,0.5050771190000205,0.5602447824000591,5,3710
+archive_ngrc_optimized,cpu,0.44293985599995267,0.5449897067999927,5,2789
+archive_ngrc_optimized_corrected,cpu,0.4858945680000488,0.5177343843999551,5,2790

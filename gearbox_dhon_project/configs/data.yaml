@@ -1,0 +1,7 @@
+raw_directory: data/raw
+training: sigtrain.mat
+development: sigvalid.mat
+fault_development: sigfault1_part_001.mat through sigfault1_part_020.mat
+labels: unavailable
+speed_units: rpm
+vibration_scoring_units: stored standardized amplitude

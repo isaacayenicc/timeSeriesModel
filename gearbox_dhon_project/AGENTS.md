@@ -1,0 +1,1 @@
+Preserve raw data and published run artifacts. Read the experiment protocol before changing a scoring mask, fold or information set. Add new run IDs for new fits. Keep blind evaluation inference-only and record any unresolved acquisition overlap. Use forward-only prediction inputs and explicit diagnostic scope.

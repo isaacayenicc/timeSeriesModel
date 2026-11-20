@@ -1,0 +1,8 @@
+{
+  "development_record": "sigvalid",
+  "development_record_touched_in_preliminary_implementation": true,
+  "exploratory_access": "An initial implementation and an expanded configuration were sanity-scored on supplied development validation before the reported search.",
+  "reported_selection_targets": "Three guarded folds inside sigtrain only",
+  "reported_runner_loaded_validation_after_writing_configuration_selection": true,
+  "independent_test_claim": false
+}

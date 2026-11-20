@@ -1,0 +1,56 @@
+[
+  {
+    "model": "persistence",
+    "validationMSE": 2.0874651205500787,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "ridge_ar",
+    "validationMSE": 0.4374742750408249,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "ridge_lpv",
+    "validationMSE": 0.38335398615742516,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "physics_linear",
+    "validationMSE": 0.3764324601929111,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "ngrc",
+    "validationMSE": 0.3769299072125944,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "mlp_vibration",
+    "validationMSE": 0.4504078900463678,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "mlp_rpm",
+    "validationMSE": 0.4566098876091456,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "tcn_vibration",
+    "validationMSE": 0.4754295244509156,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  },
+  {
+    "model": "tcn_rpm",
+    "validationMSE": 0.4750565293902213,
+    "scored_count": 22208,
+    "checkpoint_replay_max_abs_error": 0.0
+  }
+]
