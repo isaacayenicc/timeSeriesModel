@@ -1,0 +1,1 @@
+Preserve prior-run artifacts and original MAT files. Score the common target mask, keep all selection on guarded training folds, and use only observed histories through the preceding sample. Report group labels as provisional. Use a new output directory for new fits.
