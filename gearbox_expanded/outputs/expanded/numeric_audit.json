@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "families": 21,
+  "all_rows": 24,
+  "targets": 22208,
+  "mse_max_discrepancy": 1.1102230246251565e-16,
+  "prior_forecast_replay_max_abs": {
+    "primary_dhon": 0.0,
+    "archive_dhon_optimized_corrected": 0.0,
+    "archive_dhon_tau_context_extended_gated_corrected": 0.0
+  }
+}

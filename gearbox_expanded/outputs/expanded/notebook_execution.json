@@ -1,0 +1,17 @@
+[
+  {
+    "notebook": "01_Compare_All_Models.ipynb",
+    "execution": "PASS",
+    "seconds": 1.7535398300001361
+  },
+  {
+    "notebook": "02_Guarded_Folds_and_Uncertainty.ipynb",
+    "execution": "PASS",
+    "seconds": 1.0235642650000045
+  },
+  {
+    "notebook": "03_Timing_Faults_and_Stress.ipynb",
+    "execution": "PASS",
+    "seconds": 0.9313916529999915
+  }
+]

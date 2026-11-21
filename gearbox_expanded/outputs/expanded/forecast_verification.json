@@ -1,0 +1,117 @@
+{
+  "ar": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "arma": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "arima": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "arx": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "sparse_lpv_ar": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "sparse_lpv_arma": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "linear": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "ridge": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "lasso": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "elastic_net": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "svr": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "random_forest": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "gradient_boosting": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "narx": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "mlp": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "lstm": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "gru": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "cnn": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "tcn": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "transformer": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "tft": {
+    "replay_max_abs": 0.0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  },
+  "primary_dhon": {
+    "replay_max_abs": 0,
+    "future_change_max_abs": 7.164037616469443e-07,
+    "tolerance": 3e-05
+  },
+  "archive_dhon_optimized_corrected": {
+    "replay_max_abs": 0,
+    "future_change_max_abs": 0.0,
+    "tolerance": 3e-05
+  }
+}
