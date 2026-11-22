@@ -1,0 +1,6 @@
+provisional_groups: [[1, 100], [101, 200]]
+excluded_record_ids: [61, 63]
+warmup_samples: 1792
+angular_samples_per_revolution: 2048
+lag_revolutions: 1
+label_status: unverified

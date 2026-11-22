@@ -1,0 +1,5 @@
+python_preferred: "3.12"
+threads_per_benchmark: 1
+devices: [cpu]
+cuda_policy: optional for supported comparator backends where available
+record_seconds: 7.5

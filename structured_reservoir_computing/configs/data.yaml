@@ -1,0 +1,6 @@
+data_dir: data/raw
+sampling_hz: 3200
+input_gear_teeth: 37
+mating_pinion_teeth: 20
+transform: use supplied standardized vibration
+reference_archive_dir: inputs/reference_archives

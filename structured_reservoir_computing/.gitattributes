@@ -1,0 +1,6 @@
+*.py text eol=lf
+*.md text eol=lf
+*.docx binary
+*.pptx binary
+*.pdf binary
+*.npz binary
