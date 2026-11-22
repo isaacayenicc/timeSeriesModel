@@ -1,0 +1,30 @@
+{
+  "candidates": 200,
+  "models": [
+    "raw",
+    "primary_pi_src",
+    "pi_src_adapter_off",
+    "pi_src_fixed"
+  ],
+  "model_record_rows": 800,
+  "common_first_target": 1792,
+  "warm_up_seconds_at_3200_hz": 0.56,
+  "invalid_rows": 0,
+  "eligible_candidates": 198,
+  "excluded_candidates": {
+    "61": "exact_sigtrain_overlap_offset_0",
+    "63": "exact_sigvalid_overlap_offset_0"
+  },
+  "group_status": "conditional on unverified index grouping, no classification threshold",
+  "record_84_status": "evaluated descriptively; previous retrospective inspection cannot establish untouched independence",
+  "representative_record_ids_one_based": [
+    1,
+    100,
+    101,
+    200
+  ],
+  "summary_rows": 16,
+  "paired_comparisons": 12,
+  "bootstrap_replicates": 1000,
+  "elapsed_seconds": 236.29514236698742
+}

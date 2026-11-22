@@ -8,3 +8,11 @@ data/processed/
 inputs/reference_archives/
 artifacts/*.zip
 logs/*.tmp
+*.tmp
+logs/reproduction/
+report/qa/**/*.png
+presentations/rendered/*.png
+results/predictions/*/sigvalid.npz
+results/fault/**/fault_traces.npz
+results/experiments/baseline_refit/models/
+results/experiments/baseline_refit/*_predictions.npz

@@ -1,0 +1,99 @@
+"""Emit a rubric crosswalk and explicit status for course acceptance items."""
+import csv
+import json
+from pathlib import Path
+import re
+
+from src_gearbox.study_protocol import PROJECT, atomic_json
+
+ROWS = [
+    ("A1","PASS","Independent folder and scoped Git history","src/; .gitignore; logs/milestones.md"),
+    ("A2","PASS","SRC naming for newly authored model artifacts","docs/model_card_src.md; docs/baseline_lineage.md"),
+    ("A3","PASS","Supplied course, paper, thesis and archives audited","inputs/input_manifest.csv; inputs/archive_members.csv"),
+    ("A4","PASS","Signal metadata, preprocessing and overlap verified","results/data_inventory.json; results/normalization_audit.csv; results/record_overlap_audit.csv"),
+    ("A5","PASS","Overlap exclusions and unverified labels recorded","results/fault/fault_status.json; results/frozen/availability.json"),
+    ("A6","PASS","Common target and embargo verified","results/metrics/evaluation_mask.json; results/manifests/output_verification.json"),
+    ("B1","PASS","Causal baseline and physics-structured SRC variants fitted and replayed","checkpoints/src_registry.json; tests/test_src_model.py"),
+    ("B2","PASS","Training-only EDA connects order and memory evidence to search","docs/eda_findings.md; results/eda_feature_hypotheses.csv"),
+    ("B3","PASS","Physical lag, quadrature and feature library implemented/tested","src/src_gearbox/src_model.py; docs/methodology.md"),
+    ("B4","PASS","Joint A–E optimization and journal re-use","results/optimization/trials.csv; results/optimization/fold_scores.csv"),
+    ("B5","PASS","Grouped readout, numerical conditioning and causal reset","checkpoints/src_registry.json; tests/test_src_model.py"),
+    ("B6","PASS","Selected, compact and pure-MSE fits, ablation and Pareto alternatives","results/optimization/selected_configs.json; results/ablations/src_ablations.csv"),
+    ("B7","PARTIAL","Nested-aware within-record guarded study, external generalization remains unverified","results/ablations/earlier_only_sensitivity.csv; docs/limitations.md"),
+    ("C1","PASS","All 21 requested baseline implementations, fitted checkpoints and live replay","results/metrics/model_coverage.csv; tests/test_baseline_roundtrip.py"),
+    ("C2","PARTIAL","Fresh guarded refit reproduced all 21 protected rows. Sparse supports remained frozen and multi-seed checks covered four families","results/experiments/baseline_refit/fresh_refit_reconciliation.json; results/metrics/vibration_rpm_parity.csv; results/metrics/baseline_seed_sensitivity_summary.csv"),
+    ("C3","PASS","Single mask MSE/RMSE/MAE, timings, size, strata and CIs","results/metrics/all_model_comparison.csv; results/timings/benchmark_table.csv; results/statistical_tests/paired_moving_block.csv"),
+    ("C4","PASS","Paper-only and reproduced local statistical benchmarks separated","results/metrics/published_paper_reference.csv; results/metrics/local_statistical_reference.csv"),
+    ("C5","PARTIAL","MATLAB convention reproduced semantically, and synthetic conformance verified. Exact runtime oracle unavailable","results/fault/matlab_conformance.json; tests/test_fault_diagnostics.py"),
+    ("C6","PASS","Matched real-record PMI, synthetic disturbances, speed-channel stress and negative findings","results/fault/fault_group_summary.csv; results/fault/pulse_summary.csv; results/fault/rpm_stress_summary.csv"),
+    ("C7","PASS","Physics and correction isolated across controlled sources","results/ablations/identical_adapter_controls.csv; results/ablations/src_ablations.csv"),
+    ("C8","BLOCKED","Independent test MSE, verified health-state classification and GPU timing","results/frozen/availability.json; results/frozen/fault2_availability.json; docs/limitations.md"),
+    ("D1","PASS","Eleven executed notebooks","notebooks/; results/manifests/output_verification.json"),
+    ("D2","PASS","Independent package and tested entry points","src/; scripts/run_pipeline.py; tests/; logs/tests.log"),
+    ("D3","PASS","Trained numerical state, held predictions and analysis","checkpoints/; results/predictions/"),
+    ("D4","PASS","Companion chapter book with exercises, derivations, worked examples and references","docs/companion_guide.md"),
+    ("D5","PASS","Editable equations, table styles and rendered scientific report","report/SRC_Final_Course_Report.docx; report/SRC_Final_Course_Report.pdf; report/validation_report.md"),
+    ("D6","PASS","Timed editable presentations, speaker notes, render reviews","presentations/"),
+    ("D7","PASS","Environment, exact commands, rubric and reproducibility","README.md; requirements-lock.txt; docs/rubric_traceability_matrix.md; docs/reproduction_protocol.md"),
+    ("D8","PASS","Verified ZIP and exact source/prediction hashes","artifacts/SRC_Local_Reproduction_Package.zip; artifacts/SHA256SUMS.txt; results/manifests/artifact_inventory.csv"),
+    ("D9","BLOCKED","Data-complete redistribution rights are unverified. Exact input hashes and user-supplied source pointers allow local reproduction","LICENSE_NOTICE.md; inputs/input_manifest.csv"),
+]
+
+RUBRIC = [
+    ("Report organization/presentation","4%","16%","20%","Report PDF/DOCX. Evidence inventory, paired tables and reproducible editable formatting."),
+    ("Presentation clarity","4%","16%","20%","8-minute progress and 12-minute final editable PowerPoint, notes and rendered copies."),
+    ("Algorithms understood","8%","0%","8%","Companion chapters, notebooks and tested causal feature, solver and diagnostic derivations."),
+    ("Algorithm performance","0%","32%","32%","41 guarded trials, 21 exact replay baselines, held development accuracy, CPU compute, residual PMI and robustness. Blind and GPU metrics unavailable."),
+    ("Algorithm novelty","4%","16%","20%","Order-aligned finite states, structured interactions, group penalties and fault/RPM-aware guarded selection. Controlled ablation quantifies the contribution."),
+]
+
+
+def write_csv(path, header, rows):
+    with path.open("w",encoding="utf-8",newline="") as f:
+        writer=csv.writer(f)
+        writer.writerow(header)
+        writer.writerows(rows)
+
+
+def main():
+    root=PROJECT
+    verification=root/"results/manifests/output_verification.json"
+    observed=json.loads(verification.read_text())
+    test_log=(root/"logs/tests.log").read_text()
+    match=re.search(r"(\d+) passed",test_log)
+    assert match
+    tests=dict(passed=int(match[1]),test_log="logs/tests.log",command="python -m pytest -q",
+               numerical_verification=verification.relative_to(root).as_posix(),
+               availability=observed["independent_status"])
+    atomic_json(root/"results/manifests/test_results.json",tests)
+    rows=[]
+    for group,status,criterion,evidence in ROWS:
+        if group=="D1" and not observed.get("notebooks"):
+            status="PARTIAL"
+        if group in {"D5","D6"} and not observed.get("office"):
+            status="PARTIAL"
+        if group=="D4" and not observed.get("companion_words"):
+            status="PARTIAL"
+        rows.append((group,status,criterion,evidence))
+    write_csv(root/"results/acceptance.csv",["id","status","criterion","evidence"],rows)
+    write_csv(root/"results/rubric_traceability.csv",["criterion","progress","final","overall","evidence","status"],
+              [(*r,"PASS" if r[0]!="Algorithm performance" else "PARTIAL") for r in RUBRIC])
+    trace = "\n".join(f"| {' | '.join(r)} |" for r in RUBRIC)
+    (root/"docs/rubric_traceability_matrix.md").write_text(
+        "# Rubric traceability\n\nSee the official course weights in [Course requirements](course_requirements.md). "
+        "The performance row is partial for independent and GPU evidence.\n\n"
+        "| Category | Progress | Final | Overall | Deliverable evidence |\n"
+        "| --- | ---: | ---: | ---: | --- |\n"+trace+"\n",encoding="utf-8")
+    (root/"docs/completion_audit.md").write_text(
+        "# Acceptance and evidence audit\n\n"
+        "The chronological selection made no use of the development record. Input and output SHA-256 values link the results "
+        "to the independent project. Research limitations and unavailable results are labelled explicitly.\n\n"
+        "| ID | Status | Acceptance item | Evidence in the project |\n"
+        "| --- | --- | --- | --- |\n"
+        + "\n".join(f"| {' | '.join(r)} |" for r in rows)
+        + f"\n\nExecuted tests: {tests['passed']}. See [failure and evidence limits](failure_log.md) and "
+        "[scientific limitations](limitations.md).\n",encoding="utf-8")
+
+
+if __name__=="__main__":
+    main()

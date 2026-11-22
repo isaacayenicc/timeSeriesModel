@@ -1,0 +1,90 @@
+[
+  {
+    "notebook": "00_Project_Overview_and_Data_Audit.ipynb",
+    "status": "EXECUTED",
+    "seconds": 4.858038596983533,
+    "cells": 8,
+    "executed_code_cells": 4,
+    "sha256": "53b9611950c519301548b8a36d174e6b6e3c3c7415ccf0998da6d58b0d95d62f"
+  },
+  {
+    "notebook": "01_Physics_Informed_EDA.ipynb",
+    "status": "EXECUTED",
+    "seconds": 2.1476989799994044,
+    "cells": 9,
+    "executed_code_cells": 4,
+    "sha256": "10b48cd2cab2d1f335835632c69f81a29bbcfd2521af8f2ce1203b823db4002c"
+  },
+  {
+    "notebook": "02_Statistical_Reference_Reproduction.ipynb",
+    "status": "EXECUTED",
+    "seconds": 2.2452114170009736,
+    "cells": 8,
+    "executed_code_cells": 4,
+    "sha256": "9167ba8945ce402bd2de4103e8a93f00d8403e11dea25c9165fe4c1dedc93c97"
+  },
+  {
+    "notebook": "03_SRC_Theory_and_Feature_Architecture.ipynb",
+    "status": "EXECUTED",
+    "seconds": 3.08019505199627,
+    "cells": 7,
+    "executed_code_cells": 3,
+    "sha256": "2197f795df643b8317d4fdf5a7130b57bf776ffff7ca9e8b6f5c0f8d3c9af6df"
+  },
+  {
+    "notebook": "04_SRC_Joint_Physics_and_Hyperparameter_Optimization.ipynb",
+    "status": "EXECUTED",
+    "seconds": 2.7767287789902184,
+    "cells": 9,
+    "executed_code_cells": 4,
+    "sha256": "641a4d1c815cc66c476c998e544fa55513873eb3927050253f6022d71f3f5e7c"
+  },
+  {
+    "notebook": "05_SRC_Training_and_Selection.ipynb",
+    "status": "EXECUTED",
+    "seconds": 4.416869140986819,
+    "cells": 9,
+    "executed_code_cells": 4,
+    "sha256": "97e03f6856ce6f07d12664f61c5109f9324ac0f3483955be3d09a3b4282fba04"
+  },
+  {
+    "notebook": "06_Full_Model_Comparison.ipynb",
+    "status": "EXECUTED",
+    "seconds": 2.6307822529925033,
+    "cells": 9,
+    "executed_code_cells": 5,
+    "sha256": "6c33e735361f6e1949e4e4a0b7a7803f683fc794fbf3282023f7643e3227a02c"
+  },
+  {
+    "notebook": "07_Fault_Detection_and_PMI.ipynb",
+    "status": "EXECUTED",
+    "seconds": 3.6732093510217965,
+    "cells": 8,
+    "executed_code_cells": 4,
+    "sha256": "b8d862231aa9ddde32f0b1246b7dbfedc2a3e2164bad6b6ed3c1091da29920b7"
+  },
+  {
+    "notebook": "08_SRC_Ablation_and_Robustness.ipynb",
+    "status": "EXECUTED",
+    "seconds": 1.6411486139986664,
+    "cells": 7,
+    "executed_code_cells": 3,
+    "sha256": "95a92511ad7e38b413feddd7eff91512f2698b9e3c0727e6a5702a5d8dc3ae28"
+  },
+  {
+    "notebook": "09_Computational_Efficiency_and_Uncertainty.ipynb",
+    "status": "EXECUTED",
+    "seconds": 2.743073077988811,
+    "cells": 7,
+    "executed_code_cells": 3,
+    "sha256": "fce4f3573efdbaef1e0aa8b06164e87111bcdc036badbe8d0a0d7b587e521465"
+  },
+  {
+    "notebook": "10_Frozen_Independent_Test_and_Synthesis.ipynb",
+    "status": "EXECUTED",
+    "seconds": 2.322282245004317,
+    "cells": 7,
+    "executed_code_cells": 3,
+    "sha256": "10cc4a61102f3ba873dbb825cf4cfc1a9c1e0ab20d04a06effc559c8b001cf29"
+  }
+]

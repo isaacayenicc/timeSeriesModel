@@ -1,0 +1,28 @@
+{
+  "input_files": {
+    "train": {
+      "name": "sigtrain.mat",
+      "sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6"
+    },
+    "validation": {
+      "name": "sigvalid.mat",
+      "sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73"
+    }
+  },
+  "mask_sha256": "1522c0a1b184b971b59763df3d827515370162751cc61209f025765039a89fb1",
+  "mask_encoding": "little-endian signed int64",
+  "scored_slice": [
+    1792,
+    24000
+  ],
+  "targets": 22208,
+  "protocol": "one_step_previous_measurements",
+  "threads": 1,
+  "repeats": 7,
+  "python": "3.12.14",
+  "torch": "2.10.0+cpu",
+  "hardware": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cuda_available": false,
+  "process_peak_rss_scope": "cumulative process resident high-water; not isolated per-model allocation",
+  "timing_scope": "full batch in-memory feature-to-output"
+}

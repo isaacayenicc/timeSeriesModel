@@ -1,0 +1,21 @@
+document:
+  basename: SRC_Final_Course_Report
+  title: Physics-Informed Structured Reservoir Computing for Nonstationary Gearbox Vibration Modelling and Tooth Crack Detection
+  subject: MECG 7780 Engineering Data Analytics — SRC Final Course Project Report
+  course_header: MECG 7780 / ENGINEERING DATA ANALYTICS
+  short_header: STRUCTURED RESERVOIR COMPUTING
+  source: SRC_Final_Course_Report.md
+  page_width_in: 8.5
+  page_height_in: 11
+  left_right_margin_in: 0.85
+  top_margin_in: 0.82
+  bottom_margin_in: 0.78
+  body_font: Times New Roman
+  heading_font: Arial
+  body_size_pt: 11.2
+  body_line_spacing: 1.19
+  accent: "086660"
+  ink: "153654"
+tools:
+  pandoc: pandoc
+  libreoffice: soffice

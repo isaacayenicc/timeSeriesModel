@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "logical_cpus": 3,
+  "ram_bytes_visible_to_psutil": 10452459520,
+  "cgroup_memory_limit_bytes": "8589934592",
+  "cgroup_cpu_quota": "200000 100000",
+  "gpu_available": false,
+  "cuda_runtime": null,
+  "benchmark_device": "CPU",
+  "benchmark_blas_threads": 1,
+  "packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "torch": "2.10.0+cpu",
+    "scikit-learn": "1.8.0",
+    "h5py": "3.16.0",
+    "python-docx": "1.2.0",
+    "python-pptx": "1.0.2",
+    "nbclient": "0.11.0",
+    "pytest": "9.2.0"
+  }
+}

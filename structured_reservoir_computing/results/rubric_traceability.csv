@@ -1,0 +1,6 @@
+criterion,progress,final,overall,evidence,status
+Report organization/presentation,4%,16%,20%,"Report PDF/DOCX. Evidence inventory, paired tables and reproducible editable formatting.",PASS
+Presentation clarity,4%,16%,20%,"8-minute progress and 12-minute final editable PowerPoint, notes and rendered copies.",PASS
+Algorithms understood,8%,0%,8%,"Companion chapters, notebooks and tested causal feature, solver and diagnostic derivations.",PASS
+Algorithm performance,0%,32%,32%,"41 guarded trials, 21 exact replay baselines, held development accuracy, CPU compute, residual PMI and robustness. Blind and GPU metrics unavailable.",PARTIAL
+Algorithm novelty,4%,16%,20%,"Order-aligned finite states, structured interactions, group penalties and fault/RPM-aware guarded selection. Controlled ablation quantifies the contribution.",PASS

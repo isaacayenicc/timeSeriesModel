@@ -1,0 +1,22 @@
+{
+  "constant_speed": {
+    "design_order": 148,
+    "estimated_order": 148.00401486585466,
+    "absolute_order_error": 0.004014865854657046,
+    "angular_points": 36863,
+    "complex_quadrature_rmse": 0.00611223273404501,
+    "phase_cutoff_exact": true,
+    "quadrature_suffix_intervention_max_abs_change": 0.0,
+    "passed": true
+  },
+  "speed_chirp": {
+    "design_order": 148,
+    "estimated_order": 147.9764002262992,
+    "absolute_order_error": 0.023599773700794913,
+    "angular_points": 37119,
+    "complex_quadrature_rmse": 0.00614147022506164,
+    "phase_cutoff_exact": true,
+    "quadrature_suffix_intervention_max_abs_change": 0.0,
+    "passed": true
+  }
+}

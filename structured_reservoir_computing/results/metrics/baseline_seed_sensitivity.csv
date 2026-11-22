@@ -1,0 +1,13 @@
+model,seed,fit_s,evidence,mse
+mlp,7780,,prior_selected_checkpoint,0.406423880728003
+mlp,7781,2.6315441509941593,new_fixed_config_sigtrain_refit,0.410781442239653
+mlp,7782,1.203150365006877,new_fixed_config_sigtrain_refit,0.4179059096972644
+lstm,7780,,prior_selected_checkpoint,0.4088129631118045
+lstm,7781,4.220128080007271,new_fixed_config_sigtrain_refit,0.4159712523286503
+lstm,7782,4.187241002000519,new_fixed_config_sigtrain_refit,0.4167106352064728
+cnn,7780,,prior_selected_checkpoint,0.39463804913153916
+cnn,7781,8.601959488005377,new_fixed_config_sigtrain_refit,0.40061603413773794
+cnn,7782,10.564058250995004,new_fixed_config_sigtrain_refit,0.3981583707472033
+transformer,7780,,prior_selected_checkpoint,0.5093942864328141
+transformer,7781,28.609747246999177,new_fixed_config_sigtrain_refit,0.5055799698142381
+transformer,7782,31.045695060995058,new_fixed_config_sigtrain_refit,0.4906369311165294

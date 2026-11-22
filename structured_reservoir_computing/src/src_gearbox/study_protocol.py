@@ -78,9 +78,13 @@ def fold_segments(x, rpm, lo, hi, guard):
 
 def atomic_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
+    def encode_scalar(value):
+        if isinstance(value, np.generic):
+            return value.item()
+        raise TypeError(f"Cannot JSON encode {type(value).__name__}")
     with NamedTemporaryFile(dir=path.parent, suffix=".tmp", delete=False, encoding="utf-8", mode="w") as f:
         tmp = Path(f.name)
-        json.dump(data, f, indent=2, allow_nan=False)
+        json.dump(data, f, indent=2, allow_nan=False, default=encode_scalar)
         f.write("\n")
     tmp.replace(path)
 

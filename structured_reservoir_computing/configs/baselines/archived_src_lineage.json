@@ -1,0 +1,22 @@
+{
+  "source_archive": "Gearbox_DHON_NGRC_Improved_Optimization.zip",
+  "source_archive_sha256": "2b0196e694ab10245b31d88739c444394c93631557a529c5e307214577a5e9bc",
+  "original_payloads": {
+    "archived_src_optimized": {
+      "npz": "7f15637f63532ed5c378b20b386577b878865f379ed8c2fc4fa2fd3e4c218819",
+      "json": "374a0609f49e0e22fff2ba7a2b9f6882946cf0e62441b1feee604413943ce4a4"
+    },
+    "archived_src_local": {
+      "npz": "7fa9bc81ec2a8a23a3338b9e172fecafdad411496915f8e352d81919eaa47898",
+      "json": "74ccb3dba6f00c3f8ac0bdc426163d73bee05994153fcc76d08848890fa59a01"
+    }
+  },
+  "saved_vector_reference_sha256": "7706b9eed174938ea77414c7c0866fa583342dfe2ccc2c729981881aaa2a057c",
+  "saved_vector_reference_scope": "Prior project prediction extraction with SRC names and original values",
+  "checkpoint_correction": {
+    "time_constant_samples": 640,
+    "memory_samples": 1024,
+    "gain": 0.5,
+    "clip": 1.75
+  }
+}

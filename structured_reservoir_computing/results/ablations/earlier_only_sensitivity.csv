@@ -1,0 +1,4 @@
+train_start,train_stop,hold_start,hold_stop,mse,note
+0,3008,4800,7200,1.4138046578847718,earlier-only refit; never used for selection
+0,9408,11200,13600,1.1109253001928343,earlier-only refit; never used for selection
+0,16608,18400,20800,0.35366812793926555,earlier-only refit; never used for selection

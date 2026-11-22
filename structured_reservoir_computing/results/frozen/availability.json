@@ -1,0 +1,10 @@
+{
+  "status": "NOT AVAILABLE",
+  "target": "sigtest",
+  "checkpoint_sha256": "488371b5be57102483896c77adc3f4182a98f2d477a9d201036eea93f0875014",
+  "split": "frozen independent input",
+  "fault2_available": false,
+  "verified_labels_supplied": false,
+  "normalizers_refit": false,
+  "reason": "No independent vibration test was supplied."
+}

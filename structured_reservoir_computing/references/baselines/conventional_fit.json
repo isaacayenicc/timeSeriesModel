@@ -1,0 +1,59 @@
+{
+  "profile": "full",
+  "stage1": {
+    "fraction": 0.004373448295773111,
+    "lambda_normalized": 0.0026957834910034703,
+    "iterations": 110,
+    "primal": 1.5159921399219254e-06,
+    "dual": 7.745143230080337e-07,
+    "gap": 1.1726649422866275e-05,
+    "objective": 0.21642264374851575,
+    "support": 475,
+    "converged": true,
+    "ar": 240,
+    "ma": 0,
+    "aic": -23578.096005131658,
+    "mse": 0.2909498198407887,
+    "rank": 1920,
+    "n": 22208,
+    "method": "cholesky_legendre",
+    "factor_diag_ratio": 0.13275723755000268,
+    "refit_rank": 475
+  },
+  "stage2": {
+    "fraction": 0.004373448295773111,
+    "lambda_normalized": 0.0026957834910034703,
+    "iterations": 100,
+    "primal": 1.0939583184718194e-06,
+    "dual": 1.032566056624274e-06,
+    "gap": 4.4382922852470585e-06,
+    "objective": 0.20928667924227118,
+    "support": 365,
+    "converged": true,
+    "ar": 135,
+    "ma": 75,
+    "aic": -23790.576027552306,
+    "mse": 0.2944758276372671,
+    "rank": 1680,
+    "n": 22208,
+    "method": "cholesky_legendre",
+    "factor_diag_ratio": 0.031040434150035462,
+    "refit_rank": 365
+  },
+  "stage1_full_seconds": 22.659075571999892,
+  "stage2_full_seconds": 15.31031253499998,
+  "arima_invertibility_root_max": 0.9620384237358752,
+  "dense_ranks": [
+    1920,
+    1400
+  ],
+  "constant_full_seconds": 1.4151874059999727,
+  "proxy_orders": [
+    275,
+    285,
+    310,
+    5
+  ],
+  "fold_common_start": 1792,
+  "note": "Stage II folds use fold-specific Stage I fits at the selected training-only penalty fraction"
+}

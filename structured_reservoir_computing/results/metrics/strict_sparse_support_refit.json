@@ -1,0 +1,11 @@
+{
+  "source_checkpoint_sha256": "cd2b0b5a5c70aa6e167091b4cd4fb4c2b5e9d682d6d5f81a89df718cc69885ae",
+  "coefficient_max_abs_delta": [
+    0.0,
+    2.220446049250313e-16
+  ],
+  "stage1_fit_s": 1.4405058870033827,
+  "two_stage_fit_s": 2.499635036001564,
+  "status": "new_qr_refit_of_preserved_guarded_support",
+  "note": "Source Table 6 describes the authors\u2019 test segment. The current-RPM diagnostic is distinct from strict lagged-RPM fair evaluation. Chen et al. \u00a73.2 uses one standard deviation."
+}

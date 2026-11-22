@@ -1,0 +1,17 @@
+{
+  "stage": "statistical",
+  "status": "DONE",
+  "identity": {
+    "training_sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+    "development_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+    "frozen_selection_sha256": "a823edf94948ac543415c6ae69f09ea0cd21ce2e232a39de1880d9a4fa9c4916"
+  },
+  "models": {
+    "ar": "3f1571ae167c572974afbb4ac86dc79a583a4af3589cc26f24fa7a101c802f6e",
+    "arma": "83eb59c0ca23da8884053f18b209d9d2fa1a17b34a093764ff3e6951d3a36a23",
+    "arima": "316057b82b7db94e9b05b3ba10c3a582fcd3862c14c463c7774803b3fe7a71fe",
+    "arx": "eab106d6324bec812b944569939aa806fdf670a935f9898e28d7c5c5ec8684f3",
+    "sparse_lpv_ar": "d2cc6d9304d8931a835ec9778d50f9527b9930af8eb0fdf0e55a124181cebd66",
+    "sparse_lpv_arma": "2c9dd3987642a86076a69802aa560d82cfe65425ad79d2d9d946976b5e1b3a77"
+  }
+}

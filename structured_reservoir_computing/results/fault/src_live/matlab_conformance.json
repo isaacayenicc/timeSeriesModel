@@ -1,0 +1,21 @@
+{
+  "reference_script": "fdt_featcal.m",
+  "reference_sha256": "6c1206b0cb7e1098b6b9b52cf437e2ba5097e05334e9c00cee51e5fc8fabbf06",
+  "literal_branch_confirmed_in_reference": true,
+  "exact_matlab_parity": "unverified",
+  "exact_parity_reason": "original angular resampling helper and MATLAB numerical gold outputs not supplied",
+  "course_mode": "lecturer_compatible: analytic envelope of mean-centered signal, zero-lag energy denominator, lag S\u22121",
+  "lag_corrected": "lecturer envelope convention at exact lag S",
+  "mathematically_specified": "direct Hilbert magnitude then center envelope at exact lag S",
+  "analysis_convention": "offline; no padding, bandpass, prewhitening, or extra trimming beyond common warm-up",
+  "known_fixture": {
+    "rotations": 8,
+    "shaft_rpm": 120,
+    "sample_rate_hz": 3200,
+    "points_per_revolution": 1600,
+    "exact_lag_analytical_pmi": 7,
+    "observed_lecturer": 7.009579585594343,
+    "observed_corrected_lag": 7.000000000000215,
+    "observed_mathematical": 7.000000000000204
+  }
+}
