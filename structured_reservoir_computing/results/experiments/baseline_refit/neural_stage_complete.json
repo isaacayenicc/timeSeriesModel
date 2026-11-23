@@ -1,0 +1,16 @@
+{
+  "stage": "neural",
+  "status": "DONE",
+  "identity": {
+    "training_sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+    "development_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+    "frozen_selection_sha256": "a823edf94948ac543415c6ae69f09ea0cd21ce2e232a39de1880d9a4fa9c4916"
+  },
+  "models": {
+    "mlp": "9d8e16c2bf32a031c71095ad904b93603798018ab5194f0c0d4a76326cd59b52",
+    "lstm": "4f38ccd8def64369d781b83e046a17a8059844ffc232bddc79a4d9849eabefe8",
+    "gru": "1436f4b60269090e527c89a6139f9f2fcf5bf275b89c4e927056384114d04990",
+    "cnn": "26e6438a57768274590da47c07d6999dbed31bc4151327bc9366ae0f9b2cc89f",
+    "tcn": "ee5db6fe93fa99846db5dbf120991f02f7d2135a10a7df7656080372d9e47c58"
+  }
+}

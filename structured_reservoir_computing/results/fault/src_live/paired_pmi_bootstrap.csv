@@ -1,0 +1,13 @@
+primary,reference,metric,n_A,n_B,delta_median_gap,paired_ci_low,paired_ci_high,interpretation
+primary_pi_src,raw,lecturer_compatible,98,100,0.09332307866305167,0.08683630712108152,0.10005825545824022,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,lecturer_compatible,98,100,0.0006982070208599728,-0.0006651004912858388,0.0022180229121859796,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,lecturer_compatible,98,100,-0.006774979098893852,-0.009736856419869556,-0.003674561506751231,paired acquisition IDs; lineage independence unverified
+primary_pi_src,raw,lag_corrected,98,100,0.09223831978561334,0.08557872825535623,0.09926894142597215,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,lag_corrected,98,100,0.0015495414335030822,-0.000405484987478975,0.0021774817599137073,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,lag_corrected,98,100,-0.005043982094698002,-0.008795830902313157,-0.0026689929537639092,paired acquisition IDs; lineage independence unverified
+primary_pi_src,raw,mathematically_specified,98,100,0.09182783588760961,0.08535408522919982,0.09961138618165236,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,mathematically_specified,98,100,0.001354127751909573,-0.00045336225978589545,0.002073855403696221,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,mathematically_specified,98,100,-0.004845325032833511,-0.00865170673115996,-0.002171983533810419,paired acquisition IDs; lineage independence unverified
+primary_pi_src,raw,pmi_unrelated,98,100,0.015451468618217366,0.01114661800629894,0.019996954732297633,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,pmi_unrelated,98,100,-0.0002885779709329954,-0.0015248821946288096,0.0009316973185079774,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,pmi_unrelated,98,100,0.0005410385310592736,-0.0020306605254757255,0.003416162703291936,paired acquisition IDs; lineage independence unverified

@@ -1,0 +1,7 @@
+{
+  "passed": 37,
+  "test_log": "logs/tests.log",
+  "command": "python -m pytest -q",
+  "numerical_verification": "results/manifests/output_verification.json",
+  "availability": "NOT AVAILABLE"
+}

@@ -1,0 +1,14 @@
+{
+  "required_baselines_checked": 21,
+  "missing_baselines": [],
+  "primary_mse": 0.32997332256036765,
+  "anchored_src_mse": 0.3177877058408402,
+  "primary_minus_anchor": 0.012185616719527448,
+  "relative_improvement_over_archive_pct": -3.834514833506635,
+  "best_required_baseline": "linear",
+  "best_required_baseline_mse": 0.36738552135002056,
+  "relative_improvement_over_required_baseline_pct": 10.183362330713367,
+  "target_indices_sha256": "1522c0a1b184b971b59763df3d827515370162751cc61209f025765039a89fb1",
+  "targets": 22208,
+  "validation_sse_recomputed": true
+}

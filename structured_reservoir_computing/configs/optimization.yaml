@@ -1,0 +1,10 @@
+version: 1
+folds: [[4800, 7200], [11200, 13600], [18400, 20800]]
+guard_samples: 1792
+seed: 19
+speed_bias_fraction: 0.012
+pulse_amplitude: 0.6
+stress_excess_weight: 0.14
+pulse_distortion_weight: 0.009
+per_coefficient_penalty: 0.000002
+compact_fraction: 0.65

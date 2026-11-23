@@ -1,0 +1,32 @@
+basis: designated-training-only EDA
+features:
+  TD24:
+    candidate_range: "L=24,64,128,256"
+    decision: "include control"
+  LPV:
+    candidate_range: "degree 0..3"
+    decision: "include control"
+  ANG_MESH:
+    candidate_range: "delay 1,2,4 mesh periods"
+    decision: "test"
+  ANG_REV:
+    candidate_range: "on/off"
+    decision: "test with pulse preservation"
+  QUAD_ORDER:
+    candidate_range: "k=37,74,111,148,222,259,370; bounded detuning"
+    decision: "test"
+  QUAD_HZ:
+    candidate_range: "f=900..1250 Hz; keep below 1600 Hz"
+    decision: "test"
+  ACC:
+    candidate_range: "span 1..128"
+    decision: "test"
+  ENERGY:
+    candidate_range: "W=32..320"
+    decision: "test"
+  INNOV:
+    candidate_range: "stage-1 horizon plus residual lags"
+    decision: "compare matched adapter"
+  SIDEBAND:
+    candidate_range: "off then grouped test"
+    decision: "deprioritize until incremental gain"

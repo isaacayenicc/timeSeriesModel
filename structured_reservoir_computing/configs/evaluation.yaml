@@ -1,0 +1,16 @@
+version: 1
+training_record: sigtrain
+development_record: sigvalid
+prohibited_selection_records: [sigvalid, sigfault1, sigtest, sigfault2]
+sampling_hz: 3200
+target_start: 1792
+target_stop: 24000
+rate_units: input-shaft revolutions per minute
+target_units: standardized vibration
+mse_units: squared standardized vibration
+information_cutoff: t-1
+timing_threads: 1
+warm_repeats: 7
+bootstrap_replicates: 2000
+bootstrap_blocks: [320, 640, 1280]
+random_seed: 19

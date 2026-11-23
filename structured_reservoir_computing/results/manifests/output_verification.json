@@ -1,0 +1,34 @@
+{
+  "optimization_trials": 41,
+  "completed_trials": 41,
+  "guarded_rows": 123,
+  "scored_comparison_rows": 27,
+  "required_comparators": 21,
+  "src_checkpoints": 25,
+  "recalculation_max_abs": 1.1102230246251565e-16,
+  "causality_max_abs": 4.440892098500626e-16,
+  "mask": "1522c0a1b184b971b59763df3d827515370162751cc61209f025765039a89fb1",
+  "independent_status": "NOT AVAILABLE",
+  "blind_fault_status": "NOT AVAILABLE",
+  "office": {
+    "editable_word_equations": 46,
+    "word_tables": 18,
+    "word_pdf_pages": 25,
+    "progress_slides": 11,
+    "final_slides": 20
+  },
+  "notebooks": {
+    "00_Project_Overview_and_Data_Audit.ipynb": 4,
+    "01_Physics_Informed_EDA.ipynb": 4,
+    "02_Statistical_Reference_Reproduction.ipynb": 4,
+    "03_SRC_Theory_and_Feature_Architecture.ipynb": 3,
+    "04_SRC_Joint_Physics_and_Hyperparameter_Optimization.ipynb": 4,
+    "05_SRC_Training_and_Selection.ipynb": 4,
+    "06_Full_Model_Comparison.ipynb": 5,
+    "07_Fault_Detection_and_PMI.ipynb": 4,
+    "08_SRC_Ablation_and_Robustness.ipynb": 3,
+    "09_Computational_Efficiency_and_Uncertainty.ipynb": 3,
+    "10_Frozen_Independent_Test_and_Synthesis.ipynb": 3
+  },
+  "companion_words": 25727
+}

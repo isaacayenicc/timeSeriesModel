@@ -1,0 +1,21 @@
+primary,reference,metric,n_A,n_B,delta_median_gap,paired_ci_low,paired_ci_high,interpretation
+primary_pi_src,raw,lecturer_compatible,98,100,0.09332307866305176,0.08683630712108154,0.10005825545824026,paired acquisition IDs; lineage independence unverified
+primary_pi_src,sparse_lpv_arma,lecturer_compatible,98,100,0.012177931179747997,0.00852517661634916,0.01595206634198982,paired acquisition IDs; lineage independence unverified
+primary_pi_src,archived_src_corrected,lecturer_compatible,98,100,-0.018616726408068662,-0.021232145572207664,-0.016059867076736456,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,lecturer_compatible,98,100,0.0006982070208599866,-0.0006651004912857836,0.0022180229121860334,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,lecturer_compatible,98,100,-0.00677497909889381,-0.009736856419869622,-0.0036745615067513126,paired acquisition IDs; lineage independence unverified
+primary_pi_src,raw,lag_corrected,98,100,0.09223831978561339,0.0855787282553562,0.09926894142597213,paired acquisition IDs; lineage independence unverified
+primary_pi_src,sparse_lpv_arma,lag_corrected,98,100,0.014618648579486651,0.009472848839956338,0.01778291878056773,paired acquisition IDs; lineage independence unverified
+primary_pi_src,archived_src_corrected,lag_corrected,98,100,-0.01693215362507336,-0.019616929194420707,-0.014157230566804055,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,lag_corrected,98,100,0.0015495414335030544,-0.0004054849874789761,0.002177481759913641,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,lag_corrected,98,100,-0.005043982094698016,-0.00879583090231305,-0.002668992953763788,paired acquisition IDs; lineage independence unverified
+primary_pi_src,raw,mathematically_specified,98,100,0.09182783588760958,0.08535408522919981,0.0996113861816524,paired acquisition IDs; lineage independence unverified
+primary_pi_src,sparse_lpv_arma,mathematically_specified,98,100,0.014411100536053684,0.009381113842840445,0.01782502530805511,paired acquisition IDs; lineage independence unverified
+primary_pi_src,archived_src_corrected,mathematically_specified,98,100,-0.01676511516361691,-0.019560058127779716,-0.014092454939625427,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,mathematically_specified,98,100,0.0013541277519095452,-0.000453362259785868,0.002073855403696169,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,mathematically_specified,98,100,-0.004845325032833511,-0.008651706731160001,-0.002171983533810445,paired acquisition IDs; lineage independence unverified
+primary_pi_src,raw,pmi_unrelated,98,100,0.015451468618217449,0.011146618006298927,0.019996954732297675,paired acquisition IDs; lineage independence unverified
+primary_pi_src,sparse_lpv_arma,pmi_unrelated,98,100,-0.0061863300452102525,-0.008792882623442314,-0.0036451531322483324,paired acquisition IDs; lineage independence unverified
+primary_pi_src,archived_src_corrected,pmi_unrelated,98,100,0.0022762967459244443,0.0005350997091427282,0.004488565298126098,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_adapter_off,pmi_unrelated,98,100,-0.00028857797093300233,-0.001524882194628766,0.0009316973185079378,paired acquisition IDs; lineage independence unverified
+primary_pi_src,pi_src_fixed,pmi_unrelated,98,100,0.0005410385310592979,-0.0020306605254757893,0.0034161627032919858,paired acquisition IDs; lineage independence unverified

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "validation_mse": 0.32997332256036765,
+  "train_mse": 0.3086876295500274,
+  "checkpoint_sha256": "488371b5be57102483896c77adc3f4182a98f2d477a9d201036eea93f0875014",
+  "checkpoint_match": true,
+  "forecast_match": true,
+  "identical_target_mask": true
+}

@@ -1,0 +1,11 @@
+feature,equation,units,causal_construction,screen_max_history_samples,candidate_range,benefit_hypothesis,risks,guarded_screen_mse,decision
+TD24,"x[t-j], j=1..L",standardized vibration,observed lags,24,"L=24,64,128,256",recurrence; speed-independent control,collinearity,,include control
+LPV,"x[t-j]z[t-1]^k, k=0..2",dimensionless,fixed rpm scaling then lagged products,24,degree 0..3,different gains across input speed,"confounded load, extrapolation",,include control
+ANG_MESH,x(u[t]-1/37),standardized vibration,past-only angle linear interpolation,43,"delay 1,2,4 mesh periods",period shrinks as rpm rises,predictable pulses can be absorbed,0.46241657134964087,test
+ANG_REV,x(u[t]-1),standardized vibration,past-only angle linear interpolation,1549,on/off,shaft recurrence,risk to crack-periodic residual signature,0.4614231662118866,test with pulse preservation
+QUAD_ORDER,"history of x exp(-i 2 pi k u), transported to u[t]",standardized vibration,anchor input order and integrate lagged rpm,128,"k=37,74,111,148,222,259,370; bounded detuning",vary phase frequency with rpm,"harmonics overlap, same-order fault signature",0.43802887650124434,test
+QUAD_HZ,history of x exp(-i 2 pi f t/fs),standardized vibration,known elapsed sample clock,64,f=900..1250 Hz; keep below 1600 Hz,separate fixed-Hz and order hypotheses,broad spectral power is not a modal test,0.4623033999296126,test
+ACC,(n[t-1]-n[t-33])*fs/32,rpm/s,trailing speed difference,33,span 1..128,condition on rise/fall,small support at matched speed; noise,0.4592978157893568,test
+ENERGY,sqrt(mean(x[t-W:t]^2)),standardized vibration,trailing energy,64,W=32..320,operating amplitude,adaptation can absorb faults,0.46160060486865667,test
+INNOV,x[t-j]-first_stage_prediction[t-j],standardized vibration,observed residual after earlier target; fit stage inside fold,,stage-1 horizon plus residual lags,colored remainder,cross-fit mismatch and pulse absorption,,compare matched adapter
+SIDEBAND,orders k*37 +/- 1 or +/- 37/20,cycles/input turn,same phase convention as QUAD_ORDER,128,off then grouped test,amplitude modulation,healthy sidebands; unresolved short windows,,deprioritize until incremental gain

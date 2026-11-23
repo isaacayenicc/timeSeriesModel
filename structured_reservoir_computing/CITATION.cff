@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: Cite this coursework as the MECG 7780 structured reservoir computing study.
+title: Physics-Informed Structured Reservoir Computing for Gearbox Vibration
+authors:
+  - name: MECG 7780 Engineering Data Analytics project
+version: 1.0.0
+type: software
+repository-code: https://github.com/isaacayenicc/timeSeriesModel

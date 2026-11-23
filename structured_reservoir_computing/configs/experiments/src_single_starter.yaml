@@ -1,0 +1,44 @@
+# Baseline settings for one-model smoke checks. Study selection is recorded elsewhere.
+config:
+  variant: optimized
+  lags: 96
+  lag_history: 192
+  lag_policy: consecutive
+  angular_steps: 16
+  mesh_cycles: 8
+  harmonics:
+  - 37.0
+  - 74.0
+  - 148.0
+  - 259.0
+  fixed_hz: []
+  taus:
+  - 8.0
+  - 32.0
+  - 128.0
+  memory: 512
+  innovation_order: 192
+  innovation_lags: 24
+  innovation_degree: 2
+  innovation_folds: 0
+  innovation_clip: 3.0
+  innovation_ridge: 0.0003
+  speed_degree: 2
+  energy_window: 64
+  acceleration_window: 32
+  min_rpm: 100.0
+  polynomial_degree: 3
+  interaction_policy: structured
+  nonlinear_cap: 60
+  rank: 0
+  solver: ridge
+  huber_delta: 1.5
+  ridge: 0.022
+  nonlinear_ridge_multiplier: 6.0
+  physics_ridge_multiplier: 0.9
+  adapter_gain: 0.5
+  adapter_tau: 640.0
+  adapter_memory: 1024
+  adapter_clip: 1.75
+  pulse_preservation: 0.2
+  augmentation: 0.35

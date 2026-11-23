@@ -1,0 +1,9 @@
+# PI-SRC selection and trial provenance
+
+The driver loads only the designated training file. Each fold uses two reset fit segments gliding outside the 1,792-sample guard. The inner holdouts are [4800,7200), [11200,13600) and [18400,20800). The first- and last-stage weights are fit anew for every candidate and fold.
+
+Stage A screens lag, angular and oscillator banks. Stage B varies nonlinear capacity, interaction structure, robust loss, penalties, acceleration and proxy innovations. Stage C bundles state time constants, raw/angular history, carrier families and regularization. Stage D evaluates bounded past-error adapters and retained-pulse/speed-noise augmentation. Stage E adjusts the initially best candidate's penalty and compares its prediction with and without correction. Held blocks used for scoring contain a fixed 0.45 Hz ±1.2% smooth RPM error and paired damped bursts. Development data only enter a separate command after configuration and checkpoints are frozen.
+
+The predeclared utility is mean clean MSE plus 0.14 times positive mean stress excess plus 0.009 times mean prediction-change energy divided by injected pulse energy plus 0.000002 times stored fit coefficients. The last two weights convert dimensionless diagnostic responses and coefficients into the standardized error utility scale. The compact rule minimizes this utility within 65% of the selected coefficient count, with the viable minimum as fallback. A pure-MSE choice is retained under the same trial budget.
+
+See `results/optimization/trials.csv`, fold scores, exact held predictions, Pareto front and selected JSON. The resume key covers source/config digest, SHA-256 of training data and the exact protocol. Trial condition estimates are for the assembled Gram system. Cold repeats and fitted regressors are deterministic at fixed platform settings rather than samples from a population of machines.

@@ -1,0 +1,3 @@
+method,median_ms,repeats,scored_targets,principal_feature_bytes,max_abs_delta_vs_explicit,threads
+full_explicit,350.76767299324274,5,22208,247939328,0.0,1
+bounded_batches_4096,359.2308429942932,5,22208,43237376,8.790830730021071e-09,1

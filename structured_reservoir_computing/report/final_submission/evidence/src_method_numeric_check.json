@@ -1,0 +1,67 @@
+{
+  "max_abs_difference_recomputed_fold_mse": 5.551115123125783e-17,
+  "max_abs_difference_recomputed_fold_stress_mse": 5.551115123125783e-17,
+  "max_abs_difference_recomputed_fold_pulse_distortion": 2.220446049250313e-16,
+  "max_abs_difference_reconstructed_utility": 5.551115123125783e-17,
+  "fold_trials": 41,
+  "fold_rows": 123,
+  "checkpoint_sha256": "488371b5be57102483896c77adc3f4182a98f2d477a9d201036eea93f0875014",
+  "checkpoint_groups": {
+    "lag": 96,
+    "angle": 128,
+    "innovation": 24,
+    "oscillator": 24,
+    "speed_lag": 192,
+    "speed_angle": 256,
+    "speed_innovation": 48,
+    "speed_oscillator": 48,
+    "operating": 2,
+    "energy": 1,
+    "nonlinear_delay": 19,
+    "nonlinear_energy": 14,
+    "nonlinear_innovation": 4,
+    "nonlinear_oscillator": 23
+  },
+  "screened_candidates": [
+    "x[-32]^2",
+    "proxy_error_energy"
+  ],
+  "checkpoint_readout_features": 879,
+  "checkpoint_count": 1456,
+  "checkpoint_solver_info": {
+    "backend": "cholesky",
+    "gram_condition_estimate": 23404.48995571176,
+    "iterations": 1,
+    "raw_features": 881,
+    "selected_features": 879,
+    "fitted_features": 879,
+    "near_constant": 0,
+    "training_rows": 23488,
+    "augmented_rows": 18792,
+    "innovation_crossfit": 0
+  },
+  "direct_complex_state_probe_count": 24,
+  "direct_complex_state_max_abs_difference": 6.026836870953597e-13,
+  "direct_slow_correction_max_abs_difference": 1.1102230246251565e-16,
+  "causal_future_mutation_differences": [
+    [
+      1792,
+      0.0
+    ],
+    [
+      4608,
+      2.220446049250313e-16
+    ],
+    [
+      12001,
+      4.440892098500626e-16
+    ],
+    [
+      18400,
+      4.440892098500626e-16
+    ]
+  ],
+  "differ_from_saved_dev_pred": 0.0,
+  "development_mse_recomputed": 0.32997332256036765,
+  "scope": "Completed bounded report-side checks using archived checkpoints and prediction arrays. No refitting."
+}

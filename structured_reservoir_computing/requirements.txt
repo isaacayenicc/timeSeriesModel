@@ -1,0 +1,2 @@
+-e .[dev]
+# Install the optional neural comparator backend using the CPU or CUDA command in README.md.

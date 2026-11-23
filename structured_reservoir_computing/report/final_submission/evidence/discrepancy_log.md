@@ -1,0 +1,18 @@
+# Discrepancy and scope decisions
+
+| Issue checked | Verified resolution |
+| --- | --- |
+| Original implementation report and new submission | The existing report/SRC_Final_Course_Report.docx and prior scientific artifacts are retained. New report-specific assets have their own tree and evidence digests. |
+| Course brief schedule | Page 1 states progress on 4 November 2026, test release on 2 December 2025 and report submission on 7 December 2025. Page 2 states 9 December 2025 for final presentation. A verified semester deadline cannot be inferred. |
+| Course name | The supplied course PDF literally prints “Engineering Data Analytic” in the header. The report uses code MECG 7780 and the common course name used for the project. |
+| External versus local sparse LPV–ARMA | Journal 0.2893 uses the authors’ second 7.5 s segment. The supplied development speed starts near the low end and rises. The paper Figure 13(c) starts around 140 on its own speed axis and descends. The original 20 s file and sample-level crosswalk are unavailable. |
+| 0.336901 and 0.371406 for local sparse LPV–ARMA | The first uses preserved-coefficient current-RPM scoring beginning at 316. The second uses strict lagged RPM and a guarded-support QR refit beginning at 1,792. Common-mask current-RPM MSE 0.345151 still retains a different information cutoff. |
+| Paper speed-axis units | The journal plot label reads Hz for values near 124–167. Local spd is interpreted as RPM. The thesis uses the RPM-to-Hz conversion. The 37-tooth order ridge corroborates the scaling for the local stream. |
+| Corrected archive identity | Three archive rows have runnable preserved checkpoints and two preserve forecasts only. Their historical development exposure differs from the new guarded search. |
+| Primary utility and lower developmental errors | The guarded utility picks selected_correction. A training clean-fold MSE finalist and the exploratory 12-order fit have lower single-record development MSE. Both are reported while the frozen primary remains the prespecified selection. |
+| Comparator release replay and full fresh fit | The 21 fresh forecasts, lengths, scores and configurations matched the protected release. Two sparse methods refit guarded supports. Comparator base seed is 7780 and neural folds advance by fold index. SRC search and prediction uncertainty use 19. Fault record resampling uses 77814. |
+| Fitted weights and physical constants | Guarded search selects carrier constants and feature structure. Ridge/readout and stage-one coefficients are fitted conditional on each setting. The representation does not identify material damping or establish end-to-end gradient learning. |
+| Candidate overlaps and labels | Only candidate 61 with training and 63 with development match a complete official window exactly in vibration and RPM. Both offsets are zero. Remaining A/B labels are provisional index groups without a verified decision threshold. |
+| MATLAB semantic versus numerical parity | fdt_featcal.m exposes its Hilbert/autocorrelation and indexing convention. Its angular resampling helper and gold outputs are missing. The report distinguishes the literal mode and the exact-lag alternative. |
+| Runtime and allocations | The CPU table times full in-memory batches, including predictor feature construction. Historical fit clocks retain their original context. Allocation and Gram microbenchmarks use narrower scopes. No GPU or streaming latency was measured. |
+| Author or submission metadata | No student names, student numbers, verified institution, instructor approval or submission semester were established from the supplied inputs. |

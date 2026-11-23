@@ -1,0 +1,70 @@
+{
+  "indexing": "zero-based, half-open",
+  "prediction_horizon_samples": 1,
+  "latest_vibration_index_relative_to_target": -1,
+  "latest_rpm_index_relative_to_target": -1,
+  "common_score_start": 1792,
+  "common_score_stop_exclusive": 24000,
+  "common_target_count": 22208,
+  "common_target_indices_sha256_le_i64": "1522c0a1b184b971b59763df3d827515370162751cc61209f025765039a89fb1",
+  "train_record": "sigtrain:001",
+  "development_record": "sigvalid:001",
+  "fold_guard_either_side": 1792,
+  "folds": [
+    {
+      "fold": 1,
+      "score_span": [
+        4800,
+        7200
+      ],
+      "permitted_raw_fit_spans": [
+        [
+          0,
+          3008
+        ],
+        [
+          8992,
+          24000
+        ]
+      ],
+      "fit_segment_boundary_rule": "reinitialize windows and model state inside each fit segment"
+    },
+    {
+      "fold": 2,
+      "score_span": [
+        11200,
+        13600
+      ],
+      "permitted_raw_fit_spans": [
+        [
+          0,
+          9408
+        ],
+        [
+          15392,
+          24000
+        ]
+      ],
+      "fit_segment_boundary_rule": "reinitialize windows and model state inside each fit segment"
+    },
+    {
+      "fold": 3,
+      "score_span": [
+        18400,
+        20800
+      ],
+      "permitted_raw_fit_spans": [
+        [
+          0,
+          16608
+        ],
+        [
+          22592,
+          24000
+        ]
+      ],
+      "fit_segment_boundary_rule": "reinitialize windows and model state inside each fit segment"
+    }
+  ],
+  "evidence_scope": "training folds share one acquisition; development is not a blind test"
+}

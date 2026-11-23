@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "src-gearbox"
+version = "1.0.0"
+description = "Physics-informed structured reservoir computing for gearbox vibration"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy>=2.3,<3", "scipy>=1.15,<2", "pandas>=2.2,<3", "matplotlib>=3.9,<4", "h5py>=3.12,<4", "PyYAML>=6,<7", "scikit-learn>=1.6,<2", "threadpoolctl>=3.5,<4", "psutil>=6,<9"]
+
+[project.optional-dependencies]
+neural = ["torch>=2.8,<2.11"]
+dev = ["pytest>=8,<10", "nbclient>=0.10,<1", "nbformat>=5.10,<6", "ipykernel>=6.29,<8", "python-docx>=1.1,<2", "python-pptx>=1.0,<2", "PyMuPDF>=1.25,<2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

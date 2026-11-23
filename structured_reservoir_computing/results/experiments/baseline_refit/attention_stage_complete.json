@@ -1,0 +1,13 @@
+{
+  "stage": "attention",
+  "status": "DONE",
+  "identity": {
+    "training_sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+    "development_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+    "frozen_selection_sha256": "a823edf94948ac543415c6ae69f09ea0cd21ce2e232a39de1880d9a4fa9c4916"
+  },
+  "models": {
+    "transformer": "c99a6463163531bd86d4ab20da608d042fe24b523129c572454f70103c0400b9",
+    "tft": "32a6b8d4708bd3c3db66bb4c4279b48aee419fd53a98a9636b2ecc84831064af"
+  }
+}

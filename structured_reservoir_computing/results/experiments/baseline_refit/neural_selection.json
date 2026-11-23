@@ -1,0 +1,57 @@
+{
+  "mlp": {
+    "trial": 2,
+    "config": {
+      "family": "mlp",
+      "history": 128,
+      "width": 24,
+      "epochs": 12,
+      "rate": 0.002
+    },
+    "fold_mean_mse": 0.45115010514106896
+  },
+  "lstm": {
+    "trial": 2,
+    "config": {
+      "family": "lstm",
+      "history": 128,
+      "width": 24,
+      "epochs": 12,
+      "rate": 0.002
+    },
+    "fold_mean_mse": 0.4314540300514773
+  },
+  "gru": {
+    "trial": 2,
+    "config": {
+      "family": "gru",
+      "history": 128,
+      "width": 24,
+      "epochs": 12,
+      "rate": 0.002
+    },
+    "fold_mean_mse": 0.4370754311682165
+  },
+  "cnn": {
+    "trial": 3,
+    "config": {
+      "family": "cnn",
+      "history": 192,
+      "width": 32,
+      "epochs": 16,
+      "rate": 0.0015
+    },
+    "fold_mean_mse": 0.44370665852820657
+  },
+  "tcn": {
+    "trial": 2,
+    "config": {
+      "family": "tcn",
+      "history": 128,
+      "width": 24,
+      "epochs": 12,
+      "rate": 0.002
+    },
+    "fold_mean_mse": 0.44057361917749854
+  }
+}

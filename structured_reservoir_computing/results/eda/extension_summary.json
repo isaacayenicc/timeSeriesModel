@@ -1,0 +1,52 @@
+{
+  "feature_fold_means": {
+    "fixed_hz_pair_tau_32": 0.46151833567681827,
+    "geometry_six_tau_32": 0.4353705502648648,
+    "lpv_ar24_control": 0.461533421683131,
+    "rpm_lag_32": 0.4453837921829651,
+    "rpm_lead_32_descriptive": 0.44611171863585436,
+    "two_orders_plus_sidebands": 0.4290337717388737,
+    "two_orders_structured_degree_2": 0.4381937790748796,
+    "two_orders_structured_degree_3": 0.43803447942812607,
+    "two_orders_tau_128": 0.4404853874609817,
+    "two_orders_tau_32": 0.4456005342918801,
+    "two_orders_tau_8": 0.4522833101010872
+  },
+  "oscillator_implementation": "512-sample normalized exponentially weighted complex history, predicting from observations before target",
+  "rpm_derivative_quantiles_rpm_per_s": [
+    -14.2615589948673,
+    -13.18922152833693,
+    2.9481064024366788,
+    15.422064693557331,
+    24.066341912151984
+  ],
+  "zero_speed_difference_count": 0,
+  "exact_vibration_extrema_count": 2,
+  "skewness": -0.030051700012455627,
+  "lag1_pacf": 0.07591913252053288,
+  "largest_absolute_pacf_lag_2_through_96": 4,
+  "measured_sensor_precision": "unavailable; derivative and zero-difference counts are descriptive only",
+  "rpm_lead_diagnostic": "offline deliberate violation excluded from feature recommendations",
+  "phase_fixtures": {
+    "constant_speed": {
+      "design_order": 148,
+      "estimated_order": 148.00401486585466,
+      "absolute_order_error": 0.004014865854657046,
+      "angular_points": 36863,
+      "complex_quadrature_rmse": 0.00611223273404501,
+      "phase_cutoff_exact": true,
+      "quadrature_suffix_intervention_max_abs_change": 0.0,
+      "passed": true
+    },
+    "speed_chirp": {
+      "design_order": 148,
+      "estimated_order": 147.9764002262992,
+      "absolute_order_error": 0.023599773700794913,
+      "angular_points": 37119,
+      "complex_quadrature_rmse": 0.00614147022506164,
+      "phase_cutoff_exact": true,
+      "quadrature_suffix_intervention_max_abs_change": 0.0,
+      "passed": true
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "files_catalogued": 33,
+  "archive_members_read": 251,
+  "missing": [
+    "2_Gearbox_DHON_NGRC_Adaptive_Compact.zip",
+    "Sparse_LPV_ARMA_validation_window_reproduction.zip",
+    "sigtest.mat",
+    "sigfault2.mat"
+  ],
+  "matching_archived_data": [
+    {
+      "source_archive": "RPM_Confirmed_Physics_Informed_Gearbox_EDA_Complete.zip",
+      "archive_member": "Gearbox_EDA_RPM/data/sigtrain.mat",
+      "bytes": 737025,
+      "sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+      "zip_timestamp_local_unknown_zone": "2026-11-19T14:22:56",
+      "relation_to_named_raw_input": "IDENTICAL",
+      "provenance": "member stream only; not executed"
+    },
+    {
+      "source_archive": "RPM_Confirmed_Physics_Informed_Gearbox_EDA_Complete.zip",
+      "archive_member": "Gearbox_EDA_RPM/data/sigvalid.mat",
+      "bytes": 736973,
+      "sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+      "zip_timestamp_local_unknown_zone": "2026-11-19T14:22:56",
+      "relation_to_named_raw_input": "IDENTICAL",
+      "provenance": "member stream only; not executed"
+    },
+    {
+      "source_archive": "RPM_Confirmed_Physics_Informed_Gearbox_EDA_Complete.zip",
+      "archive_member": "Gearbox_EDA_RPM/sources/fdt_featcal.m",
+      "bytes": 4115,
+      "sha256": "6c1206b0cb7e1098b6b9b52cf437e2ba5097e05334e9c00cee51e5fc8fabbf06",
+      "zip_timestamp_local_unknown_zone": "2026-11-19T14:22:56",
+      "relation_to_named_raw_input": "IDENTICAL",
+      "provenance": "member stream only; not executed"
+    },
+    {
+      "source_archive": "Gearbox_DHON_NGRC_Improved_Optimization.zip",
+      "archive_member": "Gearbox_Improved/fdt_featcal.m",
+      "bytes": 4115,
+      "sha256": "6c1206b0cb7e1098b6b9b52cf437e2ba5097e05334e9c00cee51e5fc8fabbf06",
+      "zip_timestamp_local_unknown_zone": "2026-11-20T17:53:36",
+      "relation_to_named_raw_input": "IDENTICAL",
+      "provenance": "member stream only; not executed"
+    },
+    {
+      "source_archive": "Gearbox_DHON_NGRC_Improved_Optimization.zip",
+      "archive_member": "Gearbox_Improved/sigtrain.mat",
+      "bytes": 737025,
+      "sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+      "zip_timestamp_local_unknown_zone": "2026-11-20T17:53:36",
+      "relation_to_named_raw_input": "IDENTICAL",
+      "provenance": "member stream only; not executed"
+    },
+    {
+      "source_archive": "Gearbox_DHON_NGRC_Improved_Optimization.zip",
+      "archive_member": "Gearbox_Improved/sigvalid.mat",
+      "bytes": 736973,
+      "sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+      "zip_timestamp_local_unknown_zone": "2026-11-20T17:53:36",
+      "relation_to_named_raw_input": "IDENTICAL",
+      "provenance": "member stream only; not executed"
+    }
+  ],
+  "conflicting_named_archive_members": [],
+  "precedence": "course PDF for requirements; course data and executable code for actual experiments; journal for published equations/metrics; thesis for theory and rig corroboration"
+}

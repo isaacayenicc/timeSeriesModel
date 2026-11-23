@@ -1,0 +1,7 @@
+*.py text eol=lf
+*.md text eol=lf
+*.docx binary
+*.pptx binary
+*.pdf binary
+*.npz binary
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

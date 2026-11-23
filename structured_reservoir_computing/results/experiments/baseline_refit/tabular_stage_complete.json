@@ -1,0 +1,19 @@
+{
+  "stage": "tabular",
+  "status": "DONE",
+  "identity": {
+    "training_sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+    "development_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+    "frozen_selection_sha256": "a823edf94948ac543415c6ae69f09ea0cd21ce2e232a39de1880d9a4fa9c4916"
+  },
+  "models": {
+    "linear": "a5889b5fba34c02d9efcdbf5ff96b6ef0cf13a4cfd993c436564042eb9c15373",
+    "ridge": "ee8229f16974a82ec51edb9002690fddd3c3ac121b3df3953f079b3418a84129",
+    "lasso": "f3cfbe093cbafccb3b7a6152117d7dcaa2257d81c609f5d84f3a1eda71caf85d",
+    "elastic_net": "443bb40537a87e2d434c05e8ab06c116a44f3740697bb69cfc3dfa310f3df71b",
+    "svr": "1920fcb2c9d8a7ba4dc632a9fa90689534c11ca761ccfebaca82c6c0b9c407ec",
+    "random_forest": "6196a6cb071070ec39ded70b30a240813809530d132e5787c50a1896e294500f",
+    "gradient_boosting": "37269595c6473f26174e04828694fa56b05c0472d64330420e7e6d37f0dce9b6",
+    "narx": "0f248d44d895995c081c064fa2ede3a051e5ed8a2ceada4705eae3147b3bbbcd"
+  }
+}

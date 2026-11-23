@@ -1,0 +1,18 @@
+{
+  "Abstract": 2,
+  "1. Introduction and research objectives": 4,
+  "2. Scientific background and related literature": 5,
+  "3. Experimental system and data integrity": 10,
+  "4. Physics-informed exploratory analysis": 12,
+  "5. Physics-informed structured reservoir computing": 16,
+  "6. Guarded optimization and reproducibility": 23,
+  "7. Conventional and machine-learning comparator methods": 26,
+  "8. Matched prediction results and computational efficiency": 30,
+  "9. Residual periodicity and tooth-crack evidence": 37,
+  "10. Ablation, robustness and limits of attribution": 41,
+  "11. Conclusions and next experiments": 45,
+  "References": 46,
+  "Appendix A. Complete model comparison": 50,
+  "Appendix B. Reference-segment and protocol comparisons": 52,
+  "Appendix C. Reproducibility and data access": 53
+}

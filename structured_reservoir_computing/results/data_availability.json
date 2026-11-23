@@ -1,0 +1,18 @@
+{
+  "sigtrain": true,
+  "sigvalid": true,
+  "sigfault1_count": 200,
+  "sigfault1_excluded_overlap_indices_1based": [
+    61,
+    63
+  ],
+  "sigtest": false,
+  "sigfault2": false,
+  "fdt_featcal": true,
+  "confirmed_labels": false,
+  "acquisition_start_metadata": false,
+  "label_status": "A/B are index groups only; no authoritative health labels supplied",
+  "blind_status": "BLOCKED_MISSING_INPUTS",
+  "duplicate_search_scope": "all complete contiguous training/validation-length offsets in each development fault record, and full-record exact fault fingerprints",
+  "partial_window_overlap": "all-pairs exact shared 64-sample x/RPM markers on a 512-sample anchor grid; additional arbitrary approximate partial overlap not assessed"
+}

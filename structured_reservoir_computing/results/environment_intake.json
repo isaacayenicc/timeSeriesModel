@@ -1,0 +1,21 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "torch": null,
+    "scikit-learn": "1.8.0",
+    "python-pptx": "1.0.2",
+    "nbclient": null,
+    "h5py": null
+  },
+  "logical_cpu_count": 3,
+  "process_affinity_count": 3,
+  "host_memory": "MemTotal:       10207480 kB",
+  "free_bytes": 5358653440,
+  "git_status": "## project/structured-reservoir-computing...origin/main [ahead 1]\n M src/src_gearbox/src_model.py\n?? checkpoints/\n?? configs/baselines/\n?? configs/physics_src.yaml\n?? data/\n?? docs/\n?? figures/\n?? inputs/\n?? references/\n?? report/\n?? results/\n?? scripts/00_audit_inputs.py\n?? scripts/01_prepare_data.py\n?? scripts/02_reproduce_lpv_reference.py\n?? scripts/02_run_eda.py\n?? scripts/04_train_src.py\n?? scripts/06_rpm_parity.py\n?? scripts/06_train_baselines.py\n?? scripts/10_frozen_final_test.py\n?? scripts/build_presentations.py\n?? scripts/build_report.py\n?? scripts/evaluate_faults.py\n?? scripts/merge_fault_runs.py\n?? scripts/report_evidence.py\n?? src/src_gearbox/data/\n?? src/src_gearbox/diagnostics/\n?? src/src_gearbox/eda.py\n?? src/src_gearbox/eda_extensions.py\n?? src/src_gearbox/models/\n?? src/src_gearbox/study.py\n?? tests/",
+  "gpu": null
+}

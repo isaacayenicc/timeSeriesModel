@@ -1,0 +1,3 @@
+record_id_first,record_id_second,second_minus_first_offset_samples,matched_markers,marker_length_samples
+sigfault1:061,sigtrain:001,0,94,64
+sigfault1:063,sigvalid:001,0,94,64

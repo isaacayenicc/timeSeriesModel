@@ -1,0 +1,9 @@
+{
+  "sigtest_present": false,
+  "sigfault2_present": false,
+  "blind_execution": "blocked: sigtest and sigfault2 missing",
+  "verified_condition_labels": false,
+  "verified_calibration": false,
+  "classification_metrics": "unavailable; index-group AUC is conditional only",
+  "pmi_standardization": "withheld without separate verified healthy calibration"
+}

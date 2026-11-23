@@ -1,0 +1,54 @@
+{
+  "prior_checkpoint_sha256": "cd2b0b5a5c70aa6e167091b4cd4fb4c2b5e9d682d6d5f81a89df718cc69885ae",
+  "stages": [
+    {
+      "fraction": 0.004373448295773111,
+      "lambda_normalized": 0.0026957834910034703,
+      "iterations": 110,
+      "primal": 1.5159921399219254e-06,
+      "dual": 7.745143230080337e-07,
+      "gap": 1.1726649422866275e-05,
+      "objective": 0.21642264374851575,
+      "support": 475,
+      "converged": true,
+      "ar": 240,
+      "ma": 0,
+      "aic": -23578.096005131658,
+      "mse": 0.2909498198407887,
+      "rank": 1920,
+      "n": 22208,
+      "method": "cholesky_legendre",
+      "factor_diag_ratio": 0.13275723755000268,
+      "refit_rank": 475
+    },
+    {
+      "fraction": 0.004373448295773111,
+      "lambda_normalized": 0.0026957834910034703,
+      "iterations": 100,
+      "primal": 1.0939583184718194e-06,
+      "dual": 1.032566056624274e-06,
+      "gap": 4.4382922852470585e-06,
+      "objective": 0.20928667924227118,
+      "support": 365,
+      "converged": true,
+      "ar": 135,
+      "ma": 75,
+      "aic": -23790.576027552306,
+      "mse": 0.2944758276372671,
+      "rank": 1680,
+      "n": 22208,
+      "method": "cholesky_legendre",
+      "factor_diag_ratio": 0.031040434150035462,
+      "refit_rank": 365
+    }
+  ],
+  "refitted_coefficient_max_abs": [
+    0.0,
+    2.220446049250313e-16
+  ],
+  "replay_prediction_max_abs": {
+    "sparse_lpv_ar": 0.0,
+    "sparse_lpv_arma": 0.0
+  },
+  "note": "Supports frozen by prior guarded tuning. New QR refit and timing include no new support selection."
+}

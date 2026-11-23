@@ -1,0 +1,48 @@
+# Source audit for comparator methods and evaluation
+
+## Search and verification record
+
+Search families combined original-paper names, DOI, journal and publisher terms. Queries included “Hannan Rissanen recursive estimation mixed autoregressive moving average,” “Box Jenkins Time Series Analysis Forecasting and Control fifth edition Wiley,” “Hoerl Kennard biased estimation nonorthogonal problems,” “learning long-term dependencies in NARX,” “Smola Schölkopf tutorial support vector regression,” “Breiman Random Forests Friedman gradient boosting original,” “Bai Kolter Koltun generic temporal convolutional sequence modeling,” “Vaswani Attention is All you Need NeurIPS,” “Lim Arık temporal fusion transformers interpretable multi-horizon forecasting,” “Bergmeir Hyndman Koo autoregressive cross-validation,” “Racine hv-block cross-validation,” “Künsch general stationary observations,” “Diebold Mariano predictive accuracy” and “Ljung Box measure lack fit Biometrika.” Discovery used scholarly web search. Citation data were checked through DOI registration, the original publisher, author full text, or an authoritative bibliographic record. This is a targeted methodological search. The priority was evidence that directly supports an actual model or evaluation step.
+
+Crossref's Works endpoint returned title, author list, publication year and venue for Hannan–Rissanen, Tibshirani, Zou–Hastie, Smola–Schölkopf, Breiman, Friedman, Lin et al., Cybenko, LeCun et al. and Bergmeir et al. A group of concurrent Crossref requests returned HTTP 429. Their records were verified using the linked publishers, reference records or the supplied research paper. The Crossref DOI 10.1002/9781118619193 leads to a 2008 Box–Jenkins edition. The report uses the distinct fifth edition and links its Wiley title and fifth-edition ISBN. The local 2025 Chen et al. paper PDF and supplied reference tables confirm authors' own segment, methods and Table 6. Its shared citation key comes from the mechanics bibliography.
+
+| Citation | Authoritative record inspected | Claim support and boundary |
+|---|---|---|
+| compBox2015 | [Wiley fifth edition](https://www.wiley.com/en-us/-p-9781118675021) | Constant-coefficient AR/MA structure and integrated differencing. Local orders and truncation come from source. |
+| compLjung1999 | [Pearson title and second edition](https://www.informit.com/store/system-identification-theory-for-the-user-9780136566953) | Dynamic identification and exogenous inputs. Pearson gives publication in late 1998 and copyright 1999. Standard edition year is 1999. |
+| compBillings2013 | [Wiley full book and chapters](https://doi.org/10.1002/9781118535561) | Nonlinear regression and exogenous inputs as system identification. Local NARX structure is verified directly. |
+| compHannan1982 | [Original Biometrika paper](https://doi.org/10.1093/biomet/69.1.81) and Crossref | High-order AR innovation proxies for mixed autoregressive/moving-average estimation. The local guarded search and finite inverse use project-specific choices. |
+| chen2025sparse | [Elsevier original](https://doi.org/10.1016/j.ymssp.2024.112161) and supplied full paper | Sparse speed-varying AR/MA and stage-one residual input. Authors' Fig. 13(c)/Table 6 remain distinct from supplied data and local timing conventions. |
+| compHoerl1970 | [Original Technometrics paper](https://doi.org/10.1080/00401706.1970.10488634) | L2-penalized regression motivation. The 2000 republished article has a separate DOI and was excluded. |
+| compTibshirani1996 | [Original JRSS B article](https://doi.org/10.1111/j.2517-6161.1996.tb02080.x) and Crossref | L1 shrinkage and variable selection. |
+| compZou2005 | [Original JRSS B article](https://doi.org/10.1111/j.1467-9868.2005.00503.x) and Crossref | Combined L1 and L2 regularization. |
+| compSmola2004 | [Springer original](https://doi.org/10.1023/B:STCO.0000035301.49549.88) and Crossref | Epsilon-insensitive regression and kernels. The fit subset and kernel settings come from the local code. |
+| compBreiman2001 | [Springer original](https://doi.org/10.1023/A:1010933404324) and Crossref | Randomized tree ensembles. Tree counts and feature maps are local. |
+| compFriedman2001 | [IMS/Project Euclid original](https://doi.org/10.1214/aos/1013203451) and Crossref | Greedy stage-wise additive gradient boosting. Local implementation uses histogram-based tree splits. |
+| compLin1996 | [IEEE original](https://doi.org/10.1109/72.548162) and Crossref | Historical NARX context. The local study uses observed history and a static tanh correction rather than importing the recurrent architecture in this paper. |
+| compCybenko1989 | [Springer original](https://doi.org/10.1007/BF02551274) and Crossref | Feedforward nonlinear function approximation context. Local activation and trained performance are not consequences of this approximation theorem. |
+| compLeCun1998 | [IEEE original](https://doi.org/10.1109/5.726791) and Crossref | Shared-weight convolution as a modelling principle. Local CNN is one dimensional with a completed historical window. |
+| compHochreiter1997 | [MIT Press original](https://doi.org/10.1162/neco.1997.9.8.1735) and [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/6795963/) | Historical memory-cell architecture. Local recurrence implementation is verified in source. |
+| compCho2014 | [ACL proceedings and original paper](https://aclanthology.org/D14-1179/) | Gated recurrent unit history and terminology. |
+| compBai2018 | [Author preprint record](https://arxiv.org/abs/1803.01271) | Temporal convolutions, causal/dilated support and residual motivation. A primary preprint, labeled as such. |
+| compVaswani2017 | [NeurIPS original proceedings](https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) | Self-attention, positional information and masking. Local patch stride and point readout come from source. |
+| compLim2021 | [Elsevier original](https://www.sciencedirect.com/science/article/pii/S0169207021000637) | TFT variable selection, gated recurrent and attention mechanisms, static/known-future handling and quantiles. The local history-only point predictor is a compact adaptation. |
+| compBergmeir2018 | [Elsevier original](https://doi.org/10.1016/j.csda.2017.11.003), [author full text](https://robjhyndman.com/papers/cv-wp.pdf) and Crossref | Autoregressive cross-validation conditions, especially error dependence. This study uses a predeclared training-record split and reports its own limits. |
+| compRacine2000 | [Elsevier original DOI](https://doi.org/10.1016/S0304-4076(00)00030-0) and [author institution](https://experts.mcmaster.ca/scholarly-works/360284) | Literature precedent for blocks with removed observations around a held interval. The report makes no theoretical consistency claim for the specific course data or code. |
+| compKunsch1989 | [IMS/Project Euclid original](https://doi.org/10.1214/aos/1176347265) and [original issue](https://www.jstor.org/stable/i312909) | Block resampling as a dependence-aware strategy under stationarity. The single varying-speed record and chosen block widths limit empirical interpretation. |
+| compDiebold1995 | [Taylor & Francis original](https://doi.org/10.1080/07350015.1995.10524599) and [authors' working-paper record](https://www.nber.org/papers/t0169) | Paired predictive loss differential and temporal dependence. No Diebold–Mariano hypothesis test was computed in the project. |
+| compLjung1978 | [Original Biometrika paper](https://academic.oup.com/biomet/article-abstract/65/2/297/236869) | Residual autocorrelation/portmanteau diagnostic and scope. The project uses a 64-lag summary, separate from fault evidence. |
+
+## Local verification
+
+The manuscript uses the project’s registry and measured records for numerical statements, with no external study used as a source of local MSE, timings, causal pole cutoff, solver settings or seed behaviour. The local comparison status has 21 distinct successful families and exactly 21 checkpoint rows. Training budgets and input dimensions follow the protected selection/configuration tables and the fresh comparison audit. Source references below are relative to the SRC project.
+
+| Item verified | Evidence |
+|---|---|
+| Methods, input cutoffs and raw-block fits | src/src_gearbox/models/baselines/statistical.py, tabular.py, tabular_features.py, trees.py, neural.py, attention.py and protocol.py |
+| Base registry, old trial evidence and 21 completed families | configs/baselines/selection.json, results/metrics/baseline_configs.csv, results/metrics/baseline_prior_trials.csv and results/metrics/model_coverage.csv |
+| Fresh experimental replay and matching configurations | results/experiments/baseline_refit/fresh_refit_reconciliation.json and .csv. The reference supports and RPM calibration remain frozen. |
+| Shared target indices, rank and raw same-mask prediction vector | results/metrics/all_model_comparison.csv, results/metrics/baseline_comparison.csv and results/predictions/baselines_sigvalid.npz |
+| Distinct conventional comparison scope | results/metrics/published_paper_reference.csv and local_statistical_reference.csv. The strict dense LPV-ARMA row is separate from the 21 named baseline families. |
+| Input withholding and representative neural initialization variability | results/metrics/vibration_rpm_parity.csv and baseline_seed_sensitivity_summary.csv |
+| Paired noncircular block bootstrap | src/src_gearbox/comparison.py, function blocked, and results/statistical_tests/paired_moving_block.csv. Development comparisons use the matched signal under each model, not unrelated records. |

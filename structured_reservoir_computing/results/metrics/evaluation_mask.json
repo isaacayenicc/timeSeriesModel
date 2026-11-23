@@ -1,0 +1,9 @@
+{
+  "start": 1792,
+  "stop_exclusive": 24000,
+  "count": 22208,
+  "dtype": "<i8",
+  "target_indices_sha256": "1522c0a1b184b971b59763df3d827515370162751cc61209f025765039a89fb1",
+  "fs": 3200.0,
+  "policy": "one-step measured history through t-1"
+}

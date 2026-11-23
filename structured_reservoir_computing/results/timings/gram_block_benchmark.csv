@@ -1,0 +1,3 @@
+accumulation_rows,elapsed_ms,coefficient_max_delta,rows,columns,backend,gram_condition_estimate,iterations
+3500,4.231902974424884,0.0,3500,129,cholesky,873.9925664242265,1
+256,3.8459360075648874,2.1198320876436583e-15,3500,129,cholesky,873.9925664242336,1

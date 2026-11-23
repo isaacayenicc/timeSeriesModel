@@ -1,0 +1,15 @@
+{
+  "Abstract": 2,
+  "1. Introduction": 4,
+  "2. Physical and methodological background": 5,
+  "3. Experimental data and integrity": 6,
+  "4. Physics-informed exploratory evidence": 7,
+  "5. Physics-Informed Structured Reservoir Computing": 9,
+  "6. Optimization and validation methodology": 11,
+  "7. Comparator methodology": 13,
+  "8. Matched results and critical discussion": 14,
+  "9. Fault diagnosis, robustness and ablation": 18,
+  "10. Conclusions": 23,
+  "References": 24,
+  "Appendix A. Reproducibility and source evidence": 25
+}
