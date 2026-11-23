@@ -1,0 +1,21 @@
+document:
+  basename: MECG7780_PI_SRC_Final_Course_Report
+  title: Physics-Informed Structured Reservoir Computing for Variable-Speed Gearbox Vibration
+  subject: MECG 7780 Graduate Engineering Research Report
+  course_header: MECG 7780  /  ENGINEERING DATA ANALYTICS
+  short_header: STRUCTURED RESERVOIR COMPUTING
+  source: report_source.md
+  page_width_in: 8.5
+  page_height_in: 11
+  left_right_margin_in: 1.0
+  top_margin_in: 1.0
+  bottom_margin_in: 1.0
+  body_font: Times New Roman
+  heading_font: Arial
+  body_size_pt: 11.0
+  body_line_spacing: 1.17
+  accent: "205E59"
+  ink: "172A3B"
+tools:
+  pandoc: pandoc
+  libreoffice: soffice

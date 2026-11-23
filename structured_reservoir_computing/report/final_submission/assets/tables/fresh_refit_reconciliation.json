@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE",
+  "validated_models": 21,
+  "expected_models": 21,
+  "missing_stages": [],
+  "selected_guarded_fold_rows_verified": 57,
+  "different_refits": [],
+  "different_checkpoint_bytes": [],
+  "different_selected_configurations": [],
+  "max_abs_mse_change": 0.0,
+  "max_forecast_difference": 0.0,
+  "fresh_checkpoint_reload_max_abs": 0.0,
+  "axis_mask_sha256": "1522c0a1b184b971b59763df3d827515370162751cc61209f025765039a89fb1",
+  "protected_forecasts_sha256": "5b442604cd304bbf41b36511f3003f7f9868e53a5fa08db7ae0a126bb91e3c61",
+  "inputs": {
+    "training_sha256": "47d23efd20d86ed9e67181a96c9b73039a79a874e0d9ae91be5bcb8a421c19a6",
+    "development_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+    "frozen_selection_sha256": "a823edf94948ac543415c6ae69f09ea0cd21ce2e232a39de1880d9a4fa9c4916"
+  },
+  "selected_on_development": false,
+  "sparse_support_refit": {
+    "frozen_prior_sha256": "cd2b0b5a5c70aa6e167091b4cd4fb4c2b5e9d682d6d5f81a89df718cc69885ae",
+    "supports_identical": true,
+    "rpm_calibration_identical": true,
+    "nonzero_support_sizes": [
+      475,
+      365
+    ],
+    "refitted_coefficient_max_abs": [
+      0.0,
+      2.220446049250313e-16
+    ],
+    "note": "Supports frozen by prior guarded tuning. New QR refit and timing include no new support selection."
+  }
+}

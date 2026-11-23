@@ -1,0 +1,365 @@
+{
+  "mask": "1522c0a1b184b971b59763df3d827515370162751cc61209f025765039a89fb1",
+  "era": "development",
+  "record_sha256": "07013d4b17d7ae6fc740365264def53882664a49fde278b0d839979652b99b73",
+  "tests": [
+    {
+      "model": "primary_pi_src",
+      "checkpoint_sha256": "488371b5be57102483896c77adc3f4182a98f2d477a9d201036eea93f0875014",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.498756772998604,
+        0.4733398069947725,
+        0.48830067200469784,
+        0.4320738360111136,
+        0.4848867870023241,
+        0.5358399350079708,
+        0.450106312011485
+      ],
+      "rss_after_wall_mib": 120.4296875
+    },
+    {
+      "model": "pi_src_pure_mse",
+      "checkpoint_sha256": "cf0015a1df92d7ffb7b47e29373e4b996b72876dbb9f0fc19dd5d85d6ccb8f96",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1536,
+      "warm_repeat_seconds": [
+        0.5612990700028604,
+        0.48572873399825767,
+        0.4978159099991899
+      ],
+      "rss_after_wall_mib": 120.15625
+    },
+    {
+      "model": "pi_src_compact",
+      "checkpoint_sha256": "60c37dbf369078b4f58b75801b2354f5e7fe7427bf447baa65513e82b0726864",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 512,
+      "warm_repeat_seconds": [
+        0.33476985500601586,
+        0.25168745999690145,
+        0.282268055001623
+      ],
+      "rss_after_wall_mib": 120.1640625
+    },
+    {
+      "model": "pi_src_optimized",
+      "checkpoint_sha256": "8793fa6fe6956bca52fac8184a5763042a2d18d2bf3c64ec6456667cc76b9cdf",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 512,
+      "warm_repeat_seconds": [
+        0.43410261199460365,
+        0.5032125679863384,
+        0.5433239060075721
+      ],
+      "rss_after_wall_mib": 120.52734375
+    },
+    {
+      "model": "src_linear",
+      "checkpoint_sha256": "ae8b8441258b7e5f79a2384ea3737daa29472d1a956158511cfef2ce478316c7",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 96,
+      "warm_repeat_seconds": [
+        0.01396655999997165,
+        0.01478810200933367,
+        0.047953628993127495
+      ],
+      "rss_after_wall_mib": 130.53125
+    },
+    {
+      "model": "src_polynomial",
+      "checkpoint_sha256": "6f0c6ea5e95ea7f41b2f27fcec1c696c805cc29673e7b1c03da30dccacf52cf6",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 96,
+      "warm_repeat_seconds": [
+        0.032768714998383075,
+        0.06101487400883343,
+        0.03244737499335315
+      ],
+      "rss_after_wall_mib": 132.9140625
+    },
+    {
+      "model": "src_speed",
+      "checkpoint_sha256": "f4880edb021dc327f2d27b2a34eb91bf169d96f83c8f5e1e56e63db9026fe99d",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 96,
+      "warm_repeat_seconds": [
+        0.08195922199229244,
+        0.0784875440003816,
+        0.04235007100214716
+      ],
+      "rss_after_wall_mib": 149.0234375
+    },
+    {
+      "model": "src_physics_linear",
+      "checkpoint_sha256": "b688e384dca59171ae4772693d865f291407736f1fc866cfbd12ef5734bdd5f0",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 512,
+      "warm_repeat_seconds": [
+        0.24037957499967888,
+        0.2766022809955757,
+        0.3109687090036459
+      ],
+      "rss_after_wall_mib": 121.10546875
+    },
+    {
+      "model": "pi_src_fixed",
+      "checkpoint_sha256": "b228f385c979c15a25c81b03cd69c8e7d4376379680ba21a4530e33d4e92a638",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 512,
+      "warm_repeat_seconds": [
+        0.28513790501165204,
+        0.30325578499468975,
+        0.3044161519937916
+      ],
+      "rss_after_wall_mib": 121.2890625
+    },
+    {
+      "model": "src_generic",
+      "checkpoint_sha256": "7ecc8820a1e1a9fd818d44ee9f7462e9f81e34fe0be8483da023662143e4ce63",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 96,
+      "warm_repeat_seconds": [
+        0.09403060900513083,
+        0.1004011740005808,
+        0.09841435198904946
+      ],
+      "rss_after_wall_mib": 152.36328125
+    },
+    {
+      "model": "pi_src_adapter_off",
+      "checkpoint_sha256": "4bf2916c69df6a8ea72e6e6320230672f9449ba3b214742f9839e3ddc0cedf99",
+      "replay_error": 0.0,
+      "max_through_target_change": 0.0,
+      "guard": 512,
+      "warm_repeat_seconds": [
+        0.45356008800445125,
+        0.49231907300418243,
+        0.4905579990008846
+      ],
+      "rss_after_wall_mib": 121.67578125
+    },
+    {
+      "model": "pi_src_adapter_on",
+      "checkpoint_sha256": "488371b5be57102483896c77adc3f4182a98f2d477a9d201036eea93f0875014",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.4239919500105316,
+        0.4941616339929169,
+        0.48719819300458767
+      ],
+      "rss_after_wall_mib": 122.22265625
+    },
+    {
+      "model": "pi_src_no_angle",
+      "checkpoint_sha256": "98f33c2eeef381e899baca59901d58ca605911a5455eb35da0291038f7cc9635",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.1644156410038704,
+        0.11995646299328655,
+        0.1188547719939379
+      ],
+      "rss_after_wall_mib": 172.11328125
+    },
+    {
+      "model": "pi_src_no_carrier",
+      "checkpoint_sha256": "aaecf3fbda2a4be270d0ecd93c0ea683cabd369e830ab75afde45a25bf3114a6",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1186,
+      "warm_repeat_seconds": [
+        0.2139735029923031,
+        0.23122443800093606,
+        0.23338540499389637
+      ],
+      "rss_after_wall_mib": 122.56640625
+    },
+    {
+      "model": "pi_src_no_angle_no_carrier",
+      "checkpoint_sha256": "ee90fdb937fe163e9b1c6746e7cb9b17f93ffaede9d0ebe687caf124b7bae88f",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 984,
+      "warm_repeat_seconds": [
+        0.07030343600490596,
+        0.07000132500252221,
+        0.0704065059981076
+      ],
+      "rss_after_wall_mib": 165.28515625
+    },
+    {
+      "model": "pi_src_no_innovation",
+      "checkpoint_sha256": "5e38afaea45202f2ca2dafc21f536e170bfbe4f13d81e4d24f01384e7b281afa",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.29446414300764445,
+        0.24195429599785712,
+        0.23716222200891934
+      ],
+      "rss_after_wall_mib": 122.91796875
+    },
+    {
+      "model": "pi_src_no_acceleration",
+      "checkpoint_sha256": "8a4fe664da2293d6e1fea7a6920c890785f6ee811ab599aeb97a14cd1df378e2",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.3032400910014985,
+        0.2761954559973674,
+        0.26901384801021777
+      ],
+      "rss_after_wall_mib": 124.6953125
+    },
+    {
+      "model": "pi_src_no_augmentation",
+      "checkpoint_sha256": "0995085e0f97b76b23dfe272d02f67c468e843b92dc50d1f6966e9db7e2a2791",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.2965661589987576,
+        0.29357743498985656,
+        0.29223191998607945
+      ],
+      "rss_after_wall_mib": 124.6953125
+    },
+    {
+      "model": "pi_src_low_capacity",
+      "checkpoint_sha256": "7a1d0ebb83a05eb7a091506caee3879d0ba77e9a914825cba3e5c282336f977f",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.35771041399857495,
+        0.4174191239872016,
+        0.40222928300499916
+      ],
+      "rss_after_wall_mib": 124.6953125
+    },
+    {
+      "model": "pi_src_high_capacity",
+      "checkpoint_sha256": "21a93bc3bad7ca9c46c29332468e95142916fc84de4f1b494c4c327a2038f1c7",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.4274077930022031,
+        0.49346203201275785,
+        0.4701735269918572
+      ],
+      "rss_after_wall_mib": 124.69921875
+    },
+    {
+      "model": "pi_src_degree2",
+      "checkpoint_sha256": "425f05bb0b56a33f526a0bae2b0bafa502b48ebf2e1a7e834e70e6cc09723fde",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.3884211749973474,
+        0.3887225450016558,
+        0.3935427569958847
+      ],
+      "rss_after_wall_mib": 124.703125
+    },
+    {
+      "model": "pi_src_order6",
+      "checkpoint_sha256": "1ebccc5e7d0162cc750d5c0c4e18e15f59c14139b6ff2d7638ada5fa44bea8a8",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.3311564790055854,
+        0.3182162589946529,
+        0.36539130499295425
+      ],
+      "rss_after_wall_mib": 124.734375
+    },
+    {
+      "model": "pi_src_order12",
+      "checkpoint_sha256": "9e7cbdcd43b83d69a0ea7edd3983d3f8f501e15cd10911a926f28fed74c6a668",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.3744928560045082,
+        0.3637192589958431,
+        0.48025038800551556
+      ],
+      "rss_after_wall_mib": 124.80859375
+    },
+    {
+      "model": "pi_src_fixed_hz_only",
+      "checkpoint_sha256": "8feb8fc4f26f7f04c5014d1fe1215e9f406823a875e1eb5b989bce05497a3441",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 1280,
+      "warm_repeat_seconds": [
+        0.2597023449925473,
+        0.25749786000233144,
+        0.2528218090010341
+      ],
+      "rss_after_wall_mib": 124.80859375
+    },
+    {
+      "model": "src_polynomial_matched_adapter",
+      "checkpoint_sha256": "2c2eb4bb12f5113354631b78ea21157ccfc87f909c19f38d04375a0a5768c88e",
+      "replay_error": 0.0,
+      "max_through_target_change": 4.440892098500626e-16,
+      "guard": 864,
+      "warm_repeat_seconds": [
+        0.03356967799481936,
+        0.030825920999632217,
+        0.029743742998107336
+      ],
+      "rss_after_wall_mib": 136.55859375
+    }
+  ],
+  "threads": 1,
+  "pools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/workspace/work/site/numpy.libs/libscipy_openblas64_-4b78795a.so",
+      "version": "0.3.34.237.2",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "python": "3.12.14",
+  "system": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "warmup_range": [
+    0,
+    1792
+  ]
+}

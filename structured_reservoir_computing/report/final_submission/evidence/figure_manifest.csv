@@ -1,0 +1,18 @@
+figure,asset,source,width_px,height_px,sha256
+3.1,assets/figures/rig.png,"original rig schematic; Chen et al., 2025, sec. 5.1",2791,1006,4d3cd4ac5bf96ccde1201389f684818f5019dc151e710e648f315200422ffac7
+3.2,assets/figures/workflow.png,original information-flow diagram; data/splits/protocol.json,3421,901,657b9e31679200af4305b1dd20697020bd102cdb6b17f0371a743cd2cc545a4f
+3.3,assets/figures/records.png,"sigtrain.mat and sigvalid.mat, checked against input manifest",2896,1549,560630891e3356eb3bd640fefcf0708e8f464bd3e1b05c82b9790a6fa8eedb18
+4.1,assets/figures/spectrogram.png,figures/eda/eda_spectrogram.png; training only; 148-order ridge,2262,1338,8cb3ed59d72c4b85da1bdfdb4f1aeebba4314c189d7d1fdd7301f4411f5d0e6a
+4.2,assets/figures/orders.png,figures/eda/eda_orders.png; training only; Welch spectra,2666,1646,dc952046c8aba5c448b5fa3ef974a6e3aa169f000f537bb62e870656f3572872
+5.1,assets/figures/architecture.png,figures/report/architecture.png; reviewed with selected checkpoint,3569,892,96731917b2ccebfa9caf2b2b842fb4c12c060b315043fd5b1702588bbaf51cc1
+6.1,assets/figures/selection.png,figures/optimization/selection_history.png; 41 configurations,2720,1312,c7f26055d80ab9a08bf4738f28f9eb55d39d3d48daa9ff32332ad4b749528721
+8.1,assets/figures/ranking.png,figures/comparison/mse_ranking.png; common-mask ranking,2642,2354,7bd1ebb024f676d38fcd736865bd6e6f506858c9aa05fa02a6aed64d0d9e4450
+8.2,assets/figures/trace.png,figures/comparison/validation_trace.png; fixed comparison excerpt,2738,1442,9833f895ba90cfe9a86c883aeae7adb09b1d7f065f4b137fb23678f0f2d91d95
+8.3,assets/figures/residuals.png,figures/comparison/residual_structure.png; official development residuals,2738,1282,1ba4689c614556bb2cf07f0689a32ec3a78998019a38dfc6d9e9390f6c224ac5
+8.4,assets/figures/rpm_quartiles.png,figures/comparison/rpm_quartiles.png; measured development RPM quartiles,2530,1266,29b148536d15969a6b932bc351c31c4b07265f079220e254f4b6c62d28f64971
+8.5,assets/figures/cost.png,results/metrics/all_model_comparison.csv; finite forecasts and recorded CPU batch,2861,1584,985f7cbb36204ac7da74ba3a63dd30bda1c8fde61f7bebf20c463ceaea7a37e3
+9.1,assets/figures/fault_order.png,figures/fault/representative_order.png; descriptive pilot records,2760,1800,7af1db318395ee0c7e8de6d748ce8c869f286f3f9f93c670f6a7a4baf382ff4a
+9.2,assets/figures/fault_distribution.png,figures/fault/fault_group_distribution.png; eligible provisional cohort,2610,1542,8d16101963b91a75d1dac2556c1daae09b00fa6255196289ea7cc0063e0ec83a
+9.3,assets/figures/pulse.png,figures/fault/pulse_tradeoff.png; controlled development signal injections,2700,1140,791fd2d48f064c4e5168b482420b77d52fef8bee36668e68335f95d5ef77bc27
+10.1,assets/figures/ablations.png,results/ablations/src_ablations.csv and identical_adapter_controls.csv,3036,1514,7882eca6089e4544da2d4ca1faa45942be2d8a8a7f0bcef038cc5a93d644086a
+10.2,assets/figures/rpm_stress.png,figures/fault/sensor_stress.png; eight development RPM interventions,2460,1617,105737554bcbd3f200065d0ebd452006b9d0a458648d9bb6cec8ca25f11eac83

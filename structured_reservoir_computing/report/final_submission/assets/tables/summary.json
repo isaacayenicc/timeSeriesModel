@@ -1,0 +1,47 @@
+{
+  "dataset": "sigtrain",
+  "samples": 24000,
+  "fs_hz": 3200.0,
+  "duration_s": 7.5,
+  "rpm_min": 124.32284023482558,
+  "rpm_max": 167.33351836572703,
+  "integrated_input_turns": 18.430099861969964,
+  "mesh_hz_min": 76.66575147814244,
+  "mesh_hz_max": 103.18900299219834,
+  "samples_per_mesh_min": 31.011056480911417,
+  "samples_per_mesh_max": 41.73962869081544,
+  "samples_per_input_turn_min": 1147.4090897937226,
+  "samples_per_input_turn_max": 1544.366261560171,
+  "max_order_at_highest_speed": 573.7045448968613,
+  "max_mesh_harmonic_at_highest_speed": 15,
+  "robust_x_quantiles": [
+    -3.408352206967382,
+    -2.5317974821985865,
+    -0.0003593310333986231,
+    2.4358976657678904,
+    3.3562461577756486
+  ],
+  "x_excess_kurtosis": 0.2597835724555333,
+  "exact_extrema_counts": [
+    1,
+    1
+  ],
+  "rms_vs_rpm_block_corr": 0.9266076413067649,
+  "one_mesh_angle_acf": 0.1277579998132208,
+  "one_shaft_angle_acf": 0.07452760963604452,
+  "time_acf_lag1": 0.07591913252053288,
+  "ridge_148_median_abs_error_hz": 0.7443973798858678,
+  "ridge_148_r": 0.9869132632670299,
+  "order_148_peak_over_local_median": 159.69155980774573,
+  "band_1000_1200_fraction_of_welch_power": 0.3131609608137864,
+  "guarded_screen_mean_mse": {
+    "LPV-AR24": 0.4615334216831309,
+    "LPV-AR24 + speed acceleration": 0.4592978157893568,
+    "LPV-AR24 + causal RMS64": 0.46160060486865667,
+    "LPV-AR24 + mesh-angle delay": 0.46241657134964087,
+    "LPV-AR24 + shaft-angle delay": 0.4614231662118866,
+    "LPV-AR24 + 148 + 259 order quadrature": 0.43802887650124434,
+    "LPV-AR24 + 1100 Hz quadrature": 0.4623033999296126
+  },
+  "angular_resampling": "offline linear interpolation at 2048 points/revolution; report below minimum temporal-Nyquist order"
+}
